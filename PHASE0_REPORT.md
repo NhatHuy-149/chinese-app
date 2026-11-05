@@ -23,10 +23,14 @@ Chi tiết cách chọn: xem mục C (đã cập nhật).
   - `claude-sonnet-5-5` cho `correct-speech` và `listening`.
   - Cả hai đặt qua biến môi trường.
 - **Git:** khởi tạo repo cục bộ; người dùng sẽ kết nối remote.
-- **Hosting:** Netlify hoặc Vercel, chờ chốt (xem đề xuất trong phần trả lời Phase 0). Logic LLM viết độc lập với nền tảng; mỗi nền tảng chỉ có một lớp vỏ mỏng.
+- **Hosting: Netlify.** Lý do:
+  - Có kết nối Netlify MCP trong phiên làm việc, nên Claude Code đọc, cấu hình và triển khai trực tiếp được.
+  - Tài khoản Netlify của người dùng đã liên kết GitHub `NhatHuy-149`.
+  - Theo tài liệu Netlify (lấy qua MCP ngày 2026-11-05): function đồng bộ chạy tối đa 60 giây, streaming 60 giây; có sẵn `config.rateLimit` theo IP và Netlify Blobs cho cache. Con số 10 giây ghi trước đây lấy từ một bài cũ trên diễn đàn, nay không còn đúng.
+  - Logic LLM vẫn viết độc lập với nền tảng.
 - **Chuyển tiến độ cũ:** app mới sẽ chạy trên domain mới, nên không đọc được `localStorage` của app cũ. Cách làm: thêm nút "Xuất dữ liệu cũ" vào `legacy/index.html`, mở app cũ tại nơi đang dùng, xuất file JSON, rồi nhập file đó vào app mới. Cách này dùng được bất kể app cũ đang mở ở đâu.
 
-**Còn chờ:** chọn Netlify hay Vercel; có dùng SUBTLEX-CH lúc build không.
+- **Không dùng SUBTLEX-CH.** Xếp hạng tần suất dùng trường `frequency` trong repo drkameleon (MIT), kết hợp bước LLM gắn nhãn `everyday` (mục C, bước 3). Nguồn gốc của con số tần suất này sẽ được ghi vào `DATA_SOURCES.md` ở Phase 1.
 
 ---
 
