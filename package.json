@@ -1,0 +1,14 @@
+{
+  "name": "chinese-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "data:fetch": "node scripts/fetch-sources.ts",
+    "data:legacy": "node scripts/extract-legacy.ts",
+    "data:candidates": "node scripts/build-candidates.ts"
+  },
+  "devDependencies": {
+    "fflate": "^0.8.3",
+    "pinyin-pro": "^3.29.5"
+  }
+}

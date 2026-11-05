@@ -1,0 +1,3252 @@
+[
+  {
+    "topic": "Giới thiệu & Gia đình",
+    "zh": "自我介绍",
+    "vi": "Tự giới thiệu",
+    "rows": [
+      {
+        "h": "大家好！我叫辉，我是越南人。",
+        "p": "Dàjiā hǎo! Wǒ jiào Huī, wǒ shì Yuènán rén.",
+        "m": "Chào mọi người! Mình tên là Huy, mình là người Việt Nam.",
+        "w": [
+          "大家",
+          "好",
+          "我",
+          "叫",
+          "辉",
+          "是",
+          "越南",
+          "人"
+        ]
+      },
+      {
+        "h": "我住在岘港，我是电气工程师。",
+        "p": "Wǒ zhù zài Xiàn Gǎng, wǒ shì diànqì gōngchéngshī.",
+        "m": "Mình sống ở Đà Nẵng, mình là kĩ sư điện.",
+        "w": [
+          "我",
+          "住",
+          "在",
+          "岘港",
+          "是",
+          "电气",
+          "工程师"
+        ]
+      },
+      {
+        "h": "我的工作很忙，可是我很开心。",
+        "p": "Wǒ de gōngzuò hěn máng, kěshì wǒ hěn kāixīn.",
+        "m": "Công việc của mình rất bận, nhưng mình rất vui.",
+        "w": [
+          "我",
+          "的",
+          "工作",
+          "很",
+          "忙",
+          "可是",
+          "开心"
+        ]
+      },
+      {
+        "h": "你做什么工作？你是老师还是学生？",
+        "p": "Nǐ zuò shénme gōngzuò? Nǐ shì lǎoshī háishi xuéshēng?",
+        "m": "Bạn làm nghề gì? Bạn là giáo viên hay học sinh?",
+        "w": [
+          "你",
+          "做",
+          "什么",
+          "工作",
+          "是",
+          "老师",
+          "还是",
+          "学生"
+        ]
+      },
+      {
+        "h": "我不是学生，也不是医生。",
+        "p": "Wǒ bú shì xuéshēng, yě bú shì yīshēng.",
+        "m": "Mình không phải học sinh, cũng không phải bác sĩ.",
+        "w": [
+          "我",
+          "不",
+          "是",
+          "学生",
+          "也",
+          "医生"
+        ]
+      },
+      {
+        "h": "我们认识一下吧，请介绍一下你自己。",
+        "p": "Wǒmen rènshi yīxià ba, qǐng jièshào yīxià nǐ zìjǐ.",
+        "m": "Chúng ta làm quen nhé, hãy giới thiệu một chút về bản thân bạn.",
+        "w": [
+          "我们",
+          "认识",
+          "一下",
+          "吧",
+          "请",
+          "介绍",
+          "你",
+          "自己"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Giới thiệu & Gia đình",
+    "zh": "我的家人",
+    "vi": "Gia đình của tôi",
+    "rows": [
+      {
+        "h": "我家有五口人：爸爸、妈妈、哥哥、妹妹和我。",
+        "p": "Wǒ jiā yǒu wǔ kǒu rén: bàba, māma, gēge, mèimei hé wǒ.",
+        "m": "Nhà mình có 5 người: bố, mẹ, anh trai, em gái và mình.",
+        "w": [
+          "我",
+          "家",
+          "有",
+          "五",
+          "口",
+          "人",
+          "爸爸",
+          "妈妈",
+          "哥哥",
+          "妹妹",
+          "和"
+        ]
+      },
+      {
+        "h": "爸爸是医生，妈妈是老师。",
+        "p": "Bàba shì yīshēng, māma shì lǎoshī.",
+        "m": "Bố là bác sĩ, mẹ là giáo viên.",
+        "w": [
+          "爸爸",
+          "是",
+          "医生",
+          "妈妈",
+          "老师"
+        ]
+      },
+      {
+        "h": "哥哥是大学生，他每天认真学习。",
+        "p": "Gēge shì dàxuéshēng, tā měitiān rènzhēn xuéxí.",
+        "m": "Anh trai là sinh viên đại học, anh ấy mỗi ngày học tập chăm chỉ.",
+        "w": [
+          "哥哥",
+          "是",
+          "大学生",
+          "他",
+          "每天",
+          "认真",
+          "学习"
+        ]
+      },
+      {
+        "h": "妹妹今年八岁，她喜欢画画，也喜欢跳舞。",
+        "p": "Mèimei jīnnián bā suì, tā xǐhuan huàhuà, yě xǐhuan tiàowǔ.",
+        "m": "Em gái năm nay 8 tuổi, em thích vẽ tranh và cũng thích nhảy múa.",
+        "w": [
+          "妹妹",
+          "今年",
+          "八",
+          "岁",
+          "她",
+          "喜欢",
+          "画画",
+          "也",
+          "跳舞"
+        ]
+      },
+      {
+        "h": "我们家还有一只狗和一只猫。",
+        "p": "Wǒmen jiā hái yǒu yì zhī gǒu hé yì zhī māo.",
+        "m": "Nhà mình còn có một con chó và một con mèo.",
+        "w": [
+          "我们",
+          "家",
+          "还",
+          "有",
+          "一",
+          "只",
+          "狗",
+          "和",
+          "猫"
+        ]
+      },
+      {
+        "h": "爷爷和奶奶很爱我们，奶奶还照顾妹妹。",
+        "p": "Yéye hé nǎinai hěn ài wǒmen, nǎinai hái zhàogù mèimei.",
+        "m": "Ông nội và bà nội rất yêu chúng mình, bà còn chăm sóc em gái.",
+        "w": [
+          "爷爷",
+          "和",
+          "奶奶",
+          "很",
+          "爱",
+          "我们",
+          "还",
+          "照顾",
+          "妹妹"
+        ]
+      },
+      {
+        "h": "周末的时候，我们常常一起吃饭，聊天。",
+        "p": "Zhōumò de shíhou, wǒmen chángcháng yìqǐ chīfàn, liáotiān.",
+        "m": "Cuối tuần, cả nhà thường cùng nhau ăn cơm và trò chuyện.",
+        "w": [
+          "周末",
+          "的时候",
+          "我们",
+          "常常",
+          "一起",
+          "吃饭",
+          "聊天"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Giới thiệu & Gia đình",
+    "zh": "亲戚和朋友",
+    "vi": "Họ hàng và bạn bè",
+    "rows": [
+      {
+        "h": "我叔叔结婚了，他的妻子是医生。",
+        "p": "Wǒ shūshu jiéhūn le, tā de qīzi shì yīshēng.",
+        "m": "Chú mình đã kết hôn, vợ của chú là bác sĩ.",
+        "w": [
+          "我",
+          "叔叔",
+          "结婚",
+          "了",
+          "他",
+          "的",
+          "妻子",
+          "是",
+          "医生"
+        ]
+      },
+      {
+        "h": "我阿姨的丈夫是电气工程师。",
+        "p": "Wǒ āyí de zhàngfu shì diànqì gōngchéngshī.",
+        "m": "Chồng của dì mình là kĩ sư điện.",
+        "w": [
+          "我",
+          "阿姨",
+          "的",
+          "丈夫",
+          "是",
+          "电气",
+          "工程师"
+        ]
+      },
+      {
+        "h": "他们有一个儿子和一个女儿，两个孩子都很高兴。",
+        "p": "Tāmen yǒu yí gè érzi hé yí gè nǚ'ér, liǎng gè háizi dōu hěn gāoxìng.",
+        "m": "Họ có một con trai và một con gái, hai đứa trẻ đều rất vui.",
+        "w": [
+          "他们",
+          "有",
+          "一",
+          "个",
+          "儿子",
+          "和",
+          "女儿",
+          "两",
+          "孩子",
+          "都",
+          "很",
+          "高兴"
+        ]
+      },
+      {
+        "h": "我伯伯和姑姑没有孩子，可是姑姑有一只猫。",
+        "p": "Wǒ bóbo hé gūgu méiyǒu háizi, kěshì gūgu yǒu yì zhī māo.",
+        "m": "Bác trai và cô mình không có con, nhưng cô có một con mèo.",
+        "w": [
+          "我",
+          "伯伯",
+          "和",
+          "姑姑",
+          "没有",
+          "孩子",
+          "可是",
+          "有",
+          "一",
+          "只",
+          "猫"
+        ]
+      },
+      {
+        "h": "外公和外婆住在二楼，他们的房间很大。",
+        "p": "Wàigōng hé wàipó zhù zài èr lóu, tāmen de fángjiān hěn dà.",
+        "m": "Ông ngoại và bà ngoại ở tầng 2, phòng của hai ông bà rất rộng.",
+        "w": [
+          "外公",
+          "和",
+          "外婆",
+          "住",
+          "在",
+          "二",
+          "楼",
+          "他们",
+          "的",
+          "房间",
+          "很",
+          "大"
+        ]
+      },
+      {
+        "h": "我老公和我老婆都是我的好朋友。",
+        "p": "Wǒ lǎogōng hé wǒ lǎopó dōu shì wǒ de hǎo péngyou.",
+        "m": "Chồng tôi và vợ tôi đều là bạn tốt của tôi.",
+        "w": [
+          "我",
+          "老公",
+          "和",
+          "老婆",
+          "都",
+          "是",
+          "的",
+          "好",
+          "朋友"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Đi chợ & Sở thích",
+    "zh": "去市场",
+    "vi": "Đi chợ",
+    "rows": [
+      {
+        "h": "今天妈妈很忙，我去市场买东西。",
+        "p": "Jīntiān māma hěn máng, wǒ qù shìchǎng mǎi dōngxi.",
+        "m": "Hôm nay mẹ rất bận, mình đi chợ mua đồ.",
+        "w": [
+          "今天",
+          "妈妈",
+          "很",
+          "忙",
+          "我",
+          "去",
+          "市场",
+          "买",
+          "东西"
+        ]
+      },
+      {
+        "h": "我要买一斤苹果、两斤香蕉，还要买一个西瓜。",
+        "p": "Wǒ yào mǎi yì jīn píngguǒ, liǎng jīn xiāngjiāo, hái yào mǎi yí gè xīguā.",
+        "m": "Mình muốn mua một cân táo, hai cân chuối, còn muốn mua một quả dưa hấu.",
+        "w": [
+          "我",
+          "要",
+          "买",
+          "一",
+          "斤",
+          "苹果",
+          "两",
+          "香蕉",
+          "还",
+          "个",
+          "西瓜"
+        ]
+      },
+      {
+        "h": "我也要买蔬菜：番茄和土豆。",
+        "p": "Wǒ yě yào mǎi shūcài: fānqié hé tǔdòu.",
+        "m": "Mình cũng muốn mua rau: cà chua và khoai tây.",
+        "w": [
+          "我",
+          "也",
+          "要",
+          "买",
+          "蔬菜",
+          "番茄",
+          "和",
+          "土豆"
+        ]
+      },
+      {
+        "h": "我想买牛肉，不要猪肉。",
+        "p": "Wǒ xiǎng mǎi niúròu, bú yào zhūròu.",
+        "m": "Mình muốn mua thịt bò, không lấy thịt heo.",
+        "w": [
+          "我",
+          "想",
+          "买",
+          "牛肉",
+          "不要",
+          "猪肉"
+        ]
+      },
+      {
+        "h": "卖水果的人说：“一共四十块。”",
+        "p": "Mài shuǐguǒ de rén shuō: “Yígòng sì shí kuài.”",
+        "m": "Người bán trái cây nói: “Tổng cộng 40 tệ.”",
+        "w": [
+          "卖",
+          "水果",
+          "的",
+          "人",
+          "说",
+          "一共",
+          "四",
+          "十",
+          "块"
+        ]
+      },
+      {
+        "h": "我说：“太贵了，便宜一点吧！”",
+        "p": "Wǒ shuō: “Tài guì le, piányi yìdiǎn ba!”",
+        "m": "Mình nói: “Đắt quá, bớt chút đi!”",
+        "w": [
+          "我",
+          "说",
+          "太",
+          "贵",
+          "了",
+          "便宜",
+          "一点",
+          "吧"
+        ]
+      },
+      {
+        "h": "他说：“好吧，三十八块。”我说：“谢谢！”",
+        "p": "Tā shuō: “Hǎo ba, sān shíbā kuài.” Wǒ shuō: “Xièxiè!”",
+        "m": "Anh ấy nói: “Được thôi, 38 tệ.” Mình nói: “Cảm ơn!”",
+        "w": [
+          "他",
+          "说",
+          "好",
+          "吧",
+          "三",
+          "十八",
+          "块",
+          "我",
+          "谢谢"
+        ]
+      },
+      {
+        "h": "回家以后，我还有鸡蛋、鱼和米。",
+        "p": "Huíjiā yǐhòu, wǒ hái yǒu jīdàn, yú hé mǐ.",
+        "m": "Về nhà rồi, mình còn có trứng gà, cá và gạo.",
+        "w": [
+          "回家",
+          "以后",
+          "我",
+          "还",
+          "有",
+          "鸡蛋",
+          "鱼",
+          "和",
+          "米"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Đi chợ & Sở thích",
+    "zh": "我的爱好",
+    "vi": "Sở thích của tôi",
+    "rows": [
+      {
+        "h": "我的爱好很多，我喜欢听音乐，也喜欢唱歌。",
+        "p": "Wǒ de àihào hěn duō, wǒ xǐhuan tīng yīnyuè, yě xǐhuan chànggē.",
+        "m": "Sở thích của mình rất nhiều, mình thích nghe nhạc và cũng thích hát.",
+        "w": [
+          "我",
+          "的",
+          "爱好",
+          "很",
+          "多",
+          "喜欢",
+          "听音乐",
+          "也",
+          "唱歌"
+        ]
+      },
+      {
+        "h": "平时我喜欢看书、看电影，有时候看电视。",
+        "p": "Píngshí wǒ xǐhuan kàn shū, kàn diànyǐng, yǒu shíhou kàn diànshì.",
+        "m": "Bình thường mình thích đọc sách, xem phim, đôi khi xem TV.",
+        "w": [
+          "平时",
+          "我",
+          "喜欢",
+          "看书",
+          "看电影",
+          "有",
+          "时候",
+          "看电视"
+        ]
+      },
+      {
+        "h": "周末我喜欢运动：打篮球、踢足球和游泳。",
+        "p": "Zhōumò wǒ xǐhuan yùndòng: dǎ lánqiú, tī zúqiú hé yóuyǒng.",
+        "m": "Cuối tuần mình thích thể thao: chơi bóng rổ, đá bóng và bơi lội.",
+        "w": [
+          "周末",
+          "我",
+          "喜欢",
+          "运动",
+          "打篮球",
+          "踢足球",
+          "和",
+          "游泳"
+        ]
+      },
+      {
+        "h": "弟弟喜欢玩游戏，姐姐喜欢照相。",
+        "p": "Dìdi xǐhuan wán yóuxì, jiějie xǐhuan zhàoxiàng.",
+        "m": "Em trai thích chơi game, chị gái thích chụp ảnh.",
+        "w": [
+          "弟弟",
+          "喜欢",
+          "玩游戏",
+          "姐姐",
+          "照相"
+        ]
+      },
+      {
+        "h": "妈妈喜欢做饭，爸爸喜欢吃美食，也喜欢睡觉。",
+        "p": "Māma xǐhuan zuòfàn, bàba xǐhuan chī měishí, yě xǐhuan shuìjiào.",
+        "m": "Mẹ thích nấu ăn, bố thích ăn đồ ngon và cũng thích ngủ.",
+        "w": [
+          "妈妈",
+          "喜欢",
+          "做饭",
+          "爸爸",
+          "吃美食",
+          "也",
+          "睡觉"
+        ]
+      },
+      {
+        "h": "我也喜欢旅游，因为我想看新的地方。",
+        "p": "Wǒ yě xǐhuan lǚyóu, yīnwèi wǒ xiǎng kàn xīn de dìfang.",
+        "m": "Mình cũng thích du lịch vì mình muốn xem những nơi mới.",
+        "w": [
+          "我",
+          "也",
+          "喜欢",
+          "旅游",
+          "因为",
+          "想",
+          "看",
+          "新",
+          "的",
+          "地方"
+        ]
+      },
+      {
+        "h": "我们都喜欢学中文。你的爱好是什么？",
+        "p": "Wǒmen dōu xǐhuan xué Zhōngwén. Nǐ de àihào shì shénme?",
+        "m": "Cả nhà mình đều thích học tiếng Trung. Sở thích của bạn là gì?",
+        "w": [
+          "我们",
+          "都",
+          "喜欢",
+          "学中文",
+          "你",
+          "的",
+          "爱好",
+          "是",
+          "什么"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Thời tiết & Thiên nhiên",
+    "zh": "天气怎么样",
+    "vi": "Thời tiết thế nào",
+    "rows": [
+      {
+        "h": "今天的天气真奇怪，早上很冷，下午很热。",
+        "p": "Jīntiān de tiānqì zhēn qíguài, zǎoshang hěn lěng, xiàwǔ hěn rè.",
+        "m": "Thời tiết hôm nay thật kì lạ, buổi sáng rất lạnh, buổi chiều rất nóng.",
+        "w": [
+          "今天",
+          "的",
+          "天气",
+          "真",
+          "奇怪",
+          "早",
+          "上",
+          "很",
+          "冷",
+          "下午",
+          "热"
+        ]
+      },
+      {
+        "h": "外面忽晴忽雨，下雨的时候，我在家休息。",
+        "p": "Wàimiàn hū qíng hū yǔ, xiàyǔ de shíhou, wǒ zài jiā xiūxi.",
+        "m": "Bên ngoài lúc nắng lúc mưa, khi trời mưa mình ở nhà nghỉ ngơi.",
+        "w": [
+          "外面",
+          "忽",
+          "晴",
+          "雨",
+          "下雨",
+          "的时候",
+          "我",
+          "在",
+          "家",
+          "休息"
+        ]
+      },
+      {
+        "h": "我觉得有一点冷，所以我穿了外套。",
+        "p": "Wǒ juéde yǒu yìdiǎn lěng, suǒyǐ wǒ chuān le wàitào.",
+        "m": "Mình thấy hơi lạnh nên mình đã mặc áo khoác.",
+        "w": [
+          "我",
+          "觉得",
+          "有一点",
+          "冷",
+          "所以",
+          "穿",
+          "了",
+          "外套"
+        ]
+      },
+      {
+        "h": "妈妈说一会儿可能会下大雨，出去的时候要带雨伞。",
+        "p": "Māma shuō yíhuìr kěnéng huì xià dàyǔ, chūqù de shíhou yào dài yǔsǎn.",
+        "m": "Mẹ nói lát nữa có thể sẽ mưa to, lúc ra ngoài phải mang ô.",
+        "w": [
+          "妈妈",
+          "说",
+          "一会儿",
+          "可能",
+          "会",
+          "下",
+          "大雨",
+          "出去",
+          "的时候",
+          "要",
+          "带",
+          "雨伞"
+        ]
+      },
+      {
+        "h": "明天会下雨吗？我不知道。",
+        "p": "Míngtiān huì xiàyǔ ma? Wǒ bù zhīdào.",
+        "m": "Mai có mưa không? Mình không biết.",
+        "w": [
+          "明天",
+          "会",
+          "下雨",
+          "吗",
+          "我",
+          "不",
+          "知道"
+        ]
+      },
+      {
+        "h": "我喜欢晴天，不喜欢阴天，也不喜欢刮风。",
+        "p": "Wǒ xǐhuan qíngtiān, bù xǐhuan yīntiān, yě bù xǐhuan guāfēng.",
+        "m": "Mình thích trời nắng, không thích trời âm u, cũng không thích có gió.",
+        "w": [
+          "我",
+          "喜欢",
+          "晴天",
+          "不",
+          "阴天",
+          "也",
+          "刮风"
+        ]
+      },
+      {
+        "h": "刮风的时候，我会关窗户。",
+        "p": "Guāfēng de shíhou, wǒ huì guān chuānghu.",
+        "m": "Lúc có gió, mình sẽ đóng cửa sổ.",
+        "w": [
+          "刮风",
+          "的时候",
+          "我",
+          "会",
+          "关",
+          "窗户"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Thời tiết & Thiên nhiên",
+    "zh": "周末旅行",
+    "vi": "Chuyến đi cuối tuần",
+    "rows": [
+      {
+        "h": "这个周末，我和朋友一起去旅行。",
+        "p": "Zhège zhōumò, wǒ hé péngyou yìqǐ qù lǚxíng.",
+        "m": "Cuối tuần này, mình cùng bạn đi du lịch.",
+        "w": [
+          "这个",
+          "周末",
+          "我",
+          "和",
+          "朋友",
+          "一起",
+          "去",
+          "旅行"
+        ]
+      },
+      {
+        "h": "春日的天气很好，暖阳很温暖，和风也很轻松。",
+        "p": "Chūnrì de tiānqì hěn hǎo, nuǎnyáng hěn wēnnuǎn, héfēng yě hěn qīngsōng.",
+        "m": "Thời tiết ngày xuân rất đẹp, nắng ấm áp, gió nhẹ cũng rất dễ chịu.",
+        "w": [
+          "春日",
+          "的",
+          "天气",
+          "很",
+          "好",
+          "暖阳",
+          "温暖",
+          "和风",
+          "也",
+          "轻松"
+        ]
+      },
+      {
+        "h": "我们先去山上，后来去海边。",
+        "p": "Wǒmen xiān qù shānshàng, hòulái qù hǎibiān.",
+        "m": "Chúng mình đi lên núi trước, sau đó đi ra biển.",
+        "w": [
+          "我们",
+          "先",
+          "去",
+          "山",
+          "上",
+          "后来",
+          "海边"
+        ]
+      },
+      {
+        "h": "山上有很多蝴蝶，它们飞得很快。",
+        "p": "Shānshàng yǒu hěn duō húdié, tāmen fēi de hěn kuài.",
+        "m": "Trên núi có rất nhiều bướm, chúng bay rất nhanh.",
+        "w": [
+          "山",
+          "上",
+          "有",
+          "很",
+          "多",
+          "蝴蝶",
+          "它们",
+          "飞",
+          "得",
+          "快"
+        ]
+      },
+      {
+        "h": "海边的晚上很平静，我们看到了弯月。",
+        "p": "Hǎibiān de wǎnshang hěn píngjìng, wǒmen kàndào le wānyuè.",
+        "m": "Buổi tối ở bờ biển rất yên bình, chúng mình nhìn thấy trăng khuyết.",
+        "w": [
+          "海边",
+          "的",
+          "晚上",
+          "很",
+          "平静",
+          "我们",
+          "看",
+          "到",
+          "了",
+          "弯月"
+        ]
+      },
+      {
+        "h": "我觉得很放松，也很幸福。",
+        "p": "Wǒ juéde hěn fàngsōng, yě hěn xìngfú.",
+        "m": "Mình cảm thấy rất thư giãn và cũng rất hạnh phúc.",
+        "w": [
+          "我",
+          "觉得",
+          "很",
+          "放松",
+          "也",
+          "幸福"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Cảm xúc",
+    "zh": "朋友要离别了",
+    "vi": "Bạn sắp chia tay",
+    "rows": [
+      {
+        "h": "秋末的时候，我和朋友要离别了。",
+        "p": "Qiūmò de shíhou, wǒ hé péngyou yào líbié le.",
+        "m": "Cuối thu, mình và bạn sắp phải chia tay.",
+        "w": [
+          "秋末",
+          "的时候",
+          "我",
+          "和",
+          "朋友",
+          "要",
+          "离别",
+          "了"
+        ]
+      },
+      {
+        "h": "我很难过，可是我不哭。",
+        "p": "Wǒ hěn nánguò, kěshì wǒ bù kū.",
+        "m": "Mình rất buồn, nhưng mình không khóc.",
+        "w": [
+          "我",
+          "很",
+          "难过",
+          "可是",
+          "不",
+          "哭"
+        ]
+      },
+      {
+        "h": "看着落叶，我叹息了一声。",
+        "p": "Kàn zhe luòyè, wǒ tànxī le yì shēng.",
+        "m": "Nhìn lá rụng, mình thở dài một tiếng.",
+        "w": [
+          "看",
+          "着",
+          "落叶",
+          "我",
+          "叹息",
+          "了",
+          "一",
+          "声"
+        ]
+      },
+      {
+        "h": "他说：“别担心，我们还会见面。”",
+        "p": "Tā shuō: “Bié dānxīn, wǒmen hái huì jiànmiàn.”",
+        "m": "Cậu ấy nói: “Đừng lo, chúng ta sẽ còn gặp lại.”",
+        "w": [
+          "他",
+          "说",
+          "别",
+          "担心",
+          "我们",
+          "还",
+          "会",
+          "见面"
+        ]
+      },
+      {
+        "h": "我笑了，我觉得有这样的朋友很幸福。",
+        "p": "Wǒ xiào le, wǒ juéde yǒu zhèyàng de péngyou hěn xìngfú.",
+        "m": "Mình cười, mình thấy có người bạn như vậy thật hạnh phúc.",
+        "w": [
+          "我",
+          "笑",
+          "了",
+          "觉得",
+          "有",
+          "这样",
+          "的",
+          "朋友",
+          "很",
+          "幸福"
+        ]
+      },
+      {
+        "h": "朋友走了，只剩我独自走回家。",
+        "p": "Péngyou zǒu le, zhǐ shèng wǒ dúzì zǒu huíjiā.",
+        "m": "Bạn đi rồi, chỉ còn mình tôi đi bộ về nhà một mình.",
+        "w": [
+          "朋友",
+          "走",
+          "了",
+          "只",
+          "剩",
+          "我",
+          "独自",
+          "回家"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Cảm xúc",
+    "zh": "心情很多的一天",
+    "vi": "Một ngày nhiều cảm xúc",
+    "rows": [
+      {
+        "h": "早上我很兴奋，因为我要去旅行。",
+        "p": "Zǎoshang wǒ hěn xīngfèn, yīnwèi wǒ yào qù lǚxíng.",
+        "m": "Buổi sáng mình rất phấn khích vì sắp đi du lịch.",
+        "w": [
+          "早",
+          "上",
+          "我",
+          "很",
+          "兴奋",
+          "因为",
+          "要",
+          "去",
+          "旅行"
+        ]
+      },
+      {
+        "h": "可是下雨了，我有点儿生气。",
+        "p": "Kěshì xiàyǔ le, wǒ yǒudiǎnr shēngqì.",
+        "m": "Nhưng trời mưa rồi, mình hơi tức giận.",
+        "w": [
+          "可是",
+          "下雨",
+          "了",
+          "我",
+          "有点儿",
+          "生气"
+        ]
+      },
+      {
+        "h": "朋友生病了，我很担心，我想去看他。",
+        "p": "Péngyou shēngbìng le, wǒ hěn dānxīn, wǒ xiǎng qù kàn tā.",
+        "m": "Bạn bị ốm, mình rất lo lắng, mình muốn đi thăm bạn.",
+        "w": [
+          "朋友",
+          "生病",
+          "了",
+          "我",
+          "很",
+          "担心",
+          "想",
+          "去",
+          "看",
+          "他"
+        ]
+      },
+      {
+        "h": "晚上我们看恐怖电影，我很害怕，他笑我。",
+        "p": "Wǎnshang wǒmen kàn kǒngbù diànyǐng, wǒ hěn hàipà, tā xiào wǒ.",
+        "m": "Buổi tối chúng mình xem phim kinh dị, mình rất sợ, cậu ấy cười mình.",
+        "w": [
+          "晚上",
+          "我们",
+          "看",
+          "恐怖",
+          "电影",
+          "我",
+          "很",
+          "害怕",
+          "他",
+          "笑"
+        ]
+      },
+      {
+        "h": "他说他很爱学中文，我很惊讶。",
+        "p": "Tā shuō tā hěn ài xué Zhōngwén, wǒ hěn jīngyà.",
+        "m": "Cậu ấy nói rất thích học tiếng Trung, mình rất ngạc nhiên.",
+        "w": [
+          "他",
+          "说",
+          "很",
+          "爱",
+          "学中文",
+          "我",
+          "惊讶"
+        ]
+      },
+      {
+        "h": "有时候我很无聊，也想家，想哭，可是明天会更好。",
+        "p": "Yǒu shíhou wǒ hěn wúliáo, yě xiǎngjiā, xiǎng kū, kěshì míngtiān huì gèng hǎo.",
+        "m": "Có lúc mình rất chán, cũng nhớ nhà, muốn khóc, nhưng ngày mai sẽ tốt hơn.",
+        "w": [
+          "有",
+          "时候",
+          "我",
+          "很",
+          "无聊",
+          "也",
+          "想家",
+          "想",
+          "哭",
+          "可是",
+          "明天",
+          "会",
+          "更",
+          "好"
+        ]
+      },
+      {
+        "h": "我对今天很满意，因为我很高兴。",
+        "p": "Wǒ duì jīntiān hěn mǎnyì, yīnwèi wǒ hěn gāoxìng.",
+        "m": "Mình rất hài lòng về hôm nay, vì mình rất vui.",
+        "w": [
+          "我",
+          "对",
+          "今天",
+          "很",
+          "满意",
+          "因为",
+          "高兴"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Thời gian & Thói quen",
+    "zh": "时间和习惯",
+    "vi": "Thời gian và thói quen",
+    "rows": [
+      {
+        "h": "很多人都觉得时间过得很快。",
+        "p": "Hěn duō rén dōu juéde shíjiān guò de hěn kuài.",
+        "m": "Rất nhiều người đều thấy thời gian trôi rất nhanh.",
+        "w": [
+          "很",
+          "多",
+          "人",
+          "都",
+          "觉得",
+          "时间",
+          "过",
+          "得",
+          "快"
+        ]
+      },
+      {
+        "h": "小时候，我们觉得一天很长；长大以后，周末来得太快了。",
+        "p": "Xiǎo shíhou, wǒmen juéde yì tiān hěn cháng; zhǎngdà yǐhòu, zhōumò lái de tài kuài le.",
+        "m": "Lúc nhỏ, ta thấy một ngày rất dài; lớn lên rồi thì cuối tuần đến quá nhanh.",
+        "w": [
+          "小时候",
+          "我们",
+          "觉得",
+          "一",
+          "天",
+          "很",
+          "长",
+          "长大",
+          "以后",
+          "周末",
+          "来",
+          "得",
+          "太",
+          "快",
+          "了"
+        ]
+      },
+      {
+        "h": "有的人每天花很多时间刷手机、看视频，看完以后心里空空的。",
+        "p": "Yǒu de rén měitiān huā hěn duō shíjiān shuā shǒujī, kàn shìpín, kàn wán yǐhòu xīnlǐ kōng kōng de.",
+        "m": "Có người mỗi ngày tốn nhiều thời gian lướt điện thoại, xem video, xem xong thì trong lòng trống rỗng.",
+        "w": [
+          "有",
+          "的",
+          "人",
+          "每天",
+          "花",
+          "很",
+          "多",
+          "时间",
+          "刷",
+          "手机",
+          "看",
+          "视频",
+          "完",
+          "以后",
+          "心里",
+          "空"
+        ]
+      },
+      {
+        "h": "习惯很重要，好的习惯会帮助你，不好的习惯会浪费你的时间。",
+        "p": "Xíguàn hěn zhòngyào, hǎo de xíguàn huì bāngzhù nǐ, bù hǎo de xíguàn huì làngfèi nǐ de shíjiān.",
+        "m": "Thói quen rất quan trọng, thói quen tốt sẽ giúp bạn, thói quen xấu sẽ lãng phí thời gian của bạn.",
+        "w": [
+          "习惯",
+          "很",
+          "重要",
+          "好的",
+          "会",
+          "帮助",
+          "你",
+          "不好",
+          "的",
+          "浪费",
+          "时间"
+        ]
+      },
+      {
+        "h": "如果你坚持每天学十分钟中文，半年以后，你会听懂很多句子。",
+        "p": "Rúguǒ nǐ jiānchí měitiān xué shí fēnzhōng Zhōngwén, bàn nián yǐhòu, nǐ huì tīngdǒng hěn duō jùzi.",
+        "m": "Nếu bạn kiên trì mỗi ngày học 10 phút tiếng Trung, nửa năm sau bạn sẽ nghe hiểu được nhiều câu.",
+        "w": [
+          "如果",
+          "你",
+          "坚持",
+          "每天",
+          "学",
+          "十",
+          "分钟",
+          "中文",
+          "半",
+          "年",
+          "以后",
+          "会",
+          "听",
+          "懂",
+          "很",
+          "多",
+          "句子"
+        ]
+      },
+      {
+        "h": "所以别等“以后”，今天就开始行动。",
+        "p": "Suǒyǐ bié děng“yǐhòu”, jīntiān jiù kāishǐ xíngdòng.",
+        "m": "Vì vậy đừng đợi “sau này”, hôm nay hãy bắt đầu hành động.",
+        "w": [
+          "所以",
+          "别",
+          "等",
+          "以后",
+          "今天",
+          "就",
+          "开始",
+          "行动"
+        ]
+      },
+      {
+        "h": "没有人是完美的，做错了也没有关系，重要的是你在尝试。",
+        "p": "Méiyǒu rén shì wánměi de, zuòcuò le yě méiyǒu guānxi, zhòngyào de shì nǐ zài chángshì.",
+        "m": "Không ai hoàn hảo cả, làm sai cũng không sao, quan trọng là bạn đang cố gắng.",
+        "w": [
+          "没有",
+          "人",
+          "是",
+          "完美",
+          "的",
+          "做",
+          "错",
+          "了",
+          "也",
+          "关系",
+          "重要",
+          "你",
+          "在",
+          "尝试"
+        ]
+      },
+      {
+        "h": "珍惜现在，享受生活，这就是幸福。",
+        "p": "Zhēnxī xiànzài, xiǎngshòu shēnghuó, zhè jiù shì xìngfú.",
+        "m": "Trân trọng hiện tại, tận hưởng cuộc sống, đó chính là hạnh phúc.",
+        "w": [
+          "珍惜",
+          "现在",
+          "享受",
+          "生活",
+          "这",
+          "就",
+          "是",
+          "幸福"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tổng hợp",
+    "zh": "书林的一天",
+    "vi": "Một ngày của Thư Lâm",
+    "rows": [
+      {
+        "h": "书林是电气工程师，她的工作很忙。",
+        "p": "Shūlín shì diànqì gōngchéngshī, tā de gōngzuò hěn máng.",
+        "m": "Thư Lâm là kĩ sư điện, công việc của cô ấy rất bận.",
+        "w": [
+          "书林",
+          "是",
+          "电气",
+          "工程师",
+          "她",
+          "的",
+          "工作",
+          "很",
+          "忙"
+        ]
+      },
+      {
+        "h": "今天早上，她起床的时候，外面在下雨，很冷。",
+        "p": "Jīntiān zǎoshang, tā qǐchuáng de shíhou, wàimiàn zài xiàyǔ, hěn lěng.",
+        "m": "Sáng nay, lúc cô ấy thức dậy, bên ngoài đang mưa, rất lạnh.",
+        "w": [
+          "今天",
+          "早",
+          "上",
+          "她",
+          "起床",
+          "的时候",
+          "外面",
+          "在",
+          "下雨",
+          "很",
+          "冷"
+        ]
+      },
+      {
+        "h": "她穿上外套，带了雨伞，去上班。",
+        "p": "Tā chuān shàng wàitào, dài le yǔsǎn, qù shàngbān.",
+        "m": "Cô ấy mặc áo khoác, mang theo ô rồi đi làm.",
+        "w": [
+          "她",
+          "穿",
+          "上",
+          "外套",
+          "带",
+          "了",
+          "雨伞",
+          "去",
+          "上班"
+        ]
+      },
+      {
+        "h": "下班以后，天气变晴了，她去市场买东西。",
+        "p": "Xiàbān yǐhòu, tiānqì biàn qíng le, tā qù shìchǎng mǎi dōngxi.",
+        "m": "Tan làm xong, trời trở nên nắng, cô ấy đi chợ mua đồ.",
+        "w": [
+          "下班",
+          "以后",
+          "天气",
+          "变",
+          "晴",
+          "了",
+          "她",
+          "去",
+          "市场",
+          "买",
+          "东西"
+        ]
+      },
+      {
+        "h": "她买了蔬菜、鸡蛋和一斤苹果。",
+        "p": "Tā mǎi le shūcài, jīdàn hé yì jīn píngguǒ.",
+        "m": "Cô ấy mua rau, trứng gà và một cân táo.",
+        "w": [
+          "她",
+          "买",
+          "了",
+          "蔬菜",
+          "鸡蛋",
+          "和",
+          "一",
+          "斤",
+          "苹果"
+        ]
+      },
+      {
+        "h": "她说“太贵了”，卖水果的人便宜了一点。",
+        "p": "Tā shuō“tài guì le”, mài shuǐguǒ de rén piányi le yìdiǎn.",
+        "m": "Cô ấy nói “đắt quá”, người bán trái cây đã bớt một chút.",
+        "w": [
+          "她",
+          "说",
+          "太",
+          "贵",
+          "了",
+          "卖",
+          "水果",
+          "的",
+          "人",
+          "便宜",
+          "一点"
+        ]
+      },
+      {
+        "h": "回到家，爸爸和妈妈已经在做饭了。",
+        "p": "Huídào jiā, bàba hé māma yǐjīng zài zuòfàn le.",
+        "m": "Về đến nhà, bố và mẹ đã đang nấu cơm rồi.",
+        "w": [
+          "回",
+          "到",
+          "家",
+          "爸爸",
+          "和",
+          "妈妈",
+          "已经",
+          "在",
+          "做饭",
+          "了"
+        ]
+      },
+      {
+        "h": "晚上，全家一起吃饭，聊天，书林觉得很放松，很幸福。",
+        "p": "Wǎnshang, quánjiā yìqǐ chīfàn, liáotiān, Shūlín juéde hěn fàngsōng, hěn xìngfú.",
+        "m": "Buổi tối, cả nhà cùng ăn cơm, trò chuyện, Thư Lâm thấy rất thư giãn, rất hạnh phúc.",
+        "w": [
+          "晚上",
+          "全家",
+          "一起",
+          "吃饭",
+          "聊天",
+          "书林",
+          "觉得",
+          "很",
+          "放松",
+          "幸福"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tổng hợp",
+    "zh": "数字和时间",
+    "vi": "Con số và thời gian",
+    "rows": [
+      {
+        "h": "今天是九月十五号，星期二。",
+        "p": "Jīntiān shì jiǔ yuè shí wǔ hào, xīngqī èr.",
+        "m": "Hôm nay là ngày 15 tháng 9, thứ Ba.",
+        "w": [
+          "今天",
+          "是",
+          "九",
+          "月",
+          "十",
+          "五",
+          "号",
+          "星期",
+          "二"
+        ]
+      },
+      {
+        "h": "今年是二零二六年，我二十五岁，弟弟八岁。",
+        "p": "Jīnnián shì èr líng èr liù nián, wǒ èrshíwǔ suì, dìdi bā suì.",
+        "m": "Năm nay là năm 2026, mình 25 tuổi, em trai 8 tuổi.",
+        "w": [
+          "今年",
+          "是",
+          "二",
+          "零",
+          "六",
+          "年",
+          "我",
+          "二十五",
+          "岁",
+          "弟弟",
+          "八"
+        ]
+      },
+      {
+        "h": "这个星期我运动三次，读了一本书。",
+        "p": "Zhège xīngqī wǒ yùndòng sān cì, dú le yì běn shū.",
+        "m": "Tuần này mình tập thể thao 3 lần, đọc xong một quyển sách.",
+        "w": [
+          "这个",
+          "星期",
+          "我",
+          "运动",
+          "三",
+          "次",
+          "读",
+          "了",
+          "一",
+          "本",
+          "书"
+        ]
+      },
+      {
+        "h": "我花了两个小时学习，也花了半个小时做饭。",
+        "p": "Wǒ huā le liǎng gè xiǎoshí xuéxí, yě huā le bàn gè xiǎoshí zuòfàn.",
+        "m": "Mình dành 2 tiếng để học, cũng dành nửa tiếng để nấu cơm.",
+        "w": [
+          "我",
+          "花",
+          "了",
+          "两",
+          "个",
+          "小时",
+          "学习",
+          "也",
+          "半",
+          "做饭"
+        ]
+      },
+      {
+        "h": "一共十个人来我家，我们买了七斤苹果和六个西瓜。",
+        "p": "Yígòng shí gè rén lái wǒ jiā, wǒmen mǎi le qī jīn píngguǒ hé liù gè xīguā.",
+        "m": "Tổng cộng 10 người đến nhà mình, chúng mình đã mua 7 cân táo và 6 quả dưa hấu.",
+        "w": [
+          "一共",
+          "十",
+          "个",
+          "人",
+          "来",
+          "我",
+          "家",
+          "我们",
+          "买",
+          "了",
+          "七",
+          "斤",
+          "苹果",
+          "和",
+          "六",
+          "西瓜"
+        ]
+      },
+      {
+        "h": "你家有几口人？我家有四个家人。",
+        "p": "Nǐ jiā yǒu jǐ kǒu rén? Wǒ jiā yǒu sì gè jiārén.",
+        "m": "Nhà bạn có mấy người? Nhà mình có 4 người.",
+        "w": [
+          "你",
+          "家",
+          "有",
+          "几",
+          "口",
+          "人",
+          "我",
+          "四",
+          "个",
+          "家人"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Giao tiếp & Trường học",
+    "zh": "问答和认识",
+    "vi": "Hỏi đáp và làm quen",
+    "rows": [
+      {
+        "h": "你们好！请问你叫什么名字？",
+        "p": "Nǐmen hǎo! Qǐng wèn nǐ jiào shénme míngzi?",
+        "m": "Chào các bạn! Xin hỏi bạn tên là gì?",
+        "w": [
+          "你们",
+          "好",
+          "请",
+          "问",
+          "你",
+          "叫",
+          "什么",
+          "名字"
+        ]
+      },
+      {
+        "h": "我的名字是英才，我是越南人，你呢？",
+        "p": "Wǒ de míngzi shì Yīngcái, wǒ shì Yuènán rén, nǐ ne?",
+        "m": "Tên mình là Anh Tài, mình là người Việt Nam, còn bạn?",
+        "w": [
+          "我",
+          "的",
+          "名字",
+          "是",
+          "英才",
+          "越南",
+          "人",
+          "你",
+          "呢"
+        ]
+      },
+      {
+        "h": "你是哪国人？你的职业是什么？",
+        "p": "Nǐ shì nǎ guó rén? Nǐ de zhíyè shì shénme?",
+        "m": "Bạn là người nước nào? Nghề nghiệp của bạn là gì?",
+        "w": [
+          "你",
+          "是",
+          "哪",
+          "国",
+          "人",
+          "的",
+          "职业",
+          "什么"
+        ]
+      },
+      {
+        "h": "这是谁？这是我的父母，父亲是医生，母亲是老师。",
+        "p": "Zhè shì shuí? Zhè shì wǒ de fùmǔ, fùqīn shì yīshēng, mǔqīn shì lǎoshī.",
+        "m": "Đây là ai? Đây là bố mẹ mình, cha mình là bác sĩ, mẹ mình là giáo viên.",
+        "w": [
+          "这",
+          "是",
+          "谁",
+          "我",
+          "的",
+          "父母",
+          "父亲",
+          "医生",
+          "母亲",
+          "老师"
+        ]
+      },
+      {
+        "h": "我有兄弟姐妹，我们的关系很好。",
+        "p": "Wǒ yǒu xiōngdì jiěmèi, wǒmen de guānxi hěn hǎo.",
+        "m": "Mình có anh chị em, quan hệ của chúng mình rất tốt.",
+        "w": [
+          "我",
+          "有",
+          "兄弟姐妹",
+          "我们",
+          "的",
+          "关系",
+          "很",
+          "好"
+        ]
+      },
+      {
+        "h": "这个多少钱？可以便宜一点吗？",
+        "p": "Zhège duōshao qián? Kěyǐ piányi yìdiǎn ma?",
+        "m": "Cái này bao nhiêu tiền? Có thể rẻ chút không?",
+        "w": [
+          "这个",
+          "多少",
+          "钱",
+          "可以",
+          "便宜",
+          "一点",
+          "吗"
+        ]
+      },
+      {
+        "h": "嗯，是的呀！你们要注意安全，身体很重要。",
+        "p": "Ń, shì de ya! Nǐmen yào zhùyì ānquán, shēntǐ hěn zhòngyào.",
+        "m": "Ừm, đúng vậy đó! Các bạn nhớ chú ý an toàn, sức khỏe rất quan trọng.",
+        "w": [
+          "嗯",
+          "是的",
+          "呀",
+          "你们",
+          "要",
+          "注意",
+          "安全",
+          "身体",
+          "很",
+          "重要"
+        ]
+      },
+      {
+        "h": "那么，今天的天气怎么样？啊，下雪了！",
+        "p": "Nàme, jīntiān de tiānqì zěnmeyàng? A, xiàxuě le!",
+        "m": "Vậy thì, thời tiết hôm nay thế nào? Ồ, tuyết rơi rồi!",
+        "w": [
+          "那么",
+          "今天",
+          "的",
+          "天气",
+          "怎么样",
+          "啊",
+          "下雪",
+          "了"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Giao tiếp & Trường học",
+    "zh": "在学校",
+    "vi": "Ở trường",
+    "rows": [
+      {
+        "h": "昨天我去学校，学校里有一个很大的操场。",
+        "p": "Zuótiān wǒ qù xuéxiào, xuéxiào lǐ yǒu yí gè hěn dà de cāochǎng.",
+        "m": "Hôm qua mình đến trường, trong trường có một sân tập rất lớn.",
+        "w": [
+          "昨天",
+          "我",
+          "去",
+          "学校",
+          "里",
+          "有",
+          "一",
+          "个",
+          "很",
+          "大",
+          "的",
+          "操场"
+        ]
+      },
+      {
+        "h": "太阳出来了，我们在操场上喝水、聊天。",
+        "p": "Tàiyáng chūlái le, wǒmen zài cāochǎng shàng hē shuǐ, liáotiān.",
+        "m": "Mặt trời ló ra, chúng mình ở sân tập uống nước, trò chuyện.",
+        "w": [
+          "太阳",
+          "出来",
+          "了",
+          "我们",
+          "在",
+          "操场",
+          "上",
+          "喝水",
+          "聊天"
+        ]
+      },
+      {
+        "h": "下午有考试，我很紧张，考完以后有一点伤心。",
+        "p": "Xiàwǔ yǒu kǎoshì, wǒ hěn jǐnzhāng, kǎo wán yǐhòu yǒu yìdiǎn shāngxīn.",
+        "m": "Chiều có kiểm tra, mình rất căng thẳng, thi xong thì hơi buồn.",
+        "w": [
+          "下午",
+          "有",
+          "考试",
+          "我",
+          "很",
+          "紧张",
+          "考",
+          "完",
+          "以后",
+          "有一点",
+          "伤心"
+        ]
+      },
+      {
+        "h": "老朋友送我一个礼物，我看见以后很高兴。",
+        "p": "Lǎo péngyou sòng wǒ yí gè lǐwù, wǒ kànjiàn yǐhòu hěn gāoxìng.",
+        "m": "Bạn cũ tặng mình một món quà, mình thấy xong rất vui.",
+        "w": [
+          "老朋友",
+          "送",
+          "我",
+          "一",
+          "个",
+          "礼物",
+          "看见",
+          "以后",
+          "很",
+          "高兴"
+        ]
+      },
+      {
+        "h": "他问我：“你的心情怎么样？”我回答：“很好！”",
+        "p": "Tā wèn wǒ: “Nǐ de xīnqíng zěnmeyàng?” Wǒ huídá: “Hěn hǎo!”",
+        "m": "Cậu ấy hỏi mình: “Tâm trạng của bạn thế nào?” Mình trả lời: “Rất tốt!”",
+        "w": [
+          "他",
+          "问",
+          "我",
+          "你",
+          "的",
+          "心情",
+          "怎么样",
+          "回答",
+          "很",
+          "好"
+        ]
+      },
+      {
+        "h": "我们去公园喝咖啡，看小孩子玩。",
+        "p": "Wǒmen qù gōngyuán hē kāfēi, kàn xiǎoháizi wán.",
+        "m": "Chúng mình đi công viên uống cà phê, xem trẻ con chơi.",
+        "w": [
+          "我们",
+          "去",
+          "公园",
+          "喝咖啡",
+          "看",
+          "小孩子",
+          "玩"
+        ]
+      },
+      {
+        "h": "他说：“为什么这么高兴？”我说：“因为不用工作了。”",
+        "p": "Tā shuō: “Wèishénme zhè me gāoxìng?” Wǒ shuō: “Yīnwèi bú yòng gōngzuò le.”",
+        "m": "Cậu ấy nói: “Sao vui thế?” Mình nói: “Vì không phải làm việc nữa.”",
+        "w": [
+          "他",
+          "说",
+          "为什么",
+          "这么",
+          "高兴",
+          "我",
+          "因为",
+          "不用",
+          "工作",
+          "了"
+        ]
+      },
+      {
+        "h": "真的吗？那我们出来玩，穿好衣服吧！",
+        "p": "Zhēn de ma? Nà wǒmen chūlái wán, chuān hǎo yīfu ba!",
+        "m": "Thật sao? Vậy chúng ta ra ngoài chơi, mặc quần áo cho đàng hoàng nhé!",
+        "w": [
+          "真的吗",
+          "那",
+          "我们",
+          "出来",
+          "玩",
+          "穿",
+          "好",
+          "衣服",
+          "吧"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Mục tiêu & Học tập",
+    "zh": "我的计划",
+    "vi": "Kế hoạch của tôi",
+    "rows": [
+      {
+        "h": "我有一个计划：我想学好中文。",
+        "p": "Wǒ yǒu yí gè jìhuà: wǒ xiǎng xué hǎo Zhōngwén.",
+        "m": "Mình có một kế hoạch: mình muốn học giỏi tiếng Trung.",
+        "w": [
+          "我",
+          "有",
+          "一",
+          "个",
+          "计划",
+          "想",
+          "学",
+          "好",
+          "中文"
+        ]
+      },
+      {
+        "h": "我需要时间，也需要好的方法。",
+        "p": "Wǒ xūyào shíjiān, yě xūyào hǎo de fāngfǎ.",
+        "m": "Mình cần thời gian, cũng cần phương pháp tốt.",
+        "w": [
+          "我",
+          "需要",
+          "时间",
+          "也",
+          "好的",
+          "方法"
+        ]
+      },
+      {
+        "h": "我准备每天早睡，慢慢改变自己。",
+        "p": "Wǒ zhǔnbèi měitiān zǎoshuì, mànmàn gǎibiàn zìjǐ.",
+        "m": "Mình định mỗi ngày đi ngủ sớm, từ từ thay đổi bản thân.",
+        "w": [
+          "我",
+          "准备",
+          "每天",
+          "早睡",
+          "慢慢",
+          "改变",
+          "自己"
+        ]
+      },
+      {
+        "h": "刚开始很难，可是我不放弃，一直努力。",
+        "p": "Gāng kāishǐ hěn nán, kěshì wǒ bú fàngqì, yìzhí nǔlì.",
+        "m": "Lúc đầu rất khó, nhưng mình không bỏ cuộc, luôn cố gắng.",
+        "w": [
+          "刚",
+          "开始",
+          "很",
+          "难",
+          "可是",
+          "我",
+          "不",
+          "放弃",
+          "一直",
+          "努力"
+        ]
+      },
+      {
+        "h": "成功不容易，我明白，但是我有希望。",
+        "p": "Chénggōng bù róng yì, wǒ míngbai, dàn shì wǒ yǒu xīwàng.",
+        "m": "Thành công không dễ, mình hiểu, nhưng mình có hy vọng.",
+        "w": [
+          "成功",
+          "不",
+          "容易",
+          "我",
+          "明白",
+          "但",
+          "是",
+          "有",
+          "希望"
+        ]
+      },
+      {
+        "h": "未来有很多机会，我想换一个新的工作。",
+        "p": "Wèilái yǒu hěn duō jīhuì, wǒ xiǎng huàn yí gè xīn de gōngzuò.",
+        "m": "Tương lai có nhiều cơ hội, mình muốn đổi một công việc mới.",
+        "w": [
+          "未来",
+          "有",
+          "很",
+          "多",
+          "机会",
+          "我",
+          "想",
+          "换",
+          "一",
+          "个",
+          "新",
+          "的",
+          "工作"
+        ]
+      },
+      {
+        "h": "我不想只赚钱、买大房子，也不想和别人比较。",
+        "p": "Wǒ bù xiǎng zhǐ zhuàn qián, mǎi dà fángzi, yě bù xiǎng hé biéren bǐjiào.",
+        "m": "Mình không chỉ muốn kiếm tiền, mua nhà lớn, cũng không muốn so sánh với người khác.",
+        "w": [
+          "我",
+          "不",
+          "想",
+          "只",
+          "赚",
+          "钱",
+          "买",
+          "大",
+          "房子",
+          "也",
+          "和",
+          "别人",
+          "比较"
+        ]
+      },
+      {
+        "h": "压力大的时候，我想想快乐的小事。",
+        "p": "Yālì dà de shíhou, wǒ xiǎng xiǎng kuàilè de xiǎo shì.",
+        "m": "Khi áp lực lớn, mình nghĩ đến những chuyện nhỏ vui vẻ.",
+        "w": [
+          "压力",
+          "大",
+          "的时候",
+          "我",
+          "想",
+          "快乐",
+          "的",
+          "小",
+          "事"
+        ]
+      },
+      {
+        "h": "问问自己：我的方向对吗？答案是：对，我在成长。",
+        "p": "Wèn wèn zìjǐ: wǒ de fāngxiàng duì ma? Dá'àn shì: duì, wǒ zài chéngzhǎng.",
+        "m": "Tự hỏi mình: hướng đi của mình có đúng không? Đáp án là: đúng, mình đang trưởng thành.",
+        "w": [
+          "问",
+          "自己",
+          "我",
+          "的",
+          "方向",
+          "对",
+          "吗",
+          "答案",
+          "是",
+          "在",
+          "成长"
+        ]
+      },
+      {
+        "h": "每个人都不同，普通的生活也很特别。",
+        "p": "Měi gè rén dōu bùtóng, pǔtōng de shēnghuó yě hěn tèbié.",
+        "m": "Mỗi người đều khác nhau, cuộc sống bình thường cũng rất đặc biệt.",
+        "w": [
+          "每",
+          "个",
+          "人",
+          "都",
+          "不同",
+          "普通",
+          "的",
+          "生活",
+          "也",
+          "很",
+          "特别"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Mục tiêu & Học tập",
+    "zh": "学语言",
+    "vi": "Học ngoại ngữ",
+    "rows": [
+      {
+        "h": "我是女生，我的朋友是男生，我们都学语言。",
+        "p": "Wǒ shì nǚshēng, wǒ de péngyou shì nánshēng, wǒmen dōu xué yǔyán.",
+        "m": "Mình là con gái, bạn mình là con trai, cả hai đều học ngoại ngữ.",
+        "w": [
+          "我",
+          "是",
+          "女生",
+          "的",
+          "朋友",
+          "男生",
+          "我们",
+          "都",
+          "学",
+          "语言"
+        ]
+      },
+      {
+        "h": "他发音不太好，可是他很聪明，学得很快。",
+        "p": "Tā fāyīn bú tài hǎo, kěshì tā hěn cōngming, xué de hěn kuài.",
+        "m": "Cậu ấy phát âm không tốt lắm, nhưng rất thông minh, học rất nhanh.",
+        "w": [
+          "他",
+          "发音",
+          "不",
+          "太",
+          "好",
+          "可是",
+          "很",
+          "聪明",
+          "学",
+          "得",
+          "快"
+        ]
+      },
+      {
+        "h": "除了学习，我们还读书，听音乐。",
+        "p": "Chúle xuéxí, wǒmen hái dúshū, tīng yīnyuè.",
+        "m": "Ngoài học tập, chúng mình còn đọc sách, nghe nhạc.",
+        "w": [
+          "除了",
+          "学习",
+          "我们",
+          "还",
+          "读书",
+          "听音乐"
+        ]
+      },
+      {
+        "h": "周末我在家洗衣服，也坐车去市场。",
+        "p": "Zhōumò wǒ zài jiā xǐ yīfu, yě zuòchē qù shìchǎng.",
+        "m": "Cuối tuần mình ở nhà giặt quần áo, cũng đi xe ra chợ.",
+        "w": [
+          "周末",
+          "我",
+          "在",
+          "家",
+          "洗衣服",
+          "也",
+          "坐车",
+          "去",
+          "市场"
+        ]
+      },
+      {
+        "h": "这个语言看起来很难，其实很有意思。",
+        "p": "Zhège yǔyán kànqǐlái hěn nán, qíshí hěn yǒu yìsi.",
+        "m": "Ngôn ngữ này trông có vẻ khó, thực ra rất thú vị.",
+        "w": [
+          "这个",
+          "语言",
+          "看起来",
+          "很",
+          "难",
+          "其实",
+          "有",
+          "意思"
+        ]
+      },
+      {
+        "h": "我们学会了很多话题，也认识了很多新朋友。",
+        "p": "Wǒmen xuéhuì le hěn duō huàtí, yě rènshi le hěn duō xīn péngyou.",
+        "m": "Chúng mình đã học được nhiều chủ đề, cũng làm quen với nhiều bạn mới.",
+        "w": [
+          "我们",
+          "学会",
+          "了",
+          "很",
+          "多",
+          "话题",
+          "也",
+          "认识",
+          "新",
+          "朋友"
+        ]
+      },
+      {
+        "h": "我们还一起跑步，比赛的时候跑得很快。",
+        "p": "Wǒmen hái yìqǐ pǎo bù, bǐsài de shíhou pǎo de hěn kuài.",
+        "m": "Chúng mình còn cùng nhau chạy bộ, lúc thi đấu chạy rất nhanh.",
+        "w": [
+          "我们",
+          "还",
+          "一起",
+          "跑步",
+          "比赛",
+          "的时候",
+          "跑",
+          "得",
+          "很",
+          "快"
+        ]
+      },
+      {
+        "h": "下次再见！我想和你分享我的学习方法。",
+        "p": "Xiàcì zàijiàn! Wǒ xiǎng hé nǐ fēnxiǎng wǒ de xuéxí fāngfǎ.",
+        "m": "Hẹn gặp lại lần sau! Mình muốn chia sẻ với bạn phương pháp học của mình.",
+        "w": [
+          "下次",
+          "再见",
+          "我",
+          "想",
+          "和",
+          "你",
+          "分享",
+          "的",
+          "学习",
+          "方法"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tổng hợp",
+    "zh": "平常的一天",
+    "vi": "Một ngày bình thường",
+    "rows": [
+      {
+        "h": "一天结束的时候，我觉得有成就感，也有一点累。",
+        "p": "Yì tiān jiéshù de shíhou, wǒ juéde yǒu chéngjiùgǎn, yě yǒu yìdiǎn lèi.",
+        "m": "Khi một ngày kết thúc, mình thấy có cảm giác thành tựu, cũng hơi mệt.",
+        "w": [
+          "一",
+          "天",
+          "结束",
+          "的时候",
+          "我",
+          "觉得",
+          "有",
+          "成就感",
+          "也",
+          "有一点",
+          "累"
+        ]
+      },
+      {
+        "h": "我从早上忙到晚上，路上也在想工作。",
+        "p": "Wǒ cóng zǎoshang máng dào wǎnshang, lùshang yě zài xiǎng gōngzuò.",
+        "m": "Mình bận từ sáng đến tối, trên đường cũng nghĩ về công việc.",
+        "w": [
+          "我",
+          "从",
+          "早",
+          "上",
+          "忙",
+          "到",
+          "晚上",
+          "路上",
+          "也",
+          "在",
+          "想",
+          "工作"
+        ]
+      },
+      {
+        "h": "有时候我看书，或者看电影，当然也需要休息。",
+        "p": "Yǒu shíhou wǒ kàn shū, huòzhě kàn diànyǐng, dāngrán yě xūyào xiūxi.",
+        "m": "Có lúc mình đọc sách hoặc xem phim, đương nhiên cũng cần nghỉ ngơi.",
+        "w": [
+          "有",
+          "时候",
+          "我",
+          "看书",
+          "或者",
+          "看电影",
+          "当然",
+          "也",
+          "需要",
+          "休息"
+        ]
+      },
+      {
+        "h": "为了身体好，我每天运动，越来越有力量。",
+        "p": "Wèile shēntǐ hǎo, wǒ měitiān yùndòng, yuèláiyuè yǒu lìliang.",
+        "m": "Để cơ thể khỏe, mình tập thể thao mỗi ngày, ngày càng có sức mạnh.",
+        "w": [
+          "为了",
+          "身体",
+          "好",
+          "我",
+          "每天",
+          "运动",
+          "越来越",
+          "有",
+          "力量"
+        ]
+      },
+      {
+        "h": "手机被我放在家里，时间没有被带走。",
+        "p": "Shǒujī bèi wǒ fàng zài jiā lǐ, shíjiān méiyǒu bèi dàizǒu.",
+        "m": "Điện thoại mình để ở nhà, thời gian không bị lấy đi.",
+        "w": [
+          "手机",
+          "被",
+          "我",
+          "放",
+          "在",
+          "家",
+          "里",
+          "时间",
+          "没有",
+          "带走"
+        ]
+      },
+      {
+        "h": "一年有四个季节，每个季节都不一样。",
+        "p": "Yì nián yǒu sì gè jìjié, měi gè jìjié dōu bù yíyàng.",
+        "m": "Một năm có bốn mùa, mỗi mùa đều không giống nhau.",
+        "w": [
+          "一",
+          "年",
+          "有",
+          "四",
+          "个",
+          "季节",
+          "每",
+          "都",
+          "不",
+          "一样"
+        ]
+      },
+      {
+        "h": "我感觉生活很简单，也很精彩。",
+        "p": "Wǒ gǎnjué shēnghuó hěn jiǎndān, yě hěn jīngcǎi.",
+        "m": "Mình cảm thấy cuộc sống rất đơn giản, cũng rất đặc sắc.",
+        "w": [
+          "我",
+          "感觉",
+          "生活",
+          "很",
+          "简单",
+          "也",
+          "精彩"
+        ]
+      },
+      {
+        "h": "才开始努力的人，也有机会成功。",
+        "p": "Cái kāishǐ nǔlì de rén, yě yǒu jīhuì chénggōng.",
+        "m": "Người mới bắt đầu cố gắng cũng có cơ hội thành công.",
+        "w": [
+          "才",
+          "开始",
+          "努力",
+          "的",
+          "人",
+          "也",
+          "有",
+          "机会",
+          "成功"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Nhà hàng",
+    "zh": "在餐厅点菜",
+    "vi": "Gọi món ở nhà hàng",
+    "rows": [
+      {
+        "h": "周末，我和家人去一家餐厅吃饭。",
+        "p": "Zhōumò, wǒ hé jiārén qù yì jiā cāntīng chīfàn.",
+        "m": "Cuối tuần, mình cùng gia đình đến một nhà hàng ăn cơm.",
+        "w": [
+          "周末",
+          "我",
+          "和",
+          "家人",
+          "去",
+          "一",
+          "家",
+          "餐厅",
+          "吃饭"
+        ]
+      },
+      {
+        "h": "桌子很大，旁边有六把椅子。",
+        "p": "Zhuōzi hěn dà, pángbiān yǒu liù bǎ yǐzi.",
+        "m": "Bàn rất lớn, bên cạnh có sáu cái ghế.",
+        "w": [
+          "桌子",
+          "很",
+          "大",
+          "旁边",
+          "有",
+          "六",
+          "把",
+          "椅子"
+        ]
+      },
+      {
+        "h": "服务员给我们菜单，桌子上还有筷子、勺子和杯子。",
+        "p": "Fúwùyuán gěi wǒmen càidān, zhuōzi shang hái yǒu kuàizi, sháozi hé bēizi.",
+        "m": "Nhân viên phục vụ đưa thực đơn cho chúng mình, trên bàn còn có đũa, muỗng và ly.",
+        "w": [
+          "服务员",
+          "给",
+          "我们",
+          "菜单",
+          "桌子上",
+          "还",
+          "有",
+          "筷子",
+          "勺子",
+          "和",
+          "杯子"
+        ]
+      },
+      {
+        "h": "妹妹要一碗米饭，我要一盘炒饭。",
+        "p": "Mèimei yào yì wǎn mǐfàn, wǒ yào yì pán chǎofàn.",
+        "m": "Em gái muốn một bát cơm, mình muốn một đĩa cơm chiên.",
+        "w": [
+          "妹妹",
+          "要",
+          "一碗",
+          "米饭",
+          "我",
+          "一盘",
+          "炒饭"
+        ]
+      },
+      {
+        "h": "爸爸要鱼，妈妈要一杯果汁。",
+        "p": "Bàba yào yú, māma yào yì bēi guǒzhī.",
+        "m": "Bố gọi cá, mẹ gọi một ly nước ép.",
+        "w": [
+          "爸爸",
+          "要",
+          "鱼",
+          "妈妈",
+          "一杯",
+          "果汁"
+        ]
+      },
+      {
+        "h": "我说：“服务员，请再给我一双筷子。”",
+        "p": "Wǒ shuō: “Fúwùyuán, qǐng zài gěi wǒ yì shuāng kuàizi.”",
+        "m": "Mình nói: “Phục vụ ơi, làm ơn cho mình thêm một đôi đũa.”",
+        "w": [
+          "我",
+          "说",
+          "服务员",
+          "请",
+          "再",
+          "给",
+          "一双",
+          "筷子"
+        ]
+      },
+      {
+        "h": "他说：“好的，请稍等。”",
+        "p": "Tā shuō: “Hǎo de, qǐng shāoděng.”",
+        "m": "Anh ấy nói: “Vâng, xin đợi một chút.”",
+        "w": [
+          "他",
+          "说",
+          "好的",
+          "请",
+          "稍等"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Nhà hàng",
+    "zh": "买单",
+    "vi": "Thanh toán",
+    "rows": [
+      {
+        "h": "吃饭以后，爸爸说：“服务员，买单！”",
+        "p": "Chīfàn yǐhòu, bàba shuō: “Fúwùyuán, mǎidān!”",
+        "m": "Ăn xong, bố nói: “Phục vụ ơi, tính tiền!”",
+        "w": [
+          "吃饭",
+          "以后",
+          "爸爸",
+          "说",
+          "服务员",
+          "买单"
+        ]
+      },
+      {
+        "h": "账单不太贵，我们都很高兴。",
+        "p": "Zhàngdān bú tài guì, wǒmen dōu hěn gāoxìng.",
+        "m": "Hóa đơn không đắt lắm, chúng mình đều rất vui.",
+        "w": [
+          "账单",
+          "不",
+          "太",
+          "贵",
+          "我们",
+          "都",
+          "很",
+          "高兴"
+        ]
+      },
+      {
+        "h": "我的手机在桌子上，我马上拿。",
+        "p": "Wǒ de shǒujī zài zhuōzi shang, wǒ mǎshàng ná.",
+        "m": "Điện thoại của mình ở trên bàn, mình lấy ngay.",
+        "w": [
+          "我的",
+          "手机",
+          "在",
+          "桌子上",
+          "我",
+          "马上",
+          "拿"
+        ]
+      },
+      {
+        "h": "我们说：“干杯！”大家都笑了。",
+        "p": "Wǒmen shuō: “Gānbēi!” Dàjiā dōu xiào le.",
+        "m": "Chúng mình nói: “Cạn ly!” Mọi người đều cười.",
+        "w": [
+          "我们",
+          "说",
+          "干杯",
+          "大家",
+          "都",
+          "笑",
+          "了"
+        ]
+      },
+      {
+        "h": "回家的路上，我觉得很幸福。",
+        "p": "Huí jiā de lùshang, wǒ juéde hěn xìngfú.",
+        "m": "Trên đường về nhà, mình cảm thấy rất hạnh phúc.",
+        "w": [
+          "回家",
+          "的",
+          "路上",
+          "我",
+          "觉得",
+          "很",
+          "幸福"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Nhà hàng",
+    "zh": "在餐厅（阅读 1）",
+    "vi": "Ở nhà hàng (Bài đọc 1 trong giáo trình)",
+    "rows": [
+      {
+        "h": "今天我和朋友去餐厅。",
+        "p": "Jīntiān wǒ hé péngyǒu qù cāntīng.",
+        "m": "Hôm nay tôi cùng bạn đi nhà hàng.",
+        "w": [
+          "今天",
+          "我",
+          "和",
+          "朋友",
+          "去",
+          "餐厅"
+        ]
+      },
+      {
+        "h": "桌子上有菜单、筷子和杯子。",
+        "p": "Zhuōzi shang yǒu càidān, kuàizi hé bēizi.",
+        "m": "Trên bàn có thực đơn, đũa và ly.",
+        "w": [
+          "桌子上",
+          "有",
+          "菜单",
+          "筷子",
+          "和",
+          "杯子"
+        ]
+      },
+      {
+        "h": "我们点了鱼和米饭。",
+        "p": "Wǒmen diǎn le yú hé mǐfàn.",
+        "m": "Chúng tôi gọi cá và cơm.",
+        "w": [
+          "我们",
+          "点",
+          "了",
+          "鱼",
+          "和",
+          "米饭"
+        ]
+      },
+      {
+        "h": "吃饭以后，我们请服务员结账。",
+        "p": "Chīfàn yǐhòu, wǒmen qǐng fúwùyuán jiézhàng.",
+        "m": "Ăn xong, chúng tôi nhờ phục vụ tính tiền.",
+        "w": [
+          "吃饭",
+          "以后",
+          "我们",
+          "请",
+          "服务员",
+          "结账"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Nhà hàng",
+    "zh": "李明和王芳去餐厅（阅读 2）",
+    "vi": "Lý Minh và Vương Phương ở nhà hàng (Bài đọc 2 trong giáo trình)",
+    "rows": [
+      {
+        "h": "李明和王芳去餐厅吃饭。",
+        "p": "Lǐ Míng hé Wáng Fāng qù cāntīng chīfàn.",
+        "m": "Lý Minh và Vương Phương đi ăn ở nhà hàng.",
+        "w": [
+          "李明",
+          "和",
+          "王芳",
+          "去",
+          "餐厅",
+          "吃饭"
+        ]
+      },
+      {
+        "h": "他们坐在一张桌子旁。",
+        "p": "Tāmen zuò zài yī zhāng zhuōzi páng.",
+        "m": "Họ ngồi bên một cái bàn.",
+        "w": [
+          "他们",
+          "坐",
+          "在",
+          "一张",
+          "桌子",
+          "旁"
+        ]
+      },
+      {
+        "h": "服务员给他们菜单。",
+        "p": "Fúwùyuán gěi tāmen càidān.",
+        "m": "Nhân viên phục vụ đưa cho họ thực đơn.",
+        "w": [
+          "服务员",
+          "给他们",
+          "菜单"
+        ]
+      },
+      {
+        "h": "李明说：“我要一碗面条和一杯水。”",
+        "p": "Lǐ Míng shuō: “Wǒ yào yī wǎn miàntiáo hé yī bēi shuǐ.”",
+        "m": "Lý Minh nói: “Tôi muốn một bát mì và một cốc nước.”",
+        "w": [
+          "李明",
+          "说",
+          "我",
+          "要",
+          "一碗",
+          "面条",
+          "和",
+          "一杯",
+          "水"
+        ]
+      },
+      {
+        "h": "王芳说：“我要一盘炒饭和一杯果汁。”",
+        "p": "Wáng Fāng shuō: “Wǒ yào yī pán chǎofàn hé yī bēi guǒzhī.”",
+        "m": "Vương Phương nói: “Tôi muốn một đĩa cơm chiên và một cốc nước ép.”",
+        "w": [
+          "王芳",
+          "说",
+          "我",
+          "要",
+          "一盘",
+          "炒饭",
+          "和",
+          "一杯",
+          "果汁"
+        ]
+      },
+      {
+        "h": "服务员微笑着说：“好的，请稍等。”",
+        "p": "Fúwùyuán wēixiào zhe shuō: “Hǎo de, qǐng shāo děng.”",
+        "m": "Nhân viên phục vụ mỉm cười nói: “Được, xin vui lòng đợi một chút.”",
+        "w": [
+          "服务员",
+          "微笑",
+          "着",
+          "说",
+          "好的",
+          "请",
+          "稍等"
+        ]
+      },
+      {
+        "h": "十分钟后，食物端来了。",
+        "p": "Shí fēnzhōng hòu, shíwù duān lái le.",
+        "m": "Mười phút sau, đồ ăn được mang ra.",
+        "w": [
+          "十分钟",
+          "食物",
+          "端来",
+          "了",
+          "后"
+        ]
+      },
+      {
+        "h": "李明和王芳高兴地吃饭。",
+        "p": "Lǐ Míng hé Wáng Fāng gāoxìng de chīfàn.",
+        "m": "Lý Minh và Vương Phương vui vẻ ăn uống.",
+        "w": [
+          "李明",
+          "和",
+          "王芳",
+          "高兴",
+          "地",
+          "吃饭"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Phương tiện",
+    "zh": "我的上班方式（阅读 1）",
+    "vi": "Cách tôi đi làm (Bài đọc 1 trong giáo trình)",
+    "rows": [
+      {
+        "h": "我每天早上七点起床，七点半出门。",
+        "p": "Wǒ měitiān zǎoshang qī diǎn qǐchuáng, qī diǎn bàn chūmén.",
+        "m": "Mỗi sáng tôi dậy lúc 7 giờ, ra khỏi nhà lúc 7 rưỡi.",
+        "w": [
+          "我",
+          "每天",
+          "早上",
+          "七",
+          "点",
+          "起床",
+          "七点半",
+          "出门"
+        ]
+      },
+      {
+        "h": "我家离公司不远，我常常骑摩托车去上班。",
+        "p": "Wǒ jiā lí gōngsī bù yuǎn, wǒ chángcháng qí mótuōchē qù shàngbān.",
+        "m": "Nhà tôi cách công ty không xa, tôi thường đi làm bằng xe máy.",
+        "w": [
+          "我",
+          "家",
+          "离",
+          "公司",
+          "不",
+          "远",
+          "常常",
+          "摩托车",
+          "去",
+          "上班",
+          "骑"
+        ]
+      },
+      {
+        "h": "有时候下雨，我坐公共汽车。",
+        "p": "Yǒu shíhou xià yǔ, wǒ zuò gōnggòng qìchē.",
+        "m": "Thỉnh thoảng trời mưa, tôi đi xe buýt.",
+        "w": [
+          "有时候",
+          "下雨",
+          "我",
+          "坐",
+          "公共汽车"
+        ]
+      },
+      {
+        "h": "我觉得骑车很方便，也很快。",
+        "p": "Wǒ juéde qí chē hěn fāngbiàn, yě hěn kuài.",
+        "m": "Tôi thấy đi xe máy rất tiện và nhanh.",
+        "w": [
+          "我",
+          "觉得",
+          "骑车",
+          "很",
+          "方便",
+          "也",
+          "快"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Phương tiện",
+    "zh": "我去市场（阅读 2）",
+    "vi": "Tôi đi chợ (Bài đọc 2 trong giáo trình)",
+    "rows": [
+      {
+        "h": "我每天早上去市场。",
+        "p": "Wǒ měitiān zǎoshang qù shìchǎng.",
+        "m": "Mỗi sáng tôi đi chợ.",
+        "w": [
+          "我",
+          "每天",
+          "早上",
+          "去",
+          "市场"
+        ]
+      },
+      {
+        "h": "市场离我家不远。",
+        "p": "Shìchǎng lí wǒ jiā bù yuǎn.",
+        "m": "Chợ cách nhà tôi không xa.",
+        "w": [
+          "市场",
+          "离",
+          "我",
+          "家",
+          "不",
+          "远"
+        ]
+      },
+      {
+        "h": "我不坐车，也不骑车。",
+        "p": "Wǒ bù zuò chē, yě bù qí chē.",
+        "m": "Tôi không đi xe, cũng không đi xe đạp.",
+        "w": [
+          "我",
+          "不",
+          "坐车",
+          "也",
+          "骑车"
+        ]
+      },
+      {
+        "h": "我走路去市场。",
+        "p": "Wǒ zǒulù qù shìchǎng.",
+        "m": "Tôi đi bộ đến chợ.",
+        "w": [
+          "我",
+          "走路",
+          "去",
+          "市场"
+        ]
+      },
+      {
+        "h": "市场里有很多人。",
+        "p": "Shìchǎng lǐ yǒu hěn duō rén.",
+        "m": "Trong chợ có rất nhiều người.",
+        "w": [
+          "市场",
+          "里",
+          "有",
+          "很",
+          "多",
+          "人"
+        ]
+      },
+      {
+        "h": "我买菜、买水果。",
+        "p": "Wǒ mǎi cài, mǎi shuǐguǒ.",
+        "m": "Tôi mua rau và trái cây.",
+        "w": [
+          "我",
+          "买",
+          "菜",
+          "水果"
+        ]
+      },
+      {
+        "h": "我觉得走路很好，也很健康。",
+        "p": "Wǒ juéde zǒulù hěn hǎo, yě hěn jiànkāng.",
+        "m": "Tôi thấy đi bộ rất tốt và cũng rất khỏe mạnh.",
+        "w": [
+          "我",
+          "觉得",
+          "走路",
+          "很",
+          "好",
+          "也",
+          "健康"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Phương tiện",
+    "zh": "我的上学方式（自编示范）",
+    "vi": "Cách tôi đến trường (đoạn mẫu tự soạn cho bài viết cuối buổi)",
+    "rows": [
+      {
+        "h": "我每天早上六点半起床。",
+        "p": "Wǒ měitiān zǎoshang liù diǎn bàn qǐchuáng.",
+        "m": "Mỗi sáng mình dậy lúc 6 giờ rưỡi.",
+        "w": [
+          "我",
+          "每天",
+          "早上",
+          "六",
+          "点",
+          "半",
+          "起床"
+        ]
+      },
+      {
+        "h": "七点我坐公共汽车去学校。",
+        "p": "Qī diǎn wǒ zuò gōnggòng qìchē qù xuéxiào.",
+        "m": "Lúc 7 giờ mình đi xe buýt đến trường.",
+        "w": [
+          "七",
+          "点",
+          "我",
+          "坐",
+          "公共汽车",
+          "去",
+          "学校"
+        ]
+      },
+      {
+        "h": "公共汽车很方便，也不太贵。",
+        "p": "Gōnggòng qìchē hěn fāngbiàn, yě bú tài guì.",
+        "m": "Xe buýt rất tiện, cũng không đắt lắm.",
+        "w": [
+          "公共汽车",
+          "很",
+          "方便",
+          "也",
+          "不",
+          "太",
+          "贵"
+        ]
+      },
+      {
+        "h": "因为学校离我家有一点远，所以我不走路。",
+        "p": "Yīnwèi xuéxiào lí wǒ jiā yǒu yìdiǎn yuǎn, suǒyǐ wǒ bù zǒulù.",
+        "m": "Vì trường hơi xa nhà mình, nên mình không đi bộ.",
+        "w": [
+          "因为",
+          "学校",
+          "离",
+          "我",
+          "家",
+          "有一点",
+          "远",
+          "所以",
+          "不",
+          "走路"
+        ]
+      },
+      {
+        "h": "有时候下雨，我坐出租车。",
+        "p": "Yǒu shíhou xiàyǔ, wǒ zuò chūzūchē.",
+        "m": "Thỉnh thoảng trời mưa, mình đi taxi.",
+        "w": [
+          "有时候",
+          "下雨",
+          "我",
+          "坐",
+          "出租车"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Cơ thể & Sức khỏe",
+    "zh": "身体不舒服（阅读 1）",
+    "vi": "Cơ thể khó chịu (Bài đọc 1 trong giáo trình)",
+    "rows": [
+      {
+        "h": "小安今天不太舒服。",
+        "p": "Xiǎo Ān jīntiān bú tài shūfu.",
+        "m": "Tiểu An hôm nay không được khỏe lắm.",
+        "w": [
+          "小安",
+          "今天",
+          "不",
+          "太",
+          "舒服"
+        ]
+      },
+      {
+        "h": "他早上起床的时候，头有点儿疼。",
+        "p": "Tā zǎoshang qǐchuáng de shíhou, tóu yǒudiǎnr téng.",
+        "m": "Buổi sáng khi thức dậy, đầu cậu ấy hơi đau.",
+        "w": [
+          "他",
+          "早上",
+          "起床",
+          "的时候",
+          "头",
+          "有点儿",
+          "疼"
+        ]
+      },
+      {
+        "h": "他的眼睛也很累，嘴巴有点儿干。",
+        "p": "Tā de yǎnjing yě hěn lèi, zuǐba yǒudiǎnr gān.",
+        "m": "Mắt của cậu ấy cũng rất mệt, miệng hơi khô.",
+        "w": [
+          "他",
+          "的",
+          "眼睛",
+          "也",
+          "很",
+          "累",
+          "嘴巴",
+          "有点儿",
+          "干"
+        ]
+      },
+      {
+        "h": "妈妈问他：“你哪里不舒服？”",
+        "p": "Māma wèn tā: “Nǐ nǎlǐ bù shūfu?”",
+        "m": "Mẹ hỏi cậu: “Con thấy không khỏe ở đâu?”",
+        "w": [
+          "妈妈",
+          "问",
+          "他",
+          "你",
+          "哪里",
+          "不舒服"
+        ]
+      },
+      {
+        "h": "小安说：“我头疼，腿也酸。”",
+        "p": "Xiǎo Ān shuō: “Wǒ tóu téng, tuǐ yě suān.”",
+        "m": "Tiểu An nói: “Con đau đầu, chân cũng mỏi.”",
+        "w": [
+          "小安",
+          "说",
+          "我",
+          "头",
+          "疼",
+          "腿",
+          "也",
+          "酸"
+        ]
+      },
+      {
+        "h": "妈妈让他多喝水，也让他休息一下。",
+        "p": "Māma ràng tā duō hē shuǐ, yě ràng tā xiūxi yíxià.",
+        "m": "Mẹ bảo cậu uống nhiều nước và nghỉ ngơi một chút.",
+        "w": [
+          "妈妈",
+          "让",
+          "他",
+          "多",
+          "喝水",
+          "也",
+          "休息",
+          "一下"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Cơ thể & Sức khỏe",
+    "zh": "身体不舒服（阅读 2）",
+    "vi": "Cơ thể khó chịu (Bài đọc 2 trong giáo trình)",
+    "rows": [
+      {
+        "h": "小明今天早上起床的时候，觉得喉咙很痛，鼻子也不通气。",
+        "p": "Xiǎomíng jīntiān zǎoshang qǐchuáng de shíhou, juéde hóulóng hěn tòng, bízi yě bù tōngqì.",
+        "m": "Tiểu Minh sáng nay khi thức dậy thì thấy đau họng và mũi không thở được.",
+        "w": [
+          "小明",
+          "今天",
+          "早上",
+          "起床",
+          "的时候",
+          "觉得",
+          "喉咙",
+          "很",
+          "痛",
+          "鼻子",
+          "也",
+          "不",
+          "通气"
+        ]
+      },
+      {
+        "h": "他跟妈妈说：“妈妈，我不想去学校。”",
+        "p": "Tā gēn māma shuō: “Māma, wǒ bù xiǎng qù xuéxiào.”",
+        "m": "Cậu nói với mẹ: “Mẹ ơi, con không muốn đi học.”",
+        "w": [
+          "他",
+          "跟",
+          "妈妈",
+          "说",
+          "我",
+          "不想",
+          "去",
+          "学校"
+        ]
+      },
+      {
+        "h": "妈妈摸了摸他的头，说：“你发烧了，我们去看医生吧。”",
+        "p": "Māma mō le mō tā de tóu, shuō: “Nǐ fāshāo le, wǒmen qù kàn yīshēng ba.”",
+        "m": "Mẹ sờ trán cậu và nói: “Con bị sốt rồi, chúng ta đi khám bác sĩ nhé.”",
+        "w": [
+          "妈妈",
+          "摸",
+          "了",
+          "他",
+          "的",
+          "头",
+          "说",
+          "你",
+          "发烧",
+          "我们",
+          "去",
+          "看医生",
+          "吧"
+        ]
+      },
+      {
+        "h": "医生检查后说，小明感冒了，要多喝水、多休息。",
+        "p": "Yīshēng jiǎnchá hòu shuō, Xiǎomíng gǎnmào le, yào duō hē shuǐ, duō xiūxi.",
+        "m": "Bác sĩ kiểm tra xong nói Tiểu Minh bị cảm, cần uống nhiều nước và nghỉ ngơi nhiều.",
+        "w": [
+          "医生",
+          "检查",
+          "后",
+          "说",
+          "小明",
+          "感冒",
+          "了",
+          "要",
+          "多",
+          "喝水",
+          "休息"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Cơ thể & Sức khỏe",
+    "zh": "去看医生（对话）",
+    "vi": "Đi khám bác sĩ (Hội thoại trong giáo trình)",
+    "rows": [
+      {
+        "h": "你好，请坐。",
+        "p": "Nǐ hǎo, qǐng zuò.",
+        "m": "Chào bạn, mời ngồi.",
+        "w": [
+          "你",
+          "好",
+          "请坐"
+        ]
+      },
+      {
+        "h": "医生，你好。",
+        "p": "Yīshēng, nǐ hǎo.",
+        "m": "Chào bác sĩ.",
+        "w": [
+          "医生",
+          "你",
+          "好"
+        ]
+      },
+      {
+        "h": "你怎么了？",
+        "p": "Nǐ zěnme le?",
+        "m": "Bạn bị làm sao?",
+        "w": [
+          "你怎么了"
+        ]
+      },
+      {
+        "h": "我不舒服。",
+        "p": "Wǒ bù shūfu.",
+        "m": "Tôi không khỏe.",
+        "w": [
+          "我",
+          "不舒服"
+        ]
+      },
+      {
+        "h": "你哪里不舒服？",
+        "p": "Nǐ nǎli bù shūfu?",
+        "m": "Bạn thấy không khỏe ở đâu?",
+        "w": [
+          "你",
+          "哪里",
+          "不舒服"
+        ]
+      },
+      {
+        "h": "我头疼，还有一点儿发烧。",
+        "p": "Wǒ tóu téng, háiyǒu yìdiǎnr fāshāo.",
+        "m": "Tôi bị đau đầu và hơi sốt.",
+        "w": [
+          "我",
+          "头",
+          "疼",
+          "还有",
+          "一点儿",
+          "发烧"
+        ]
+      },
+      {
+        "h": "你咳嗽吗？",
+        "p": "Nǐ késou ma?",
+        "m": "Bạn có ho không?",
+        "w": [
+          "你",
+          "咳嗽",
+          "吗"
+        ]
+      },
+      {
+        "h": "有一点儿。",
+        "p": "Yǒu yìdiǎnr.",
+        "m": "Có một chút.",
+        "w": [
+          "有一点",
+          "儿"
+        ]
+      },
+      {
+        "h": "你吃药了吗？",
+        "p": "Nǐ chī yào le ma?",
+        "m": "Bạn đã uống thuốc chưa?",
+        "w": [
+          "你",
+          "吃药",
+          "了",
+          "吗"
+        ]
+      },
+      {
+        "h": "还没有。",
+        "p": "Hái méiyǒu.",
+        "m": "Chưa.",
+        "w": [
+          "还没有"
+        ]
+      },
+      {
+        "h": "多喝水，好好休息。",
+        "p": "Duō hē shuǐ, hǎohǎo xiūxi.",
+        "m": "Hãy uống nhiều nước và nghỉ ngơi nhé.",
+        "w": [
+          "多",
+          "喝水",
+          "好好",
+          "休息"
+        ]
+      },
+      {
+        "h": "谢谢医生！",
+        "p": "Xièxie yīshēng!",
+        "m": "Cảm ơn bác sĩ!",
+        "w": [
+          "谢谢",
+          "医生"
+        ]
+      },
+      {
+        "h": "不客气，祝你早日康复！",
+        "p": "Bú kèqi, zhù nǐ zǎorì kāngfù!",
+        "m": "Không có gì. Chúc bạn mau khỏe!",
+        "w": [
+          "不客气",
+          "祝",
+          "你",
+          "早日",
+          "康复"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Quần áo & Ngày tháng",
+    "zh": "小丽的生日（阅读 1）",
+    "vi": "Sinh nhật của Tiểu Lệ (Bài đọc 1 trong giáo trình)",
+    "rows": [
+      {
+        "h": "明天是小丽的生日。她今年二十二岁。",
+        "p": "Míngtiān shì Xiǎo Lì de shēngrì. Tā jīnnián èrshí’èr suì.",
+        "m": "Ngày mai là sinh nhật Tiểu Lệ. Năm nay cô ấy 22 tuổi.",
+        "w": [
+          "明天",
+          "是",
+          "小丽",
+          "的",
+          "生日",
+          "她",
+          "今年",
+          "二十",
+          "二",
+          "岁"
+        ]
+      },
+      {
+        "h": "她想买一件新衣服。她最喜欢红色的裙子。",
+        "p": "Tā xiǎng mǎi yí jiàn xīn yīfu. Tā zuì xǐhuan hóngsè de qúnzi.",
+        "m": "Cô ấy muốn mua một bộ đồ mới. Cô thích nhất váy màu đỏ.",
+        "w": [
+          "她",
+          "想",
+          "买",
+          "一",
+          "件",
+          "新",
+          "衣服",
+          "最",
+          "喜欢",
+          "红色",
+          "的",
+          "裙子"
+        ]
+      },
+      {
+        "h": "今天是二零二四年十二月二十号。她下午三点去商场。",
+        "p": "Jīntiān shì èrlíng’èrsì nián shí’èr yuè èrshí hào. Tā xiàwǔ sān diǎn qù shāngchǎng.",
+        "m": "Hôm nay là ngày 20 tháng 12 năm 2024. Cô ấy đi trung tâm thương mại lúc 3 giờ chiều.",
+        "w": [
+          "今天",
+          "是",
+          "二",
+          "零",
+          "四",
+          "年",
+          "十二月",
+          "二十",
+          "号",
+          "她",
+          "下午",
+          "三",
+          "点",
+          "去",
+          "商场"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Quần áo & Ngày tháng",
+    "zh": "小安去旅游（阅读 2）",
+    "vi": "Tiểu An đi du lịch (Bài đọc 2 trong giáo trình)",
+    "rows": [
+      {
+        "h": "小安明年想去中国旅游。",
+        "p": "Xiǎo’ān míngnián xiǎng qù Zhōngguó lǚyóu.",
+        "m": "Tiểu An năm sau muốn đi du lịch Trung Quốc.",
+        "w": [
+          "小安",
+          "明年",
+          "想",
+          "去",
+          "中国",
+          "旅游"
+        ]
+      },
+      {
+        "h": "二零二五年五月，他和朋友一起去北京。",
+        "p": "Èrlíng’èrwǔ nián wǔ yuè, tā hé péngyǒu yìqǐ qù Běijīng.",
+        "m": "Tháng 5 năm 2025, cậu ấy cùng bạn đi Bắc Kinh.",
+        "w": [
+          "二",
+          "零",
+          "五",
+          "年",
+          "五月",
+          "他",
+          "和",
+          "朋友",
+          "一起",
+          "去",
+          "北京"
+        ]
+      },
+      {
+        "h": "他们准备了三件外套、两条裤子和四双鞋子。",
+        "p": "Tāmen zhǔnbèi le sān jiàn wàitào, liǎng tiáo kùzi hé sì shuāng xiézi.",
+        "m": "Họ chuẩn bị 3 áo khoác, 2 chiếc quần và 4 đôi giày.",
+        "w": [
+          "他们",
+          "准备",
+          "了",
+          "三",
+          "件",
+          "外套",
+          "两",
+          "条",
+          "裤子",
+          "和",
+          "四",
+          "双",
+          "鞋子"
+        ]
+      },
+      {
+        "h": "北京五月有时候很冷，所以他们带了帽子和围巾。",
+        "p": "Běijīng wǔ yuè yǒushíhou hěn lěng, suǒyǐ tāmen dài le màozi hé wéijīn.",
+        "m": "Tháng 5 Bắc Kinh đôi khi rất lạnh, nên họ mang theo mũ và khăn quàng.",
+        "w": [
+          "北京",
+          "五月",
+          "有时候",
+          "很",
+          "冷",
+          "所以",
+          "他们",
+          "带",
+          "了",
+          "帽子",
+          "和",
+          "围巾"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Quần áo & Ngày tháng",
+    "zh": "买外套（对话）",
+    "vi": "Mua áo khoác (Hội thoại trong giáo trình)",
+    "rows": [
+      {
+        "h": "你好，你想买什么？",
+        "p": "Nǐ hǎo, nǐ xiǎng mǎi shénme?",
+        "m": "Chào bạn, bạn muốn mua gì?",
+        "w": [
+          "你",
+          "好",
+          "想",
+          "买",
+          "什么"
+        ]
+      },
+      {
+        "h": "我想买一件外套。",
+        "p": "Wǒ xiǎng mǎi yí jiàn wàitào.",
+        "m": "Tôi muốn mua một cái áo khoác.",
+        "w": [
+          "我",
+          "想",
+          "买",
+          "一",
+          "件",
+          "外套"
+        ]
+      },
+      {
+        "h": "你喜欢什么颜色？",
+        "p": "Nǐ xǐhuan shénme yánsè?",
+        "m": "Bạn thích màu gì?",
+        "w": [
+          "你",
+          "喜欢",
+          "什么",
+          "颜色"
+        ]
+      },
+      {
+        "h": "我喜欢黑色的。",
+        "p": "Wǒ xǐhuan hēisè de.",
+        "m": "Tôi thích màu đen.",
+        "w": [
+          "我",
+          "喜欢",
+          "黑色",
+          "的"
+        ]
+      },
+      {
+        "h": "可以，这边请试衣间。",
+        "p": "Kěyǐ, zhè biān qǐng, shìyījiān.",
+        "m": "Được, mời bạn bên này, phòng thử đồ.",
+        "w": [
+          "可以",
+          "这边",
+          "请",
+          "试衣间"
+        ]
+      }
+    ]
+  }
+]

@@ -7,3 +7,5 @@ dist/
 .vercel/
 *.log
 .DS_Store
+sources/raw/
+build/
