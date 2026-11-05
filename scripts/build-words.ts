@@ -3,7 +3,7 @@
 //   public/data/words/<topic>.json   words of one topic
 //   public/data/strokes/<hex>.json   Hanzi Writer stroke data, one file per character
 //   docs/needs-review.md, docs/review-sample.md
-import { readJson, writeJson, writeText } from './lib/io.ts';
+import { exists, readJson, writeJson, writeText } from './lib/io.ts';
 import { loadLegacy } from './lib/legacy.ts';
 import { loadMmahDictionary, loadMmahGraphics } from './lib/mmah.ts';
 import { TOPICS } from './lib/topics.ts';
@@ -107,6 +107,23 @@ for (const c of allChars) {
   else if (g) { writeJson(`${OUT}/data/strokes/${hex}.json`, { strokes: g.strokes, medians: g.medians }, true); fromMmah++; }
   else noStrokes.push(c);
 }
+
+// --- hand-written sentences and paragraphs (shadowing + offline listening) ----------
+const clean = (s: string) => s.replace(/<br\s*\/?>/gi, ' ').trim();
+const sentenceList = [
+  ...L.DATA.filter(c => c.section !== 'sing-1').map(c => ({ zh: clean(c.hanzi), py: clean(c.pinyin), vi: clean(c.meaning) })),
+  ...L.PARAGRAPHS.flatMap(p => p.rows.map(r => ({ zh: r.h, py: r.p, vi: r.m }))),
+].filter(s => { const n = [...s.zh].length; return n >= 4 && n <= 30 && s.py && s.vi; });
+const seen = new Set<string>();
+writeJson(`${OUT}/data/sentences.json`, sentenceList.filter(s => !seen.has(s.zh) && seen.add(s.zh)), true);
+
+// key points for offline listening are written by hand in data/manual/paragraph-keypoints.json
+const keyPoints = exists('data/manual/paragraph-keypoints.json') ? readJson<Record<string, string[]>>('data/manual/paragraph-keypoints.json') : {};
+writeJson(`${OUT}/data/paragraphs.json`, L.PARAGRAPHS.map((p, i) => ({
+  id: `p${i + 1}`, topic: p.topic, title: p.vi,
+  sentences: p.rows.map(r => ({ zh: r.h, py: r.p, vi: r.m })),
+  keyPoints: keyPoints[`p${i + 1}`] ?? [],
+})), true);
 
 // --- review documents ------------------------------------------------------------
 const fmt = (w: Verified) =>
