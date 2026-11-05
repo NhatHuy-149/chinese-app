@@ -12,7 +12,11 @@
     "data:verify": "node --env-file-if-exists=.env scripts/llm-verify.ts",
     "data:words": "node --env-file-if-exists=.env scripts/build-words.ts",
     "data:all": "npm run data:legacy && npm run data:candidates && npm run data:classify && npm run data:select && npm run data:enrich && npm run data:verify && npm run data:words",
-    "data:apply": "node scripts/apply-answers.ts"
+    "data:apply": "node scripts/apply-answers.ts",
+    "dev": "vite",
+    "build": "tsc -p . && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^1.5.0",
