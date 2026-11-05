@@ -22,7 +22,8 @@ const minutesOf = (e: PracticeEvent) => Math.min(e.durationSec ?? 0, MAX_EVENT_S
 /** Goal units: vocab = cards reviewed, write = sentences checked and retyped, speak = sentences spoken, listen = passages. */
 function goalUnit(e: PracticeEvent): Partial<Record<Skill, number>> {
   if (e.skill === 'vocab' && (e.kind === 'review' || e.kind === 'new')) return { vocab: 1 };
-  if (e.skill === 'write' && e.kind === 'check') return { write: 1 };
+  // a sentence counts only once it was retyped correctly (retypeDone=false: learner flagged the result instead)
+  if (e.skill === 'write' && e.kind === 'check' && e.metrics.retypeDone !== false) return { write: 1 };
   if (e.skill === 'speak' && (e.kind === 'shadow' || e.kind === 'free')) return { speak: 1 };
   if (e.skill === 'listen' && e.kind === 'gist') return { listen: 1 };
   return {};
