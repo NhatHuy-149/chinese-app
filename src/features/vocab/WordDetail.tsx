@@ -10,6 +10,10 @@ function safeStructure(html: string): string {
   return esc.replace(/&lt;(\/?)b&gt;/g, '<$1b>');
 }
 
+/** "⿰讠射" -> "讠 + 射" (most fonts cannot draw the layout characters ⿰⿱…). */
+const partsText = (ids: string) =>
+  [...ids].filter(c => !/[⿰-⿿？]/.test(c)).join(' + ');
+
 export function AiBadge({ word }: { word: Word }) {
   if (!word.aiFields?.length) return null;
   const names = { vi: 'nghĩa', hanViet: 'Hán Việt', example: 'ví dụ' };
@@ -54,12 +58,12 @@ export default function WordDetail({ word }: { word: Word }) {
       <Card title="Chiết tự">
         {word.structure && <p className="structure mb-3 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: safeStructure(word.structure) }} />}
         <ul className="flex flex-col gap-1 text-sm">
-          {word.chars.map(ch => (
+          {word.chars.filter((ch, i, all) => all.findIndex(x => x.c === ch.c) === i).map(ch => (
             <li key={ch.c}>
               <span className="han text-lg">{ch.c}</span>
               {ch.radical && <span className="text-muted"> · bộ <span className="han">{ch.radical}</span>{ch.radicalVi ? ` (${ch.radicalVi})` : ''}</span>}
               {ch.strokes ? <span className="text-muted"> · {ch.strokes} nét</span> : null}
-              {ch.parts && <span className="text-muted"> · cấu tạo <span className="han">{ch.parts}</span></span>}
+              {ch.parts && partsText(ch.parts) && <span className="text-muted"> · gồm <span className="han">{partsText(ch.parts)}</span></span>}
             </li>
           ))}
         </ul>

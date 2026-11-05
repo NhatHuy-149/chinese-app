@@ -16,7 +16,8 @@
     "dev": "vite",
     "build": "tsc -p . && vite build",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "seed": "node scripts/seed-history.ts"
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^1.5.0",

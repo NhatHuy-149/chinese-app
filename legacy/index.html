@@ -8480,5 +8480,22 @@ const WRITE_DATA = {"chars": {"一": ["一", 1, "yī"], "七": ["一", 2, "qī"]
 })();
 </script>
 
+
+<!-- Added 2026-11-05: export button for moving progress to the new app (reads localStorage only, sends nothing). -->
+<div style="text-align:center;margin:24px 0 48px">
+  <button type="button" id="legacy-export-btn" style="padding:12px 20px;border-radius:12px;border:1px solid #e3a83b;background:#1c2430;color:#e3a83b;font-size:16px;cursor:pointer">Xuất dữ liệu cũ (chuyển sang app mới)</button>
+</div>
+<script>
+document.getElementById("legacy-export-btn").addEventListener("click", function () {
+  var keys = ["hztMasteredWords", "hztWordStreaks", "hztWritten", "hztHighlights", "hztMySentences"];
+  var data = {};
+  keys.forEach(function (k) { try { var v = localStorage.getItem(k); if (v) data[k] = JSON.parse(v); } catch (e) {} });
+  var blob = new Blob([JSON.stringify({ source: "legacy-app", exportedAt: new Date().toISOString(), data: data })], { type: "application/json" });
+  var a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "du-lieu-app-cu.json";
+  document.body.appendChild(a); a.click(); a.remove();
+});
+</script>
 </body>
 </html>
