@@ -1,0 +1,258 @@
+{
+  "model": "claude-code-session",
+  "createdAt": "2026-11-05T10:14:00.556Z",
+  "result": {
+    "items": [
+      {
+        "id": "能_neng2",
+        "vi": "có thể; được (phép)",
+        "hanViet": "năng",
+        "example": {
+          "zh": "你能帮我一下吗？",
+          "py": "Nǐ néng bāng wǒ yíxià ma?",
+          "vi": "Bạn có thể giúp tôi một chút không?"
+        }
+      },
+      {
+        "id": "为_wei2",
+        "vi": "là, làm; (đọc wèi) vì, cho",
+        "hanViet": "vi",
+        "example": {
+          "zh": "我为你高兴。",
+          "py": "Wǒ wèi nǐ gāoxìng.",
+          "vi": "Tôi mừng cho bạn."
+        }
+      },
+      {
+        "id": "没_mei2",
+        "vi": "không, chưa (phủ định của 有 và việc đã xảy ra)",
+        "hanViet": "một",
+        "example": {
+          "zh": "我还没吃饭。",
+          "py": "Wǒ hái méi chī fàn.",
+          "vi": "Tôi vẫn chưa ăn cơm."
+        }
+      },
+      {
+        "id": "中_zhong1",
+        "vi": "trong, giữa",
+        "hanViet": "trung",
+        "example": {
+          "zh": "这三个人中，他最高。",
+          "py": "Zhè sān ge rén zhōng, tā zuì gāo.",
+          "vi": "Trong ba người này, anh ấy cao nhất."
+        }
+      },
+      {
+        "id": "出_chu1",
+        "vi": "ra, đi ra",
+        "hanViet": "xuất",
+        "example": {
+          "zh": "他出去了。",
+          "py": "Tā chūqu le.",
+          "vi": "Anh ấy ra ngoài rồi."
+        }
+      },
+      {
+        "id": "如果_ru2guo3",
+        "vi": "nếu",
+        "hanViet": "như quả",
+        "example": {
+          "zh": "如果明天下雨，我就不去。",
+          "py": "Rúguǒ míngtiān xià yǔ, wǒ jiù bú qù.",
+          "vi": "Nếu mai trời mưa thì tôi không đi."
+        }
+      },
+      {
+        "id": "又_you4",
+        "vi": "lại (lặp lại lần nữa)",
+        "hanViet": "hựu",
+        "example": {
+          "zh": "你又迟到了！",
+          "py": "Nǐ yòu chídào le!",
+          "vi": "Bạn lại đến muộn rồi!"
+        }
+      },
+      {
+        "id": "可_ke3",
+        "vi": "có thể; nhưng; thật là (nhấn mạnh)",
+        "hanViet": "khả",
+        "example": {
+          "zh": "你可来了！",
+          "py": "Nǐ kě lái le!",
+          "vi": "Cuối cùng bạn cũng đến rồi!"
+        }
+      },
+      {
+        "id": "更_geng4",
+        "vi": "càng, hơn nữa",
+        "hanViet": "cánh",
+        "example": {
+          "zh": "今天比昨天更冷。",
+          "py": "Jīntiān bǐ zuótiān gèng lěng.",
+          "vi": "Hôm nay lạnh hơn hôm qua."
+        }
+      },
+      {
+        "id": "这么_zhe4me5",
+        "vi": "như thế này, đến thế",
+        "hanViet": "giá ma",
+        "example": {
+          "zh": "你怎么这么忙？",
+          "py": "Nǐ zěnme zhème máng?",
+          "vi": "Sao bạn bận thế?"
+        }
+      },
+      {
+        "id": "位_wei4",
+        "vi": "vị (lượng từ chỉ người)",
+        "hanViet": "vị",
+        "example": {
+          "zh": "这位是我的老师。",
+          "py": "Zhè wèi shì wǒ de lǎoshī.",
+          "vi": "Vị này là thầy giáo của tôi."
+        }
+      },
+      {
+        "id": "发现_fa1xian4",
+        "vi": "phát hiện",
+        "hanViet": "phát hiện",
+        "example": {
+          "zh": "我发现手机不见了。",
+          "py": "Wǒ fāxiàn shǒujī bú jiàn le.",
+          "vi": "Tôi phát hiện điện thoại không thấy đâu."
+        }
+      },
+      {
+        "id": "事情_shi4qing5",
+        "vi": "việc, sự việc",
+        "hanViet": "sự tình",
+        "example": {
+          "zh": "你有什么事情吗？",
+          "py": "Nǐ yǒu shénme shìqing ma?",
+          "vi": "Bạn có việc gì không?"
+        }
+      },
+      {
+        "id": "得到_de2dao4",
+        "vi": "đạt được",
+        "hanViet": "đắc đáo",
+        "example": {
+          "zh": "他得到了一个好机会。",
+          "py": "Tā dédào le yí ge hǎo jīhuì.",
+          "vi": "Anh ấy có được một cơ hội tốt."
+        }
+      },
+      {
+        "id": "甚至_shen4zhi4",
+        "vi": "thậm chí",
+        "hanViet": "thậm chí",
+        "example": {
+          "zh": "他忙得甚至没时间吃饭。",
+          "py": "Tā máng de shènzhì méi shíjiān chī fàn.",
+          "vi": "Anh ấy bận đến mức thậm chí không có thời gian ăn cơm."
+        }
+      },
+      {
+        "id": "以为_yi3wei2",
+        "vi": "tưởng rằng",
+        "hanViet": "dĩ vi",
+        "example": {
+          "zh": "我以为你不来了。",
+          "py": "Wǒ yǐwéi nǐ bù lái le.",
+          "vi": "Tôi tưởng bạn không đến nữa."
+        }
+      },
+      {
+        "id": "懂_dong3",
+        "vi": "hiểu",
+        "hanViet": "đổng",
+        "example": {
+          "zh": "你懂我的意思吗？",
+          "py": "Nǐ dǒng wǒ de yìsi ma?",
+          "vi": "Bạn hiểu ý tôi không?"
+        }
+      },
+      {
+        "id": "坚持_jian1chi2",
+        "vi": "kiên trì",
+        "hanViet": "kiên trì",
+        "example": {
+          "zh": "每天坚持跑步很难。",
+          "py": "Měi tiān jiānchí pǎobù hěn nán.",
+          "vi": "Kiên trì chạy bộ mỗi ngày rất khó."
+        }
+      },
+      {
+        "id": "意义_yi4yi4",
+        "vi": "ý nghĩa",
+        "hanViet": "ý nghĩa",
+        "example": {
+          "zh": "这件事很有意义。",
+          "py": "Zhè jiàn shì hěn yǒu yìyì.",
+          "vi": "Việc này rất có ý nghĩa."
+        }
+      },
+      {
+        "id": "脚_jiao3",
+        "vi": "bàn chân",
+        "hanViet": "cước",
+        "example": {
+          "zh": "我的脚很疼。",
+          "py": "Wǒ de jiǎo hěn téng.",
+          "vi": "Chân tôi rất đau."
+        }
+      },
+      {
+        "id": "年轻_nian2qing1",
+        "vi": "trẻ tuổi",
+        "hanViet": "niên khinh",
+        "example": {
+          "zh": "你看起来很年轻。",
+          "py": "Nǐ kàn qǐlái hěn niánqīng.",
+          "vi": "Trông bạn rất trẻ."
+        }
+      },
+      {
+        "id": "回答_hui2da2",
+        "vi": "trả lời",
+        "hanViet": "hồi đáp",
+        "example": {
+          "zh": "请回答我的问题。",
+          "py": "Qǐng huídá wǒ de wèntí.",
+          "vi": "Hãy trả lời câu hỏi của tôi."
+        }
+      },
+      {
+        "id": "打开_da3kai1",
+        "vi": "mở ra, bật",
+        "hanViet": "đả khai",
+        "example": {
+          "zh": "请打开窗户。",
+          "py": "Qǐng dǎkāi chuānghu.",
+          "vi": "Xin hãy mở cửa sổ."
+        }
+      },
+      {
+        "id": "病人_bing4ren2",
+        "vi": "bệnh nhân",
+        "hanViet": "bệnh nhân",
+        "example": {
+          "zh": "医生在看病人。",
+          "py": "Yīshēng zài kàn bìngrén.",
+          "vi": "Bác sĩ đang khám cho bệnh nhân."
+        }
+      },
+      {
+        "id": "习惯_xi2guan4",
+        "vi": "thói quen; quen",
+        "hanViet": "tập quán",
+        "example": {
+          "zh": "我习惯早上喝咖啡。",
+          "py": "Wǒ xíguàn zǎoshang hē kāfēi.",
+          "vi": "Tôi quen uống cà phê buổi sáng."
+        }
+      }
+    ]
+  }
+}

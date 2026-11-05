@@ -1,0 +1,1034 @@
+{
+  "version": 1,
+  "total": 719,
+  "topics": [
+    {
+      "id": "greetings",
+      "vi": "Chào hỏi & giao tiếp cơ bản",
+      "count": 9,
+      "sets": [
+        [
+          "请_qing3",
+          "谢谢_xie4xie4",
+          "介绍_jie4shao4",
+          "名字_ming2zi5",
+          "祝_zhu4",
+          "对不起_dui4bu4qi3",
+          "再见_zai4jian4",
+          "不客气_bu4ke4qi5",
+          "请坐_qing3zuo4"
+        ]
+      ]
+    },
+    {
+      "id": "phrases",
+      "vi": "Câu giao tiếp thường dùng",
+      "count": 17,
+      "sets": [
+        [
+          "不要_bu4yao4",
+          "不用_bu4yong4",
+          "差不多_cha4bu4duo1",
+          "看起来_kan4qi3lai2",
+          "不一定_bu4yi1ding4",
+          "干杯_gan1bei1",
+          "是的_shi4de5",
+          "不好_bu4hao3",
+          "好的_hao3de5"
+        ],
+        [
+          "一下_yi1xia4",
+          "真的吗_zhen1de5ma5",
+          "稍等_shao1deng3",
+          "做什么_zuo4shen2me5",
+          "不想_bu4xiang3",
+          "你怎么了_ni3zen3me5le5",
+          "还没有_hai2mei2you3",
+          "多大_duo1da4"
+        ]
+      ]
+    },
+    {
+      "id": "pronouns-measures",
+      "vi": "Đại từ & lượng từ",
+      "count": 47,
+      "sets": [
+        [
+          "我_wo3",
+          "你_ni3",
+          "他_ta1",
+          "这_zhe4",
+          "个_ge4",
+          "我们_wo3men5",
+          "她_ta1",
+          "那_na4",
+          "他们_ta1men5",
+          "什么_shen2me5",
+          "自己_zi4ji3",
+          "这样_zhe4yang4"
+        ],
+        [
+          "次_ci4",
+          "它_ta1",
+          "你们_ni3men5",
+          "怎么_zen3me5",
+          "谁_shei2",
+          "位_wei4",
+          "种_zhong3",
+          "大家_da4jia1",
+          "本_ben3",
+          "条_tiao2",
+          "件_jian4",
+          "为什么_wei4shen2me5"
+        ],
+        [
+          "每_mei3",
+          "别人_bie2ren5",
+          "哪_na3",
+          "声_sheng1",
+          "口_kou3",
+          "双_shuang1",
+          "首_shou3",
+          "杯_bei1",
+          "它们_ta1men5",
+          "各_ge4",
+          "怎么样_zen3me5yang4",
+          "顶_ding3"
+        ],
+        [
+          "页_ye4",
+          "这个_zhe4ge5",
+          "一部_yi1bu4",
+          "一步_yi1bu4",
+          "我的_wo3de5",
+          "一双_yi1shuang1",
+          "一张_yi1zhang1",
+          "一把_yi1ba3",
+          "一杯_yi1bei1",
+          "一碗_yi1wan3",
+          "一盘_yi1pan2"
+        ]
+      ]
+    },
+    {
+      "id": "numbers",
+      "vi": "Số đếm & đơn vị",
+      "count": 34,
+      "sets": [
+        [
+          "一_yi1",
+          "两_liang3",
+          "几_ji3",
+          "三_san1",
+          "四_si4",
+          "多少_duo1shao5",
+          "万_wan4",
+          "五_wu3",
+          "二_er4",
+          "半_ban4",
+          "六_liu4",
+          "十_shi2"
+        ],
+        [
+          "八_ba1",
+          "七_qi1",
+          "千_qian1",
+          "九_jiu3",
+          "百_bai3",
+          "亿_yi4",
+          "零_ling2",
+          "一部分_yi1bu4fen5",
+          "斤_jin1",
+          "二十_er4shi2",
+          "十八_shi2ba1"
+        ],
+        [
+          "二十五_er4shi2wu3",
+          "一百_yi1bai3",
+          "一千_yi1qian1",
+          "一万_yi1wan4",
+          "十万_shi2wan4",
+          "一百万_yi1bai3wan4",
+          "一千万_yi1qian1wan4",
+          "一亿_yi1yi4",
+          "十亿_shi2yi4",
+          "一百亿_yi1bai3yi4",
+          "一千亿_yi1qian1yi4"
+        ]
+      ]
+    },
+    {
+      "id": "time",
+      "vi": "Thời gian & ngày tháng",
+      "count": 40,
+      "sets": [
+        [
+          "现在_xian4zai4",
+          "年_nian2",
+          "天_tian1",
+          "时候_shi2hou5",
+          "时间_shi2jian1",
+          "今天_jin1tian1",
+          "月_yue4",
+          "号_hao4",
+          "小时_xiao3shi2",
+          "日_ri4",
+          "以后_yi3hou4",
+          "早_zao3",
+          "分钟_fen1zhong1",
+          "明天_ming2tian1"
+        ],
+        [
+          "晚上_wan3shang5",
+          "昨天_zuo2tian1",
+          "未来_wei4lai2",
+          "下午_xia4wu3",
+          "今年_jin1nian2",
+          "后来_hou4lai2",
+          "早上_zao3shang5",
+          "周末_zhou1mo4",
+          "生日_sheng1ri4",
+          "星期_xing1qi1",
+          "一会儿_yi1hui4r5",
+          "下次_xia4ci4",
+          "多久_duo1jiu3"
+        ],
+        [
+          "明年_ming2nian2",
+          "平时_ping2shi2",
+          "小时候_xiao3shi2hou5",
+          "早日_zao3ri4",
+          "今_jin1",
+          "一会_yi1hui3",
+          "每天_mei3tian1",
+          "秋末_qiu1mo4",
+          "十分钟_shi2fen1zhong1",
+          "七点半_qi1dian3ban4",
+          "几点_ji3dian3",
+          "十二月_shi2er4yue4",
+          "五月_wu3yue4"
+        ]
+      ]
+    },
+    {
+      "id": "family",
+      "vi": "Gia đình & quan hệ",
+      "count": 28,
+      "sets": [
+        [
+          "孩子_hai2zi5",
+          "妈妈_ma1ma5",
+          "儿子_er2zi5",
+          "父亲_fu4qin1",
+          "女儿_nv3er2",
+          "父母_fu4mu3",
+          "爸爸_ba4ba5",
+          "结婚_jie2hun1",
+          "母亲_mu3qin1",
+          "妻子_qi1zi5",
+          "丈夫_zhang4fu5",
+          "姐姐_jie3jie5",
+          "家人_jia1ren2",
+          "老婆_lao3po2"
+        ],
+        [
+          "哥哥_ge1ge5",
+          "妹妹_mei4mei5",
+          "老公_lao3gong1",
+          "弟弟_di4di5",
+          "奶奶_nai3nai5",
+          "爷爷_ye2ye5",
+          "叔叔_shu1shu5",
+          "阿姨_a1yi2",
+          "全家_quan2jia1",
+          "外婆_wai4po2",
+          "外公_wai4gong1",
+          "姑姑_gu1gu5",
+          "伯伯_bo2bo5",
+          "兄弟姐妹_xiong1di4jie3mei4"
+        ]
+      ]
+    },
+    {
+      "id": "people",
+      "vi": "Con người & ngoại hình",
+      "count": 22,
+      "sets": [
+        [
+          "人_ren2",
+          "岁_sui4",
+          "朋友_peng2you5",
+          "关系_guan1xi5",
+          "年轻_nian2qing1",
+          "长大_zhang3da4",
+          "女生_nv3sheng1",
+          "成长_cheng2zhang3",
+          "老人_lao3ren2",
+          "男生_nan2sheng1",
+          "老朋友_lao3peng2you5"
+        ],
+        [
+          "兰_lan2",
+          "辉_hui1",
+          "书林_shu1lin2",
+          "英才_ying1cai2",
+          "笑靥_xiao4ye4",
+          "小孩子_xiao3hai2zi5",
+          "李明_li3ming2",
+          "王芳_wang2fang1",
+          "小安_xiao3an1",
+          "小明_xiao3ming2",
+          "小丽_xiao3li4"
+        ]
+      ]
+    },
+    {
+      "id": "feelings",
+      "vi": "Cảm xúc & tính cách",
+      "count": 34,
+      "sets": [
+        [
+          "爱_ai4",
+          "喜欢_xi3huan5",
+          "担心_dan1xin1",
+          "笑_xiao4",
+          "努力_nu3li4",
+          "快乐_kuai4le4",
+          "开心_kai1xin1",
+          "哭_ku1",
+          "怕_pa4",
+          "力量_li4liang5",
+          "高兴_gao1xing4",
+          "幸福_xing4fu2"
+        ],
+        [
+          "压力_ya1li4",
+          "认真_ren4zhen1",
+          "紧张_jin3zhang1",
+          "心里_xin1li3",
+          "心情_xin1qing2",
+          "害怕_hai4pa4",
+          "满意_man3yi4",
+          "兴奋_xing1fen4",
+          "聪明_cong1ming5",
+          "无聊_wu2liao2",
+          "生气_sheng1qi4"
+        ],
+        [
+          "微笑_wei1xiao4",
+          "伤心_shang1xin1",
+          "难过_nan2guo4",
+          "平静_ping2jing4",
+          "惊讶_jing1ya4",
+          "着急_zhao2ji2",
+          "欢愉_huan1yu2",
+          "叹息_tan4xi1",
+          "离别_li2bie2",
+          "成就感_cheng2jiu4gan3",
+          "想家_xiang3jia1"
+        ]
+      ]
+    },
+    {
+      "id": "body-health",
+      "vi": "Cơ thể & sức khỏe",
+      "count": 35,
+      "sets": [
+        [
+          "手_shou3",
+          "头_tou2",
+          "脸_lian3",
+          "检查_jian3cha2",
+          "身体_shen1ti3",
+          "眼睛_yan3jing5",
+          "健康_jian4kang1",
+          "脚_jiao3",
+          "累_lei4",
+          "病人_bing4ren2",
+          "腿_tui3",
+          "痛_tong4"
+        ],
+        [
+          "头发_tou2fa5",
+          "背_bei4",
+          "疼_teng2",
+          "舒服_shu1fu5",
+          "手指_shou3zhi3",
+          "酸_suan1",
+          "耳朵_er3duo5",
+          "鼻子_bi2zi5",
+          "感冒_gan3mao4",
+          "生病_sheng1bing4",
+          "康复_kang1fu4",
+          "肩膀_jian1bang3"
+        ],
+        [
+          "嘴巴_zui3ba5",
+          "牙齿_ya2chi3",
+          "膝盖_xi1gai4",
+          "发烧_fa1shao1",
+          "喉咙_hou2long2",
+          "咳嗽_ke2sou5",
+          "渴_ke3",
+          "不舒服_bu4shu1fu5",
+          "通气_tong1qi4",
+          "看医生_kan4yi1sheng1",
+          "吃药_chi1yao4"
+        ]
+      ]
+    },
+    {
+      "id": "food",
+      "vi": "Ăn uống & nhà hàng",
+      "count": 42,
+      "sets": [
+        [
+          "点_dian3",
+          "水_shui3",
+          "米_mi3",
+          "鱼_yu2",
+          "肉_rou4",
+          "吃饭_chi1fan4",
+          "菜_cai4",
+          "咖啡_ka1fei1",
+          "食物_shi2wu4",
+          "苹果_ping2guo3",
+          "碗_wan3",
+          "餐厅_can1ting1",
+          "水果_shui3guo3",
+          "鸡蛋_ji1dan4"
+        ],
+        [
+          "蔬菜_shu1cai4",
+          "香蕉_xiang1jiao1",
+          "做饭_zuo4fan4",
+          "服务员_fu2wu4yuan2",
+          "土豆_tu3dou4",
+          "杯子_bei1zi5",
+          "菜单_cai4dan1",
+          "果汁_guo3zhi1",
+          "番茄_fan1qie2",
+          "面条_mian4tiao2",
+          "盘子_pan2zi5",
+          "西瓜_xi1gua1",
+          "米饭_mi3fan4",
+          "筷子_kuai4zi5"
+        ],
+        [
+          "账单_zhang4dan1",
+          "勺子_shao2zi5",
+          "结账_jie2zhang4",
+          "叉子_cha1zi5",
+          "牛肉_niu2rou4",
+          "猪肉_zhu1rou4",
+          "吃美食_chi1mei3shi2",
+          "喝水_he1shui3",
+          "喝咖啡_he1ka1fei1",
+          "餐巾纸_can1jin1zhi3",
+          "桌布_zhuo1bu4",
+          "买单_mai3dan1",
+          "炒饭_chao3fan4",
+          "端来_duan1lai2"
+        ]
+      ]
+    },
+    {
+      "id": "shopping-money",
+      "vi": "Mua sắm & tiền bạc",
+      "count": 15,
+      "sets": [
+        [
+          "钱_qian2",
+          "东西_dong1xi1",
+          "买_mai3",
+          "花_hua1",
+          "块_kuai4",
+          "卖_mai4",
+          "试_shi4",
+          "市场_shi4chang3",
+          "礼物_li3wu4",
+          "贵_gui4",
+          "便宜_pian2yi5",
+          "商场_shang1chang3",
+          "一共_yi1gong4",
+          "多少钱_duo1shao5qian2",
+          "试衣间_shi4yi1jian1"
+        ]
+      ]
+    },
+    {
+      "id": "clothes-colors",
+      "vi": "Quần áo & màu sắc",
+      "count": 14,
+      "sets": [
+        [
+          "穿_chuan1",
+          "衣服_yi1fu5",
+          "颜色_yan2se4",
+          "红色_hong2se4",
+          "黑色_hei1se4",
+          "外套_wai4tao4",
+          "帽子_mao4zi5",
+          "裤子_ku4zi5",
+          "眼镜_yan3jing4",
+          "裙子_qun2zi5",
+          "围巾_wei2jin1",
+          "上衣_shang4yi1",
+          "鞋子_xie2zi5",
+          "T恤_xu4"
+        ]
+      ]
+    },
+    {
+      "id": "home",
+      "vi": "Nhà cửa & đồ dùng",
+      "count": 18,
+      "sets": [
+        [
+          "家_jia1",
+          "住_zhu4",
+          "楼_lou2",
+          "床_chuang2",
+          "房子_fang2zi5",
+          "房间_fang2jian1",
+          "厨房_chu2fang2",
+          "桌子_zhuo1zi5",
+          "沙发_sha1fa1"
+        ],
+        [
+          "窗户_chuang1hu5",
+          "椅子_yi3zi5",
+          "卫生间_wei4sheng1jian1",
+          "窗帘_chuang1lian2",
+          "水龙头_shui3long2tou2",
+          "水壶_shui3hu2",
+          "刀子_dao1zi5",
+          "洗手台_xi3shou3tai2",
+          "饮水机_yin3shui3ji1"
+        ]
+      ]
+    },
+    {
+      "id": "daily-life",
+      "vi": "Sinh hoạt hằng ngày",
+      "count": 21,
+      "sets": [
+        [
+          "事_shi4",
+          "生活_sheng1huo2",
+          "事情_shi4qing5",
+          "方式_fang1shi4",
+          "回家_hui2jia1",
+          "睡觉_shui4jiao4",
+          "休息_xiu1xi5",
+          "习惯_xi2guan4",
+          "放松_fang4song1",
+          "起床_qi3chuang2",
+          "出门_chu1men2"
+        ],
+        [
+          "醒来_xing3lai2",
+          "洗澡_xi3zao3",
+          "牙膏_ya2gao1",
+          "刷牙_shua1ya2",
+          "过日子_guo4ri4zi5",
+          "牙刷_ya2shua1",
+          "洗衣服_xi3yi1fu5",
+          "早睡_zao3shui4",
+          "洗脸_xi3lian3",
+          "接水_jie1shui3"
+        ]
+      ]
+    },
+    {
+      "id": "transport-travel",
+      "vi": "Giao thông & du lịch",
+      "count": 22,
+      "sets": [
+        [
+          "车_che1",
+          "汽车_qi4che1",
+          "飞机_fei1ji1",
+          "船_chuan2",
+          "路上_lu4shang5",
+          "骑_qi2",
+          "旅行_lv3xing2",
+          "旅游_lv3you2",
+          "开车_kai1che1",
+          "出租车_chu1zu1che1",
+          "火车_huo3che1"
+        ],
+        [
+          "地铁_di4tie3",
+          "自行车_zi4xing2che1",
+          "摩托车_mo2tuo1che1",
+          "走路_zou3lu4",
+          "骑车_qi2che1",
+          "海边_hai3bian1",
+          "公共汽车_gong1gong4qi4che1",
+          "高铁_gao1tie3",
+          "坐车_zuo4che1",
+          "高铁站_gao1tie3zhan4",
+          "公交车_gong1jiao1che1"
+        ]
+      ]
+    },
+    {
+      "id": "places-directions",
+      "vi": "Địa điểm & phương hướng",
+      "count": 28,
+      "sets": [
+        [
+          "上_shang4",
+          "下_xia4",
+          "里_li3",
+          "后_hou4",
+          "这里_zhe4li3",
+          "地方_di4fang5",
+          "远_yuan3",
+          "中国_zhong1guo2",
+          "哪里_na3li3",
+          "近_jin4",
+          "身边_shen1bian1",
+          "方向_fang1xiang4",
+          "上面_shang4mian4",
+          "外面_wai4mian4"
+        ],
+        [
+          "下面_xia4mian4",
+          "国_guo2",
+          "旁边_pang2bian1",
+          "公园_gong1yuan2",
+          "这儿_zhe4r5",
+          "哪儿_na3r5",
+          "这边_zhe4bian1",
+          "旁_pang2",
+          "向前_xiang4qian2",
+          "北京_bei3jing1",
+          "越南_yue4nan2",
+          "桌子上_zhuo1zi5shang5",
+          "岘港_xian4gang3",
+          "中_zhong1"
+        ]
+      ]
+    },
+    {
+      "id": "city-services",
+      "vi": "Dịch vụ trong thành phố",
+      "count": 1,
+      "sets": [
+        [
+          "图书馆_tu2shu1guan3"
+        ]
+      ]
+    },
+    {
+      "id": "work",
+      "vi": "Công việc & nghề nghiệp",
+      "count": 13,
+      "sets": [
+        [
+          "工作_gong1zuo4",
+          "公司_gong1si1",
+          "机会_ji1hui4",
+          "计划_ji4hua4",
+          "成功_cheng2gong1",
+          "老师_lao3shi1",
+          "医生_yi1sheng1",
+          "职业_zhi2ye4",
+          "上班_shang4ban1",
+          "赚_zhuan4",
+          "下班_xia4ban1",
+          "工程师_gong1cheng2shi1",
+          "电气_dian4qi4"
+        ]
+      ]
+    },
+    {
+      "id": "study-language",
+      "vi": "Học tập & ngôn ngữ",
+      "count": 22,
+      "sets": [
+        [
+          "学校_xue2xiao4",
+          "学_xue2",
+          "书_shu1",
+          "方法_fang1fa3",
+          "学生_xue2sheng1",
+          "学习_xue2xi2",
+          "大学_da4xue2",
+          "意思_yi4si5",
+          "读_du2",
+          "考试_kao3shi4",
+          "学会_xue2hui4"
+        ],
+        [
+          "答案_da2an4",
+          "语言_yu3yan2",
+          "考_kao3",
+          "话题_hua4ti2",
+          "读书_du2shu1",
+          "大学生_da4xue2sheng1",
+          "中文_zhong1wen2",
+          "句子_ju4zi5",
+          "操场_cao1chang3",
+          "学中文_xue2zhong1wen2",
+          "发音_fa1yin1"
+        ]
+      ]
+    },
+    {
+      "id": "tech-phone",
+      "vi": "Công nghệ & điện thoại",
+      "count": 5,
+      "sets": [
+        [
+          "电话_dian4hua4",
+          "手机_shou3ji1",
+          "视频_shi4pin2",
+          "刷_shua1",
+          "看手机_kan4shou3ji1"
+        ]
+      ]
+    },
+    {
+      "id": "weather-nature",
+      "vi": "Thời tiết & thiên nhiên",
+      "count": 27,
+      "sets": [
+        [
+          "狗_gou3",
+          "热_re4",
+          "冷_leng3",
+          "山_shan1",
+          "海_hai3",
+          "猫_mao1",
+          "风_feng1",
+          "天气_tian1qi4",
+          "雨_yu3",
+          "太阳_tai4yang2",
+          "季节_ji4jie2",
+          "下雨_xia4yu3",
+          "蝴蝶_hu2die2",
+          "下雪_xia4xue3"
+        ],
+        [
+          "晴_qing2",
+          "晴天_qing2tian1",
+          "阴天_yin1tian1",
+          "刮风_gua1feng1",
+          "大雨_da4yu3",
+          "春日_chun1ri4",
+          "和风_he2feng1",
+          "暖阳_nuan3yang2",
+          "仲夏_zhong4xia4",
+          "弯月_wan1yue4",
+          "天际_tian1ji4",
+          "落叶_luo4ye4",
+          "雨伞_yu3san3"
+        ]
+      ]
+    },
+    {
+      "id": "hobbies-sports",
+      "vi": "Sở thích, thể thao & giải trí",
+      "count": 19,
+      "sets": [
+        [
+          "比赛_bi3sai4",
+          "玩_wan2",
+          "电影_dian4ying3",
+          "歌_ge1",
+          "运动_yun4dong4",
+          "唱歌_chang4ge1",
+          "游泳_you2yong3",
+          "跳舞_tiao4wu3",
+          "爱好_ai4hao4",
+          "跑步_pao3bu4"
+        ],
+        [
+          "照相_zhao4xiang4",
+          "听音乐_ting1yin1yue4",
+          "打篮球_da3lan2qiu2",
+          "看电影_kan4dian4ying3",
+          "看书_kan4shu1",
+          "踢足球_ti1zu2qiu2",
+          "画画_hua4hua4",
+          "看电视_kan4dian4shi4",
+          "玩游戏_wan2you2xi4"
+        ]
+      ]
+    },
+    {
+      "id": "verbs-action",
+      "vi": "Động từ thông dụng: hành động",
+      "count": 60,
+      "sets": [
+        [
+          "有_you3",
+          "到_dao4",
+          "来_lai2",
+          "去_qu4",
+          "没有_mei2you3",
+          "给_gei3",
+          "看_kan4",
+          "做_zuo4",
+          "让_rang4",
+          "得_de2",
+          "用_yong4",
+          "等_deng3",
+          "走_zou3",
+          "开始_kai1shi3",
+          "带_dai4"
+        ],
+        [
+          "听_ting1",
+          "回_hui2",
+          "出来_chu1lai2",
+          "放_fang4",
+          "拿_na2",
+          "得到_de2dao4",
+          "准备_zhun3bei4",
+          "送_song4",
+          "完_wan2",
+          "坐_zuo4",
+          "结束_jie2shu4",
+          "帮助_bang1zhu4",
+          "变_bian4",
+          "改变_gai3bian4",
+          "跑_pao3"
+        ],
+        [
+          "换_huan4",
+          "行动_xing2dong4",
+          "停_ting2",
+          "飞_fei1",
+          "出去_chu1qu4",
+          "变成_bian4cheng2",
+          "看见_kan4jian4",
+          "关_guan1",
+          "打开_da3kai1",
+          "变化_bian4hua4",
+          "照顾_zhao4gu4",
+          "见面_jian4mian4",
+          "躺_tang3",
+          "浪费_lang4fei4",
+          "尝试_chang2shi4"
+        ],
+        [
+          "对待_dui4dai4",
+          "剩_sheng4",
+          "摸_mo1",
+          "回头_hui2tou2",
+          "拉开_la1kai1",
+          "拿走_na2zou3",
+          "关上_guan1shang4",
+          "颤抖_chan4dou3",
+          "飞越_fei1yue4",
+          "偷窃_tou1qie4",
+          "倒挂_dao4gua4",
+          "带走_dai4zou3",
+          "拿来_na2lai2",
+          "给他们_gei3ta1men5",
+          "出_chu1"
+        ]
+      ]
+    },
+    {
+      "id": "verbs-mind",
+      "vi": "Động từ thông dụng: tư duy & giao tiếp",
+      "count": 30,
+      "sets": [
+        [
+          "要_yao4",
+          "说_shuo1",
+          "会_hui4",
+          "想_xiang3",
+          "可以_ke3yi3",
+          "知道_zhi1dao4",
+          "需要_xu1yao4",
+          "觉得_jue2de5",
+          "希望_xi1wang4",
+          "发现_fa1xian4",
+          "叫_jiao4",
+          "问_wen4",
+          "感觉_gan3jue2",
+          "认识_ren4shi5",
+          "注意_zhu4yi4"
+        ],
+        [
+          "以为_yi3wei2",
+          "懂_dong3",
+          "明白_ming2bai5",
+          "坚持_jian1chi2",
+          "意义_yi4yi4",
+          "放弃_fang4qi4",
+          "回答_hui2da2",
+          "享受_xiang3shou4",
+          "分享_fen1xiang3",
+          "聊_liao2",
+          "聊天_liao2tian1",
+          "抱怨_bao4yuan4",
+          "珍惜_zhen1xi1",
+          "领略_ling3lve4",
+          "能_neng2"
+        ]
+      ]
+    },
+    {
+      "id": "adjectives",
+      "vi": "Tính từ thông dụng",
+      "count": 36,
+      "sets": [
+        [
+          "好_hao3",
+          "对_dui4",
+          "大_da4",
+          "多_duo1",
+          "小_xiao3",
+          "新_xin1",
+          "快_kuai4",
+          "一样_yi1yang4",
+          "重要_zhong4yao4",
+          "长_chang2",
+          "安全_an1quan2",
+          "不同_bu4tong2"
+        ],
+        [
+          "干_gan1",
+          "错_cuo4",
+          "难_nan2",
+          "容易_rong2yi4",
+          "简单_jian3dan1",
+          "忙_mang2",
+          "漂亮_piao4liang5",
+          "关键_guan1jian4",
+          "必要_bi4yao4",
+          "完美_wan2mei3",
+          "精彩_jing1cai3",
+          "空_kong1"
+        ],
+        [
+          "普通_pu3tong1",
+          "恐怖_kong3bu4",
+          "奇怪_qi2guai4",
+          "轻松_qing1song1",
+          "可怕_ke3pa4",
+          "方便_fang1bian4",
+          "温暖_wen1nuan3",
+          "烫_tang4",
+          "有用_you3yong4",
+          "充实_chong1shi2",
+          "倾斜_qing1xie2",
+          "冰冷_bing1leng3"
+        ]
+      ]
+    },
+    {
+      "id": "adverbs-degree",
+      "vi": "Trạng từ & mức độ",
+      "count": 43,
+      "sets": [
+        [
+          "不_bu4",
+          "就_jiu4",
+          "也_ye3",
+          "都_dou1",
+          "很_hen3",
+          "还_hai2",
+          "真_zhen1",
+          "已经_yi3jing1",
+          "太_tai4",
+          "最_zui4",
+          "再_zai4",
+          "只_zhi3",
+          "可能_ke3neng2",
+          "更_geng4",
+          "才_cai2"
+        ],
+        [
+          "那么_na4me5",
+          "这么_zhe4me5",
+          "一起_yi1qi3",
+          "却_que4",
+          "一直_yi1zhi2",
+          "别_bie2",
+          "先_xian1",
+          "其实_qi2shi2",
+          "当然_dang1ran2",
+          "刚_gang1",
+          "特别_te4bie2",
+          "比较_bi3jiao4",
+          "总是_zong3shi4",
+          "突然_tu1ran2"
+        ],
+        [
+          "好好_hao3hao3",
+          "马上_ma3shang4",
+          "越来越_yue4lai2yue4",
+          "慢慢_man4man4",
+          "有时候_you3shi2hou5",
+          "常常_chang2chang2",
+          "独自_du2zi4",
+          "一点儿_yi1dian3r5",
+          "有点儿_you3dian3r5",
+          "忽_hu1",
+          "一点_yi1dian3",
+          "有一点_you3yi1dian3",
+          "没_mei2",
+          "又_you4"
+        ]
+      ]
+    },
+    {
+      "id": "function-words",
+      "vi": "Hư từ: giới từ, liên từ, trợ từ",
+      "count": 37,
+      "sets": [
+        [
+          "的_de5",
+          "了_le5",
+          "是_shi4",
+          "在_zai4",
+          "和_he2",
+          "着_zhe5",
+          "啊_a5",
+          "把_ba3",
+          "被_bei4",
+          "但_dan4",
+          "吧_ba5",
+          "过_guo4",
+          "从_cong2"
+        ],
+        [
+          "吗_ma5",
+          "如果_ru2guo3",
+          "因为_yin1wei4",
+          "呢_ne5",
+          "地_de5",
+          "跟_gen1",
+          "与_yu3",
+          "还有_hai2you3",
+          "所以_suo3yi3",
+          "还是_hai2shi5",
+          "为了_wei4le5",
+          "或者_huo4zhe3"
+        ],
+        [
+          "可是_ke3shi4",
+          "呀_ya5",
+          "甚至_shen4zhi4",
+          "除了_chu2le5",
+          "离_li2",
+          "嗯_en1",
+          "哪怕_na3pa4",
+          "的时候_de5shi2hou5",
+          "又…又…_you4you4",
+          "儿_er2",
+          "为_wei2",
+          "可_ke3"
+        ]
+      ]
+    }
+  ]
+}

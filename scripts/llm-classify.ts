@@ -37,13 +37,16 @@ const results = await pool(batches, 4, async (batch, i) => {
     step: 'classify', key: batchKey(i, MODEL, SYSTEM, user), model: MODEL, effort: 'low',
     system: SYSTEM, user, schema: Out, maxTokens: 16000,
     mock: () => ({ items: batch.map((c, k) => ({ id: c.id, everyday: k % 5 !== 4, topic: TOPIC_IDS[k % TOPIC_IDS.length] })) }),
+    ids: batch.map(c => c.id),
   });
+  if (!out) return [];
   const byId = new Map(out.items.map(x => [x.id, x]));
   const missing = batch.filter(c => !byId.has(c.id)).map(c => c.id);
   if (missing.length) throw new Error(`classify batch ${i}: missing ${missing.join(', ')}`);
-  console.log(`classify ${i + 1}/${batches.length}`);
   return batch.map(c => byId.get(c.id)!);
 });
 
-writeJson('build/classified.json', results.flat());
+const done = results.flat();
+writeJson('build/classified.json', done);
+console.log(`classified ${done.length}/${candidates.length}`);
 console.log(usageReport());

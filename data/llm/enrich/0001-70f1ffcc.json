@@ -1,0 +1,258 @@
+{
+  "model": "claude-code-session",
+  "createdAt": "2026-11-05T10:14:00.595Z",
+  "result": {
+    "items": [
+      {
+        "id": "痛_tong4",
+        "vi": "đau",
+        "hanViet": "thống",
+        "example": {
+          "zh": "我头很痛。",
+          "py": "Wǒ tóu hěn tòng.",
+          "vi": "Tôi đau đầu lắm."
+        }
+      },
+      {
+        "id": "完美_wan2mei3",
+        "vi": "hoàn hảo",
+        "hanViet": "hoàn mỹ",
+        "example": {
+          "zh": "没有人是完美的。",
+          "py": "Méiyǒu rén shì wánměi de.",
+          "vi": "Không ai hoàn hảo cả."
+        }
+      },
+      {
+        "id": "空_kong1",
+        "vi": "trống rỗng",
+        "hanViet": "không",
+        "example": {
+          "zh": "这个房间是空的。",
+          "py": "Zhège fángjiān shì kōng de.",
+          "vi": "Căn phòng này trống."
+        }
+      },
+      {
+        "id": "船_chuan2",
+        "vi": "thuyền, tàu thủy",
+        "hanViet": "thuyền",
+        "example": {
+          "zh": "我们坐船去海边。",
+          "py": "Wǒmen zuò chuán qù hǎibiān.",
+          "vi": "Chúng tôi đi thuyền ra biển."
+        }
+      },
+      {
+        "id": "长大_zhang3da4",
+        "vi": "lớn lên",
+        "hanViet": "trưởng đại",
+        "example": {
+          "zh": "你长大想做什么？",
+          "py": "Nǐ zhǎngdà xiǎng zuò shénme?",
+          "vi": "Lớn lên bạn muốn làm gì?"
+        }
+      },
+      {
+        "id": "躺_tang3",
+        "vi": "nằm",
+        "hanViet": "thảng",
+        "example": {
+          "zh": "我想在床上躺一下。",
+          "py": "Wǒ xiǎng zài chuáng shang tǎng yíxià.",
+          "vi": "Tôi muốn nằm trên giường một chút."
+        }
+      },
+      {
+        "id": "浪费_lang4fei4",
+        "vi": "lãng phí",
+        "hanViet": "lãng phí",
+        "example": {
+          "zh": "别浪费时间。",
+          "py": "Bié làngfèi shíjiān.",
+          "vi": "Đừng lãng phí thời gian."
+        }
+      },
+      {
+        "id": "可怕_ke3pa4",
+        "vi": "đáng sợ",
+        "hanViet": "khả phạ",
+        "example": {
+          "zh": "这个电影很可怕。",
+          "py": "Zhège diànyǐng hěn kěpà.",
+          "vi": "Bộ phim này rất đáng sợ."
+        }
+      },
+      {
+        "id": "差不多_cha4bu4duo1",
+        "vi": "gần giống, xấp xỉ",
+        "hanViet": "sai bất đa",
+        "example": {
+          "zh": "我们俩差不多高。",
+          "py": "Wǒmen liǎ chàbuduō gāo.",
+          "vi": "Hai chúng tôi cao xấp xỉ nhau."
+        }
+      },
+      {
+        "id": "视频_shi4pin2",
+        "vi": "video",
+        "hanViet": "thị tần",
+        "example": {
+          "zh": "我在看视频。",
+          "py": "Wǒ zài kàn shìpín.",
+          "vi": "Tôi đang xem video."
+        }
+      },
+      {
+        "id": "老人_lao3ren2",
+        "vi": "người già",
+        "hanViet": "lão nhân",
+        "example": {
+          "zh": "公园里有很多老人。",
+          "py": "Gōngyuán li yǒu hěn duō lǎorén.",
+          "vi": "Trong công viên có nhiều người già."
+        }
+      },
+      {
+        "id": "回头_hui2tou2",
+        "vi": "quay đầu lại",
+        "hanViet": "hồi đầu",
+        "example": {
+          "zh": "他回头看了我一眼。",
+          "py": "Tā huítóu kàn le wǒ yì yǎn.",
+          "vi": "Anh ấy quay đầu lại nhìn tôi một cái."
+        }
+      },
+      {
+        "id": "火车_huo3che1",
+        "vi": "tàu hỏa",
+        "hanViet": "hỏa xa",
+        "example": {
+          "zh": "我坐火车去北京。",
+          "py": "Wǒ zuò huǒchē qù Běijīng.",
+          "vi": "Tôi đi tàu hỏa đến Bắc Kinh."
+        }
+      },
+      {
+        "id": "刷_shua1",
+        "vi": "lướt, quét",
+        "hanViet": "loát",
+        "example": {
+          "zh": "他每天刷手机。",
+          "py": "Tā měi tiān shuā shǒujī.",
+          "vi": "Ngày nào anh ấy cũng lướt điện thoại."
+        }
+      },
+      {
+        "id": "小时候_xiao3shi2hou5",
+        "vi": "lúc nhỏ",
+        "hanViet": "tiểu thời hậu",
+        "example": {
+          "zh": "我小时候住在河内。",
+          "py": "Wǒ xiǎo shíhou zhù zài Hénèi.",
+          "vi": "Lúc nhỏ tôi sống ở Hà Nội."
+        }
+      },
+      {
+        "id": "耳朵_er3duo5",
+        "vi": "tai",
+        "hanViet": "nhĩ đóa",
+        "example": {
+          "zh": "他的耳朵很大。",
+          "py": "Tā de ěrduo hěn dà.",
+          "vi": "Tai anh ấy rất to."
+        }
+      },
+      {
+        "id": "鼻子_bi2zi5",
+        "vi": "mũi",
+        "hanViet": "tị tử",
+        "example": {
+          "zh": "她的鼻子很漂亮。",
+          "py": "Tā de bízi hěn piàoliang.",
+          "vi": "Mũi cô ấy rất đẹp."
+        }
+      },
+      {
+        "id": "洗澡_xi3zao3",
+        "vi": "tắm",
+        "hanViet": "tẩy táo",
+        "example": {
+          "zh": "我先去洗澡。",
+          "py": "Wǒ xiān qù xǐzǎo.",
+          "vi": "Tôi đi tắm trước."
+        }
+      },
+      {
+        "id": "哪怕_na3pa4",
+        "vi": "dù cho",
+        "hanViet": "na phạ",
+        "example": {
+          "zh": "哪怕下雨，我也去。",
+          "py": "Nǎpà xià yǔ, wǒ yě qù.",
+          "vi": "Dù trời mưa tôi cũng đi."
+        }
+      },
+      {
+        "id": "着急_zhao2ji2",
+        "vi": "vội vàng, sốt ruột",
+        "hanViet": "trứ cấp",
+        "example": {
+          "zh": "别着急，慢慢来。",
+          "py": "Bié zháojí, mànmàn lái.",
+          "vi": "Đừng vội, từ từ thôi."
+        }
+      },
+      {
+        "id": "肩膀_jian1bang3",
+        "vi": "vai",
+        "hanViet": "kiên bảng",
+        "example": {
+          "zh": "我的肩膀很酸。",
+          "py": "Wǒ de jiānbǎng hěn suān.",
+          "vi": "Vai tôi mỏi quá."
+        }
+      },
+      {
+        "id": "牙齿_ya2chi3",
+        "vi": "răng",
+        "hanViet": "nha xỉ",
+        "example": {
+          "zh": "你的牙齿很白。",
+          "py": "Nǐ de yáchǐ hěn bái.",
+          "vi": "Răng bạn trắng quá."
+        }
+      },
+      {
+        "id": "全家_quan2jia1",
+        "vi": "cả nhà",
+        "hanViet": "toàn gia",
+        "example": {
+          "zh": "我们全家都很好。",
+          "py": "Wǒmen quánjiā dōu hěn hǎo.",
+          "vi": "Cả nhà chúng tôi đều khỏe."
+        }
+      },
+      {
+        "id": "有用_you3yong4",
+        "vi": "có ích",
+        "hanViet": "hữu dụng",
+        "example": {
+          "zh": "这本书很有用。",
+          "py": "Zhè běn shū hěn yǒuyòng.",
+          "vi": "Quyển sách này rất có ích."
+        }
+      },
+      {
+        "id": "拉开_la1kai1",
+        "vi": "kéo ra, kéo mở",
+        "hanViet": "lạp khai",
+        "example": {
+          "zh": "请拉开窗帘。",
+          "py": "Qǐng lākāi chuānglián.",
+          "vi": "Xin kéo rèm cửa ra."
+        }
+      }
+    ]
+  }
+}

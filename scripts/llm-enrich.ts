@@ -45,7 +45,9 @@ function legacyExample(hanzi: string) {
 }
 
 const selected = readJson<Selected[]>('build/selected.json');
-const batches = chunk(selected, BATCH);
+// Only words that need something AI-written: new words, and legacy words without a hand-written example.
+const needAi = selected.filter(c => !c.legacy || !legacyExample(c.hanzi));
+const batches = chunk(needAi, BATCH);
 
 const aiById = new Map<string, z.infer<typeof Item>>();
 await pool(batches, 4, async (batch, i) => {
@@ -60,28 +62,36 @@ await pool(batches, 4, async (batch, i) => {
     step: 'enrich', key: batchKey(i, MODEL, SYSTEM, user), model: MODEL, effort: 'medium',
     system: SYSTEM, user, schema: Out, maxTokens: 16000,
     mock: () => ({ items: batch.map(c => ({ id: c.id, vi: `[mock] ${c.en[0] ?? ''}`, hanViet: c.hanVietHint.join(' ').replace(/\?/g, ''), example: { zh: `我们${c.hanzi}。`, py: 'mock', vi: '[mock]' } })) }),
+    ids: batch.map(c => c.id),
   });
+  if (!out) return;
   out.items.forEach(x => aiById.set(x.id, x));
   const missing = batch.filter(c => !aiById.has(c.id));
   if (missing.length) throw new Error(`enrich batch ${i}: missing ${missing.map(m => m.id).join(', ')}`);
-  console.log(`enrich ${i + 1}/${batches.length}`);
 });
 
-const enriched: Enriched[] = selected.map(c => {
-  const ai = aiById.get(c.id)!;
+// New words without an answer yet are left out; legacy words are always kept.
+const ready = selected.filter(c => c.legacy || aiById.has(c.id));
+const enriched: Enriched[] = ready.map(c => {
+  const ai = aiById.get(c.id);
   const lg = c.legacy;
   const legacyHv = lg?.hanViet && lg.hanViet !== '—' ? lg.hanViet : '';
   const ex = lg ? legacyExample(c.hanzi) : null;
   return {
     ...c,
-    vi: lg?.vi ?? ai.vi,
-    hanViet: legacyHv || ai.hanViet,
+    vi: lg?.vi ?? ai!.vi,
+    hanViet: legacyHv || (ai?.hanViet ?? ''),
     structure: lg?.structure ?? '',
-    example: ex ?? ai.example,
-    fieldSource: { vi: lg ? 'manual' : 'ai', hanViet: legacyHv ? 'manual' : 'ai', example: ex ? 'manual' : 'ai' },
+    example: ex ?? ai?.example ?? null,
+    fieldSource: {
+      vi: lg ? 'manual' : 'ai',
+      hanViet: legacyHv ? 'manual' : 'ai',
+      example: ex ? 'manual' : 'ai',
+    },
   };
 });
 
 writeJson('build/enriched.json', enriched);
+console.log(`enriched ${enriched.length}/${selected.length} selected words`);
 console.log(`examples: ${enriched.filter(e => e.fieldSource.example === 'manual').length} hand-written, ${enriched.filter(e => e.fieldSource.example === 'ai').length} AI`);
 console.log(usageReport());

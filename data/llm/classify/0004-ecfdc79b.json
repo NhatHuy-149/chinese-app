@@ -1,0 +1,408 @@
+{
+  "model": "claude-code-session",
+  "createdAt": "2026-11-05T10:11:38.001Z",
+  "result": {
+    "items": [
+      {
+        "id": "心里_xin1li3",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "计划_ji4hua4",
+        "everyday": true,
+        "topic": "work"
+      },
+      {
+        "id": "旅行_lv3xing2",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "换_huan4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "等_deng3",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "准备_zhun3bei4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "停_ting2",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "已经_yi3jing1",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "男生_nan2sheng1",
+        "everyday": true,
+        "topic": "people"
+      },
+      {
+        "id": "后来_hou4lai2",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "地方_di4fang5",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "突然_tu1ran2",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "机会_ji1hui4",
+        "everyday": true,
+        "topic": "work"
+      },
+      {
+        "id": "行动_xing2dong4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "所以_suo3yi3",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "完美_wan2mei3",
+        "everyday": true,
+        "topic": "adjectives"
+      },
+      {
+        "id": "哪怕_na3pa4",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "一步_yi1bu4",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "有用_you3yong4",
+        "everyday": true,
+        "topic": "adjectives"
+      },
+      {
+        "id": "担心_dan1xin1",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "别人_bie2ren5",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "未来_wei4lai2",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "成功_cheng2gong1",
+        "everyday": true,
+        "topic": "work"
+      },
+      {
+        "id": "错_cuo4",
+        "everyday": true,
+        "topic": "adjectives"
+      },
+      {
+        "id": "关系_guan1xi5",
+        "everyday": true,
+        "topic": "people"
+      },
+      {
+        "id": "尝试_chang2shi4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "向前_xiang4qian2",
+        "everyday": false,
+        "topic": "places-directions"
+      },
+      {
+        "id": "学会_xue2hui4",
+        "everyday": true,
+        "topic": "study-language"
+      },
+      {
+        "id": "珍惜_zhen1xi1",
+        "everyday": true,
+        "topic": "verbs-mind"
+      },
+      {
+        "id": "享受_xiang3shou4",
+        "everyday": true,
+        "topic": "verbs-mind"
+      },
+      {
+        "id": "幸福_xing4fu2",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "杯_bei1",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "热_re4",
+        "everyday": true,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "咖啡_ka1fei1",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "首_shou3",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "歌_ge1",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "快乐_kuai4le4",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "比较_bi3jiao4",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "赚_zhuan4",
+        "everyday": true,
+        "topic": "work"
+      },
+      {
+        "id": "房子_fang2zi5",
+        "everyday": true,
+        "topic": "home"
+      },
+      {
+        "id": "压力_ya1li4",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "必要_bi4yao4",
+        "everyday": true,
+        "topic": "adjectives"
+      },
+      {
+        "id": "问_wen4",
+        "everyday": true,
+        "topic": "verbs-mind"
+      },
+      {
+        "id": "答案_da2an4",
+        "everyday": true,
+        "topic": "study-language"
+      },
+      {
+        "id": "方法_fang1fa3",
+        "everyday": true,
+        "topic": "study-language"
+      },
+      {
+        "id": "次_ci4",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "早_zao3",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "早睡_zao3shui4",
+        "everyday": true,
+        "topic": "daily-life"
+      },
+      {
+        "id": "方向_fang1xiang4",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "普通_pu3tong1",
+        "everyday": true,
+        "topic": "adjectives"
+      },
+      {
+        "id": "回家_hui2jia1",
+        "everyday": true,
+        "topic": "daily-life"
+      },
+      {
+        "id": "特别_te4bie2",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "一部分_yi1bu4fen5",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "过日子_guo4ri4zi5",
+        "everyday": true,
+        "topic": "daily-life"
+      },
+      {
+        "id": "不一定_bu4yi1ding4",
+        "everyday": true,
+        "topic": "phrases"
+      },
+      {
+        "id": "精彩_jing1cai3",
+        "everyday": true,
+        "topic": "adjectives"
+      },
+      {
+        "id": "对待_dui4dai4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "身边_shen1bian1",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "位_wei4",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "老人_lao3ren2",
+        "everyday": true,
+        "topic": "people"
+      },
+      {
+        "id": "年轻_nian2qing1",
+        "everyday": true,
+        "topic": "people"
+      },
+      {
+        "id": "以为_yi3wei2",
+        "everyday": true,
+        "topic": "verbs-mind"
+      },
+      {
+        "id": "着急_zhao2ji2",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "才_cai2",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "明白_ming2bai5",
+        "everyday": true,
+        "topic": "verbs-mind"
+      },
+      {
+        "id": "从_cong2",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "页_ye4",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "抱怨_bao4yuan4",
+        "everyday": true,
+        "topic": "verbs-mind"
+      },
+      {
+        "id": "变成_bian4cheng2",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "希望_xi1wang4",
+        "everyday": true,
+        "topic": "verbs-mind"
+      },
+      {
+        "id": "醒来_xing3lai2",
+        "everyday": true,
+        "topic": "daily-life"
+      },
+      {
+        "id": "一样_yi1yang4",
+        "everyday": true,
+        "topic": "adjectives"
+      },
+      {
+        "id": "不同_bu4tong2",
+        "everyday": true,
+        "topic": "adjectives"
+      },
+      {
+        "id": "成长_cheng2zhang3",
+        "everyday": true,
+        "topic": "people"
+      },
+      {
+        "id": "充实_chong1shi2",
+        "everyday": false,
+        "topic": "adjectives"
+      },
+      {
+        "id": "昨天_zuo2tian1",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "分享_fen1xiang3",
+        "everyday": true,
+        "topic": "verbs-mind"
+      },
+      {
+        "id": "下次_xia4ci4",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "再见_zai4jian4",
+        "everyday": true,
+        "topic": "greetings"
+      },
+      {
+        "id": "冷_leng3",
+        "everyday": true,
+        "topic": "weather-nature"
+      }
+    ]
+  }
+}

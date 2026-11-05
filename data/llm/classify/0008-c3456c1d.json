@@ -1,0 +1,408 @@
+{
+  "model": "claude-code-session",
+  "createdAt": "2026-11-05T10:11:52.131Z",
+  "result": {
+    "items": [
+      {
+        "id": "五月_wu3yue4",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "上衣_shang4yi1",
+        "everyday": true,
+        "topic": "clothes-colors"
+      },
+      {
+        "id": "裤子_ku4zi5",
+        "everyday": true,
+        "topic": "clothes-colors"
+      },
+      {
+        "id": "裙子_qun2zi5",
+        "everyday": true,
+        "topic": "clothes-colors"
+      },
+      {
+        "id": "鞋子_xie2zi5",
+        "everyday": true,
+        "topic": "clothes-colors"
+      },
+      {
+        "id": "帽子_mao4zi5",
+        "everyday": true,
+        "topic": "clothes-colors"
+      },
+      {
+        "id": "T恤_xu4",
+        "everyday": true,
+        "topic": "clothes-colors"
+      },
+      {
+        "id": "围巾_wei2jin1",
+        "everyday": true,
+        "topic": "clothes-colors"
+      },
+      {
+        "id": "试_shi4",
+        "everyday": true,
+        "topic": "shopping-money"
+      },
+      {
+        "id": "小_xiao3",
+        "everyday": true,
+        "topic": "adjectives"
+      },
+      {
+        "id": "多大_duo1da4",
+        "everyday": true,
+        "topic": "phrases"
+      },
+      {
+        "id": "多少钱_duo1shao5qian2",
+        "everyday": true,
+        "topic": "shopping-money"
+      },
+      {
+        "id": "件_jian4",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "颜色_yan2se4",
+        "everyday": true,
+        "topic": "clothes-colors"
+      },
+      {
+        "id": "黑色_hei1se4",
+        "everyday": true,
+        "topic": "clothes-colors"
+      },
+      {
+        "id": "这边_zhe4bian1",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "试衣间_shi4yi1jian1",
+        "everyday": true,
+        "topic": "shopping-money"
+      },
+      {
+        "id": "条_tiao2",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "双_shuang1",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "漂亮_piao4liang5",
+        "everyday": true,
+        "topic": "adjectives"
+      },
+      {
+        "id": "顶_ding3",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "小丽_xiao3li4",
+        "everyday": false,
+        "topic": "people"
+      },
+      {
+        "id": "生日_sheng1ri4",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "新_xin1",
+        "everyday": true,
+        "topic": "adjectives"
+      },
+      {
+        "id": "最_zui4",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "红色_hong2se4",
+        "everyday": true,
+        "topic": "clothes-colors"
+      },
+      {
+        "id": "商场_shang1chang3",
+        "everyday": true,
+        "topic": "shopping-money"
+      },
+      {
+        "id": "明年_ming2nian2",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "中国_zhong1guo2",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "北京_bei3jing1",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "住_zhu4",
+        "everyday": true,
+        "topic": "home"
+      },
+      {
+        "id": "岘港_xian4gang3",
+        "everyday": false,
+        "topic": "places-directions"
+      },
+      {
+        "id": "都_dou1",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "西瓜_xi1gua1",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "卖_mai4",
+        "everyday": true,
+        "topic": "shopping-money"
+      },
+      {
+        "id": "先_xian1",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "海边_hai3bian1",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "飞_fei1",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "到_dao4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "声_sheng1",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "见面_jian4mian4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "这样_zhe4yang4",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "走_zou3",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "电影_dian4ying3",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "更_geng4",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "过_guo4",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "小时候_xiao3shi2hou5",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "来_lai2",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "花_hua1",
+        "everyday": true,
+        "topic": "shopping-money"
+      },
+      {
+        "id": "浪费_lang4fei4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "学_xue2",
+        "everyday": true,
+        "topic": "study-language"
+      },
+      {
+        "id": "中文_zhong1wen2",
+        "everyday": true,
+        "topic": "study-language"
+      },
+      {
+        "id": "半_ban4",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "就_jiu4",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "开始_kai1shi3",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "现在_xian4zai4",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "回_hui2",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "全家_quan2jia1",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "读_du2",
+        "everyday": true,
+        "topic": "study-language"
+      },
+      {
+        "id": "考_kao3",
+        "everyday": true,
+        "topic": "study-language"
+      },
+      {
+        "id": "这么_zhe4me5",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "刚_gang1",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "容易_rong2yi4",
+        "everyday": true,
+        "topic": "adjectives"
+      },
+      {
+        "id": "但_dan4",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "事_shi4",
+        "everyday": true,
+        "topic": "daily-life"
+      },
+      {
+        "id": "每_mei3",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "跑步_pao3bu4",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "拿_na2",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "旁_pang2",
+        "everyday": false,
+        "topic": "places-directions"
+      },
+      {
+        "id": "后_hou4",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "骑_qi2",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "儿_er2",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "能_neng2",
+        "everyday": true,
+        "topic": "verbs-mind"
+      },
+      {
+        "id": "为_wei2",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "没_mei2",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "中_zhong1",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "而_er2",
+        "everyday": false,
+        "topic": "function-words"
+      },
+      {
+        "id": "出_chu1",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "又_you4",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "可_ke3",
+        "everyday": true,
+        "topic": "function-words"
+      }
+    ]
+  }
+}

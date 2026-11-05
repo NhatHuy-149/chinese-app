@@ -1,0 +1,58 @@
+{
+  "model": "claude-code-session",
+  "createdAt": "2026-11-05T10:14:00.600Z",
+  "result": {
+    "items": [
+      {
+        "id": "一亿_yi1yi4",
+        "vi": "một trăm triệu",
+        "hanViet": "nhất ức",
+        "example": {
+          "zh": "他买彩票中了一亿。",
+          "py": "Tā mǎi cǎipiào zhòng le yíyì.",
+          "vi": "Anh ấy trúng xổ số một trăm triệu tệ."
+        }
+      },
+      {
+        "id": "十亿_shi2yi4",
+        "vi": "một tỷ",
+        "hanViet": "thập ức",
+        "example": {
+          "zh": "这家公司值十亿。",
+          "py": "Zhè jiā gōngsī zhí shíyì.",
+          "vi": "Công ty này trị giá một tỷ."
+        }
+      },
+      {
+        "id": "一百亿_yi1bai3yi4",
+        "vi": "mười tỷ",
+        "hanViet": "nhất bách ức",
+        "example": {
+          "zh": "这个项目要一百亿。",
+          "py": "Zhège xiàngmù yào yìbǎiyì.",
+          "vi": "Dự án này cần mười tỷ."
+        }
+      },
+      {
+        "id": "一千亿_yi1qian1yi4",
+        "vi": "một trăm tỷ",
+        "hanViet": "nhất thiên ức",
+        "example": {
+          "zh": "他们的公司值一千亿。",
+          "py": "Tāmen de gōngsī zhí yìqiānyì.",
+          "vi": "Công ty của họ trị giá một trăm tỷ."
+        }
+      },
+      {
+        "id": "T恤_xu4",
+        "vi": "áo thun",
+        "hanViet": "",
+        "example": {
+          "zh": "我买了一件白T恤。",
+          "py": "Wǒ mǎi le yí jiàn bái T xù.",
+          "vi": "Tôi đã mua một chiếc áo thun trắng."
+        }
+      }
+    ]
+  }
+}

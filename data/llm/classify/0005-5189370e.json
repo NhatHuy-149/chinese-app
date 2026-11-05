@@ -1,0 +1,408 @@
+{
+  "model": "claude-code-session",
+  "createdAt": "2026-11-05T10:11:38.005Z",
+  "result": {
+    "items": [
+      {
+        "id": "晴天_qing2tian1",
+        "everyday": true,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "阴天_yin1tian1",
+        "everyday": true,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "下雪_xia4xue3",
+        "everyday": true,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "刮风_gua1feng1",
+        "everyday": true,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "一会儿_yi1hui4r5",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "可能_ke3neng2",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "还是_hai2shi5",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "有一点_you3yi1dian3",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "明天_ming2tian1",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "会_hui4",
+        "everyday": true,
+        "topic": "verbs-mind"
+      },
+      {
+        "id": "喝水_he1shui3",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "穿_chuan1",
+        "everyday": true,
+        "topic": "clothes-colors"
+      },
+      {
+        "id": "衣服_yi1fu5",
+        "everyday": true,
+        "topic": "clothes-colors"
+      },
+      {
+        "id": "带_dai4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "雨伞_yu3san3",
+        "everyday": true,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "关_guan1",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "窗户_chuang1hu5",
+        "everyday": true,
+        "topic": "home"
+      },
+      {
+        "id": "不要_bu4yao4",
+        "everyday": true,
+        "topic": "phrases"
+      },
+      {
+        "id": "的时候_de5shi2hou5",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "学校_xue2xiao4",
+        "everyday": true,
+        "topic": "study-language"
+      },
+      {
+        "id": "外套_wai4tao4",
+        "everyday": true,
+        "topic": "clothes-colors"
+      },
+      {
+        "id": "因为_yin1wei4",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "回答_hui2da2",
+        "everyday": true,
+        "topic": "verbs-mind"
+      },
+      {
+        "id": "下午_xia4wu3",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "太阳_tai4yang2",
+        "everyday": true,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "出来_chu1lai2",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "变_bian4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "操场_cao1chang3",
+        "everyday": true,
+        "topic": "study-language"
+      },
+      {
+        "id": "玩_wan2",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "高兴_gao1xing4",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "伤心_shang1xin1",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "生气_sheng1qi4",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "紧张_jin3zhang1",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "害怕_hai4pa4",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "惊讶_jing1ya4",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "满意_man3yi4",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "兴奋_xing1fen4",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "难过_nan2guo4",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "生病_sheng1bing4",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "想_xiang3",
+        "everyday": true,
+        "topic": "verbs-mind"
+      },
+      {
+        "id": "笑_xiao4",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "哭_ku1",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "为什么_wei4shen2me5",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "有点儿_you3dian3r5",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "别_bie2",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "真的吗_zhen1de5ma5",
+        "everyday": true,
+        "topic": "phrases"
+      },
+      {
+        "id": "心情_xin1qing2",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "喝咖啡_he1ka1fei1",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "送_song4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "礼物_li3wu4",
+        "everyday": true,
+        "topic": "shopping-money"
+      },
+      {
+        "id": "考试_kao3shi4",
+        "everyday": true,
+        "topic": "study-language"
+      },
+      {
+        "id": "看见_kan4jian4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "老朋友_lao3peng2you5",
+        "everyday": true,
+        "topic": "people"
+      },
+      {
+        "id": "小孩子_xiao3hai2zi5",
+        "everyday": true,
+        "topic": "people"
+      },
+      {
+        "id": "恐怖_kong3bu4",
+        "everyday": true,
+        "topic": "adjectives"
+      },
+      {
+        "id": "想家_xiang3jia1",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "不用_bu4yong4",
+        "everyday": true,
+        "topic": "phrases"
+      },
+      {
+        "id": "公园_gong1yuan2",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "餐厅_can1ting1",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "桌子_zhuo1zi5",
+        "everyday": true,
+        "topic": "home"
+      },
+      {
+        "id": "椅子_yi3zi5",
+        "everyday": true,
+        "topic": "home"
+      },
+      {
+        "id": "盘子_pan2zi5",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "碗_wan3",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "筷子_kuai4zi5",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "勺子_shao2zi5",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "杯子_bei1zi5",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "叉子_cha1zi5",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "刀子_dao1zi5",
+        "everyday": true,
+        "topic": "home"
+      },
+      {
+        "id": "餐巾纸_can1jin1zhi3",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "菜单_cai4dan1",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "账单_zhang4dan1",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "桌布_zhuo1bu4",
+        "everyday": false,
+        "topic": "food"
+      },
+      {
+        "id": "水壶_shui3hu2",
+        "everyday": true,
+        "topic": "home"
+      },
+      {
+        "id": "果汁_guo3zhi1",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "电话_dian4hua4",
+        "everyday": true,
+        "topic": "tech-phone"
+      },
+      {
+        "id": "服务员_fu2wu4yuan2",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "我的_wo3de5",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "桌子上_zhuo1zi5shang5",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "给_gei3",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "一双_yi1shuang1",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      }
+    ]
+  }
+}

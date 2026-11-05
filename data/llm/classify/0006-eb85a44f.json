@@ -1,0 +1,408 @@
+{
+  "model": "claude-code-session",
+  "createdAt": "2026-11-05T10:11:38.008Z",
+  "result": {
+    "items": [
+      {
+        "id": "再_zai4",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "结账_jie2zhang4",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "买单_mai3dan1",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "干杯_gan1bei1",
+        "everyday": true,
+        "topic": "phrases"
+      },
+      {
+        "id": "这儿_zhe4r5",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "对不起_dui4bu4qi3",
+        "everyday": true,
+        "topic": "greetings"
+      },
+      {
+        "id": "马上_ma3shang4",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "拿来_na2lai2",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "水_shui3",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "稍等_shao1deng3",
+        "everyday": true,
+        "topic": "phrases"
+      },
+      {
+        "id": "上_shang4",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "里_li3",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "下_xia4",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "旁边_pang2bian1",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "一张_yi1zhang1",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "一把_yi1ba3",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "一杯_yi1bei1",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "点_dian3",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "米饭_mi3fan4",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "我们_wo3men5",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "以后_yi3hou4",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "李明_li3ming2",
+        "everyday": false,
+        "topic": "people"
+      },
+      {
+        "id": "王芳_wang2fang1",
+        "everyday": false,
+        "topic": "people"
+      },
+      {
+        "id": "坐_zuo4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "给他们_gei3ta1men5",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "面条_mian4tiao2",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "一碗_yi1wan3",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "炒饭_chao3fan4",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "一盘_yi1pan2",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "微笑_wei1xiao4",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "十分钟_shi2fen1zhong1",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "食物_shi2wu4",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "端来_duan1lai2",
+        "everyday": false,
+        "topic": "food"
+      },
+      {
+        "id": "地_de5",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "哪儿_na3r5",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "多久_duo1jiu3",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "车_che1",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "公共汽车_gong1gong4qi4che1",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "出租车_chu1zu1che1",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "火车_huo3che1",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "地铁_di4tie3",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "飞机_fei1ji1",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "自行车_zi4xing2che1",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "摩托车_mo2tuo1che1",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "汽车_qi4che1",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "船_chuan2",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "高铁_gao1tie3",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "高铁站_gao1tie3zhan4",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "公交车_gong1jiao1che1",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "开车_kai1che1",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "骑车_qi2che1",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "走路_zou3lu4",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "怎么_zen3me5",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "这里_zhe4li3",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "公司_gong1si1",
+        "everyday": true,
+        "topic": "work"
+      },
+      {
+        "id": "又…又…_you4you4",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "快_kuai4",
+        "everyday": true,
+        "topic": "adjectives"
+      },
+      {
+        "id": "方便_fang1bian4",
+        "everyday": true,
+        "topic": "adjectives"
+      },
+      {
+        "id": "图书馆_tu2shu1guan3",
+        "everyday": true,
+        "topic": "city-services"
+      },
+      {
+        "id": "离_li2",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "近_jin4",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "怕_pa4",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "早上_zao3shang5",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "出门_chu1men2",
+        "everyday": true,
+        "topic": "daily-life"
+      },
+      {
+        "id": "七点半_qi1dian3ban4",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "远_yuan3",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "有时候_you3shi2hou5",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "几点_ji3dian3",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "菜_cai4",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "健康_jian4kang1",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "头_tou2",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "脸_lian3",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "眼睛_yan3jing5",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "鼻子_bi2zi5",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "嘴巴_zui3ba5",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "耳朵_er3duo5",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "头发_tou2fa5",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "牙齿_ya2chi3",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "手_shou3",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "手指_shou3zhi3",
+        "everyday": true,
+        "topic": "body-health"
+      }
+    ]
+  }
+}

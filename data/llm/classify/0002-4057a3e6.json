@@ -1,0 +1,408 @@
+{
+  "model": "claude-code-session",
+  "createdAt": "2026-11-05T10:11:18.674Z",
+  "result": {
+    "items": [
+      {
+        "id": "吧_ba5",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "十八_shi2ba1",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "多少_duo1shao5",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "钱_qian2",
+        "everyday": true,
+        "topic": "shopping-money"
+      },
+      {
+        "id": "鸡蛋_ji1dan4",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "鱼_yu2",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "这个_zhe4ge5",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "可以_ke3yi3",
+        "everyday": true,
+        "topic": "verbs-mind"
+      },
+      {
+        "id": "米_mi3",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "猪肉_zhu1rou4",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "肉_rou4",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "时间_shi2jian1",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "做饭_zuo4fan4",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "说_shuo1",
+        "everyday": true,
+        "topic": "verbs-mind"
+      },
+      {
+        "id": "二_er4",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "三_san1",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "日_ri4",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "月_yue4",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "山_shan1",
+        "everyday": true,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "爱好_ai4hao4",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "平时_ping2shi2",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "喜欢_xi3huan5",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "听音乐_ting1yin1yue4",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "打篮球_da3lan2qiu2",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "看电影_kan4dian4ying3",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "好的_hao3de5",
+        "everyday": true,
+        "topic": "phrases"
+      },
+      {
+        "id": "看书_kan4shu1",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "旅游_lv3you2",
+        "everyday": true,
+        "topic": "transport-travel"
+      },
+      {
+        "id": "请_qing3",
+        "everyday": true,
+        "topic": "greetings"
+      },
+      {
+        "id": "介绍_jie4shao4",
+        "everyday": true,
+        "topic": "greetings"
+      },
+      {
+        "id": "一下_yi1xia4",
+        "everyday": true,
+        "topic": "phrases"
+      },
+      {
+        "id": "自己_zi4ji3",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "英才_ying1cai2",
+        "everyday": false,
+        "topic": "people"
+      },
+      {
+        "id": "二十五_er4shi2wu3",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "职业_zhi2ye4",
+        "everyday": true,
+        "topic": "work"
+      },
+      {
+        "id": "运动_yun4dong4",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "踢足球_ti1zu2qiu2",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "游泳_you2yong3",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "画画_hua4hua4",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "照相_zhao4xiang4",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "看电视_kan4dian4shi4",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "唱歌_chang4ge1",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "玩游戏_wan2you2xi4",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "跳舞_tiao4wu3",
+        "everyday": true,
+        "topic": "hobbies-sports"
+      },
+      {
+        "id": "吃美食_chi1mei3shi2",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "睡觉_shui4jiao4",
+        "everyday": true,
+        "topic": "daily-life"
+      },
+      {
+        "id": "学中文_xue2zhong1wen2",
+        "everyday": true,
+        "topic": "study-language"
+      },
+      {
+        "id": "看_kan4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "春日_chun1ri4",
+        "everyday": false,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "蝴蝶_hu2die2",
+        "everyday": true,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "它_ta1",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "颤抖_chan4dou3",
+        "everyday": false,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "着_zhe5",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "飞越_fei1yue4",
+        "everyday": false,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "和风_he2feng1",
+        "everyday": false,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "与_yu3",
+        "everyday": false,
+        "topic": "function-words"
+      },
+      {
+        "id": "暖阳_nuan3yang2",
+        "everyday": false,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "倾斜_qing1xie2",
+        "everyday": false,
+        "topic": "adjectives"
+      },
+      {
+        "id": "冰冷_bing1leng3",
+        "everyday": false,
+        "topic": "adjectives"
+      },
+      {
+        "id": "季节_ji4jie2",
+        "everyday": true,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "仲夏_zhong4xia4",
+        "everyday": false,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "弯月_wan1yue4",
+        "everyday": false,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "把_ba3",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "欢愉_huan1yu2",
+        "everyday": false,
+        "topic": "feelings"
+      },
+      {
+        "id": "偷窃_tou1qie4",
+        "everyday": false,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "倒挂_dao4gua4",
+        "everyday": false,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "天际_tian1ji4",
+        "everyday": false,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "笑靥_xiao4ye4",
+        "everyday": false,
+        "topic": "people"
+      },
+      {
+        "id": "听_ting1",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "秋末_qiu1mo4",
+        "everyday": false,
+        "topic": "time"
+      },
+      {
+        "id": "落叶_luo4ye4",
+        "everyday": false,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "叹息_tan4xi1",
+        "everyday": false,
+        "topic": "feelings"
+      },
+      {
+        "id": "离别_li2bie2",
+        "everyday": false,
+        "topic": "feelings"
+      },
+      {
+        "id": "剩_sheng4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "独自_du2zi4",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "领略_ling3lve4",
+        "everyday": false,
+        "topic": "verbs-mind"
+      },
+      {
+        "id": "海_hai3",
+        "everyday": true,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "风_feng1",
+        "everyday": true,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "大家_da4jia1",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "聊_liao2",
+        "everyday": true,
+        "topic": "verbs-mind"
+      }
+    ]
+  }
+}

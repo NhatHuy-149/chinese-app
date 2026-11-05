@@ -12,7 +12,9 @@ export type Selected = Candidate & { topic: string; everyday: boolean; rank: num
 
 const candidates = readJson<Candidate[]>('build/candidates.json');
 const cls = new Map(readJson<Classified[]>('build/classified.json').map(c => [c.id, c]));
-const withCls = candidates.map(c => ({ ...c, topic: cls.get(c.id)!.topic, everyday: cls.get(c.id)!.everyday }));
+// Candidates not classified yet (manual mode, work in progress) are skipped for now.
+const withCls = candidates.filter(c => cls.has(c.id))
+  .map(c => ({ ...c, topic: cls.get(c.id)!.topic, everyday: cls.get(c.id)!.everyday }));
 
 const everydayByFreq = withCls
   .filter(c => c.everyday && c.freq !== null)

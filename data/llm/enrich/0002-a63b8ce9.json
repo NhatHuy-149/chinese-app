@@ -1,0 +1,258 @@
+{
+  "model": "claude-code-session",
+  "createdAt": "2026-11-05T10:14:00.598Z",
+  "result": {
+    "items": [
+      {
+        "id": "膝盖_xi1gai4",
+        "vi": "đầu gối",
+        "hanViet": "tất cái",
+        "example": {
+          "zh": "我的膝盖很疼。",
+          "py": "Wǒ de xīgài hěn téng.",
+          "vi": "Đầu gối tôi rất đau."
+        }
+      },
+      {
+        "id": "喉咙_hou2long2",
+        "vi": "cổ họng",
+        "hanViet": "hầu lung",
+        "example": {
+          "zh": "我喉咙不舒服。",
+          "py": "Wǒ hóulóng bù shūfu.",
+          "vi": "Cổ họng tôi khó chịu."
+        }
+      },
+      {
+        "id": "关上_guan1shang4",
+        "vi": "đóng lại",
+        "hanViet": "quan thượng",
+        "example": {
+          "zh": "请关上门。",
+          "py": "Qǐng guānshàng mén.",
+          "vi": "Xin đóng cửa lại."
+        }
+      },
+      {
+        "id": "卫生间_wei4sheng1jian1",
+        "vi": "nhà vệ sinh",
+        "hanViet": "vệ sinh gian",
+        "example": {
+          "zh": "卫生间在哪里？",
+          "py": "Wèishēngjiān zài nǎlǐ?",
+          "vi": "Nhà vệ sinh ở đâu?"
+        }
+      },
+      {
+        "id": "上衣_shang4yi1",
+        "vi": "áo",
+        "hanViet": "thượng y",
+        "example": {
+          "zh": "这件上衣很好看。",
+          "py": "Zhè jiàn shàngyī hěn hǎokàn.",
+          "vi": "Chiếc áo này rất đẹp."
+        }
+      },
+      {
+        "id": "窗帘_chuang1lian2",
+        "vi": "rèm cửa sổ",
+        "hanViet": "song liêm",
+        "example": {
+          "zh": "窗帘是蓝色的。",
+          "py": "Chuānglián shì lánsè de.",
+          "vi": "Rèm cửa màu xanh dương."
+        }
+      },
+      {
+        "id": "牙膏_ya2gao1",
+        "vi": "kem đánh răng",
+        "hanViet": "nha cao",
+        "example": {
+          "zh": "牙膏用完了。",
+          "py": "Yágāo yòng wán le.",
+          "vi": "Kem đánh răng dùng hết rồi."
+        }
+      },
+      {
+        "id": "刷牙_shua1ya2",
+        "vi": "đánh răng",
+        "hanViet": "loát nha",
+        "example": {
+          "zh": "我每天早上刷牙。",
+          "py": "Wǒ měi tiān zǎoshang shuāyá.",
+          "vi": "Sáng nào tôi cũng đánh răng."
+        }
+      },
+      {
+        "id": "牙刷_ya2shua1",
+        "vi": "bàn chải đánh răng",
+        "hanViet": "nha loát",
+        "example": {
+          "zh": "我要买一个新牙刷。",
+          "py": "Wǒ yào mǎi yí ge xīn yáshuā.",
+          "vi": "Tôi muốn mua một bàn chải đánh răng mới."
+        }
+      },
+      {
+        "id": "水龙头_shui3long2tou2",
+        "vi": "vòi nước",
+        "hanViet": "thủy long đầu",
+        "example": {
+          "zh": "水龙头坏了。",
+          "py": "Shuǐlóngtóu huài le.",
+          "vi": "Vòi nước hỏng rồi."
+        }
+      },
+      {
+        "id": "水壶_shui3hu2",
+        "vi": "bình nước",
+        "hanViet": "thủy hồ",
+        "example": {
+          "zh": "水壶里没有水了。",
+          "py": "Shuǐhú li méiyǒu shuǐ le.",
+          "vi": "Trong bình hết nước rồi."
+        }
+      },
+      {
+        "id": "一步_yi1bu4",
+        "vi": "một bước",
+        "hanViet": "nhất bộ",
+        "example": {
+          "zh": "我们一步一步来。",
+          "py": "Wǒmen yí bù yí bù lái.",
+          "vi": "Chúng ta làm từng bước một."
+        }
+      },
+      {
+        "id": "餐巾纸_can1jin1zhi3",
+        "vi": "khăn giấy",
+        "hanViet": "xan cân chỉ",
+        "example": {
+          "zh": "请给我一张餐巾纸。",
+          "py": "Qǐng gěi wǒ yì zhāng cānjīnzhǐ.",
+          "vi": "Cho tôi xin một tờ khăn giấy."
+        }
+      },
+      {
+        "id": "桌布_zhuo1bu4",
+        "vi": "khăn trải bàn",
+        "hanViet": "trác bố",
+        "example": {
+          "zh": "桌布脏了。",
+          "py": "Zhuōbù zāng le.",
+          "vi": "Khăn trải bàn bẩn rồi."
+        }
+      },
+      {
+        "id": "一把_yi1ba3",
+        "vi": "một cái (vật có tay cầm)",
+        "hanViet": "nhất bả",
+        "example": {
+          "zh": "请给我一把椅子。",
+          "py": "Qǐng gěi wǒ yì bǎ yǐzi.",
+          "vi": "Cho tôi một cái ghế."
+        }
+      },
+      {
+        "id": "又…又…_you4you4",
+        "vi": "vừa… vừa…",
+        "hanViet": "hựu… hựu…",
+        "example": {
+          "zh": "这个菜又便宜又好吃。",
+          "py": "Zhège cài yòu piányi yòu hǎochī.",
+          "vi": "Món này vừa rẻ vừa ngon."
+        }
+      },
+      {
+        "id": "通气_tong1qi4",
+        "vi": "thông khí, thở được",
+        "hanViet": "thông khí",
+        "example": {
+          "zh": "我鼻子不通气。",
+          "py": "Wǒ bízi bù tōngqì.",
+          "vi": "Mũi tôi bị nghẹt."
+        }
+      },
+      {
+        "id": "看医生_kan4yi1sheng1",
+        "vi": "đi khám bác sĩ",
+        "hanViet": "khán y sinh",
+        "example": {
+          "zh": "你应该去看医生。",
+          "py": "Nǐ yīnggāi qù kàn yīshēng.",
+          "vi": "Bạn nên đi khám bác sĩ."
+        }
+      },
+      {
+        "id": "洗脸_xi3lian3",
+        "vi": "rửa mặt",
+        "hanViet": "tẩy kiểm",
+        "example": {
+          "zh": "我起床后先洗脸。",
+          "py": "Wǒ qǐchuáng hòu xiān xǐliǎn.",
+          "vi": "Ngủ dậy tôi rửa mặt trước."
+        }
+      },
+      {
+        "id": "洗手台_xi3shou3tai2",
+        "vi": "bồn rửa tay",
+        "hanViet": "tẩy thủ đài",
+        "example": {
+          "zh": "洗手台在卫生间里。",
+          "py": "Xǐshǒutái zài wèishēngjiān li.",
+          "vi": "Bồn rửa tay ở trong nhà vệ sinh."
+        }
+      },
+      {
+        "id": "一千_yi1qian1",
+        "vi": "một nghìn",
+        "hanViet": "nhất thiên",
+        "example": {
+          "zh": "这个一千块。",
+          "py": "Zhège yìqiān kuài.",
+          "vi": "Cái này một nghìn tệ."
+        }
+      },
+      {
+        "id": "一万_yi1wan4",
+        "vi": "mười nghìn (một vạn)",
+        "hanViet": "nhất vạn",
+        "example": {
+          "zh": "他一个月赚一万块。",
+          "py": "Tā yí ge yuè zhuàn yíwàn kuài.",
+          "vi": "Anh ấy một tháng kiếm mười nghìn tệ."
+        }
+      },
+      {
+        "id": "十万_shi2wan4",
+        "vi": "một trăm nghìn",
+        "hanViet": "thập vạn",
+        "example": {
+          "zh": "这辆车十万块。",
+          "py": "Zhè liàng chē shíwàn kuài.",
+          "vi": "Chiếc xe này một trăm nghìn tệ."
+        }
+      },
+      {
+        "id": "一百万_yi1bai3wan4",
+        "vi": "một triệu",
+        "hanViet": "nhất bách vạn",
+        "example": {
+          "zh": "这个城市有一百万人。",
+          "py": "Zhège chéngshì yǒu yìbǎiwàn rén.",
+          "vi": "Thành phố này có một triệu người."
+        }
+      },
+      {
+        "id": "一千万_yi1qian1wan4",
+        "vi": "mười triệu",
+        "hanViet": "nhất thiên vạn",
+        "example": {
+          "zh": "他想赚一千万。",
+          "py": "Tā xiǎng zhuàn yìqiānwàn.",
+          "vi": "Anh ấy muốn kiếm mười triệu tệ."
+        }
+      }
+    ]
+  }
+}

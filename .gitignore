@@ -10,3 +10,4 @@ dist/
 sources/raw/
 build/
 data/llm/mock-*/
+data/llm-pending/

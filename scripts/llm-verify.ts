@@ -29,7 +29,9 @@ const items = readJson<Enriched[]>('build/enriched.json');
 
 function localIssues(e: Enriched): string[] {
   const out: string[] = [];
-  if (e.example && !e.example.zh.includes(e.hanzi)) out.push('Câu ví dụ không chứa đúng từ đích.');
+  // Patterns like 又…又… match with anything in place of "…".
+  const target = new RegExp(e.hanzi.split('…').filter(Boolean).map(s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('.+'));
+  if (e.example && !target.test(e.example.zh)) out.push('Câu ví dụ không chứa đúng từ đích.');
   if (e.example && e.fieldSource.example === 'ai') {
     const lib = toneless(libraryNum(e.example.zh).join('').replace(/\d/g, ''));
     if (lib !== toneless(e.example.py)) out.push('Pinyin câu ví dụ không khớp với chữ Hán (theo pinyin-pro).');
@@ -60,9 +62,9 @@ await pool(batches, 3, async (batch, i) => {
     step: 'verify', key: batchKey(i, MODEL, SYSTEM, user), model: MODEL, effort: 'medium',
     system: SYSTEM, user, schema: Out, maxTokens: 16000,
     mock: () => ({ items: batch.map((e, k) => ({ id: e.id, ok: k % 10 !== 0, issues: k % 10 === 0 ? ['[mock] nghi ngờ'] : [] })) }),
+    ids: batch.map(e => e.id),
   });
-  out.items.forEach(x => verdicts.set(x.id, x));
-  console.log(`verify ${i + 1}/${batches.length}`);
+  out?.items.forEach(x => verdicts.set(x.id, x)); // null = not reviewed yet (manual mode)
 });
 
 const verified: Verified[] = items.map(e => {

@@ -8,6 +8,12 @@ import { createHash } from 'node:crypto';
 import { exists, readJson, writeJson } from './io.ts';
 
 export const MOCK = process.env.LLM_MOCK === '1';
+/**
+ * LLM_MANUAL=1: no API call. Uncached batches are written to data/llm-pending/<step>/<key>.json
+ * for a person (or a Claude Code session) to answer in data/llm-answers/<step>/<key>.tsv;
+ * `npm run data:apply` validates the answers and stores them in the normal cache.
+ */
+export const MANUAL = process.env.LLM_MANUAL === '1';
 
 // USD per million tokens (input, output), from the Claude API skill table dated 2026-10-06.
 const PRICES: Record<string, [number, number]> = {
@@ -29,11 +35,21 @@ export type CallSpec<T> = {
   schema: z.ZodType<T>;
   maxTokens: number;
   mock: () => T;           // used when LLM_MOCK=1
+  ids?: string[];          // item ids in order (needed for LLM_MANUAL answers)
 };
 
-export async function cachedCall<T>(spec: CallSpec<T>): Promise<T> {
+let pending = 0;
+export const pendingCount = () => pending;
+
+/** Returns the cached or new result; in LLM_MANUAL mode returns null for unanswered batches. */
+export async function cachedCall<T>(spec: CallSpec<T>): Promise<T | null> {
   const file = `data/llm/${MOCK ? 'mock-' : ''}${spec.step}/${spec.key}.json`;
   if (exists(file)) { usage.cached++; return readJson<{ result: T }>(file).result; }
+  if (MANUAL) {
+    writeJson(`data/llm-pending/${spec.step}/${spec.key}.json`, { system: spec.system, user: spec.user, ids: spec.ids ?? [] });
+    pending++;
+    return null;
+  }
 
   const result = MOCK ? spec.mock() : await callWithRetry(spec);
   writeJson(file, { model: MOCK ? 'mock' : spec.model, createdAt: new Date().toISOString(), result });
@@ -67,7 +83,8 @@ function track(model: string, u: { input_tokens: number; output_tokens: number }
 }
 
 export function usageReport(): string {
-  return `LLM calls: ${usage.calls} new, ${usage.cached} cached; tokens in ${usage.input}, out ${usage.output}; ~$${usage.usd.toFixed(2)}`;
+  const base = `LLM calls: ${usage.calls} new, ${usage.cached} cached; tokens in ${usage.input}, out ${usage.output}; ~$${usage.usd.toFixed(2)}`;
+  return pending ? `${base}; ${pending} batches pending in data/llm-pending/` : base;
 }
 
 /** Runs async jobs with a small concurrency limit. */

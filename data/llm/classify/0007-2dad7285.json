@@ -1,0 +1,408 @@
+{
+  "model": "claude-code-session",
+  "createdAt": "2026-11-05T10:11:52.127Z",
+  "result": {
+    "items": [
+      {
+        "id": "腿_tui3",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "脚_jiao3",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "膝盖_xi1gai4",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "背_bei4",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "肩膀_jian1bang3",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "酸_suan1",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "疼_teng2",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "上面_shang4mian4",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "哪里_na3li3",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "不舒服_bu4shu1fu5",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "还有_hai2you3",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "一点儿_yi1dian3r5",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "发烧_fa1shao1",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "小安_xiao3an1",
+        "everyday": false,
+        "topic": "people"
+      },
+      {
+        "id": "舒服_shu1fu5",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "干_gan1",
+        "everyday": true,
+        "topic": "adjectives"
+      },
+      {
+        "id": "让_rang4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "做什么_zuo4shen2me5",
+        "everyday": true,
+        "topic": "phrases"
+      },
+      {
+        "id": "小明_xiao3ming2",
+        "everyday": false,
+        "topic": "people"
+      },
+      {
+        "id": "喉咙_hou2long2",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "痛_tong4",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "通气_tong1qi4",
+        "everyday": false,
+        "topic": "body-health"
+      },
+      {
+        "id": "跟_gen1",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "不想_bu4xiang3",
+        "everyday": true,
+        "topic": "phrases"
+      },
+      {
+        "id": "摸_mo1",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "看医生_kan4yi1sheng1",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "检查_jian3cha2",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "感冒_gan3mao4",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "得_de2",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "请坐_qing3zuo4",
+        "everyday": true,
+        "topic": "greetings"
+      },
+      {
+        "id": "病人_bing4ren2",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "你怎么了_ni3zen3me5le5",
+        "everyday": true,
+        "topic": "phrases"
+      },
+      {
+        "id": "咳嗽_ke2sou5",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "吃药_chi1yao4",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "还没有_hai2mei2you3",
+        "everyday": true,
+        "topic": "phrases"
+      },
+      {
+        "id": "好好_hao3hao3",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "不客气_bu4ke4qi5",
+        "everyday": true,
+        "topic": "greetings"
+      },
+      {
+        "id": "祝_zhu4",
+        "everyday": true,
+        "topic": "greetings"
+      },
+      {
+        "id": "早日_zao3ri4",
+        "everyday": false,
+        "topic": "time"
+      },
+      {
+        "id": "康复_kang1fu4",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "床_chuang2",
+        "everyday": true,
+        "topic": "home"
+      },
+      {
+        "id": "窗帘_chuang1lian2",
+        "everyday": true,
+        "topic": "home"
+      },
+      {
+        "id": "打开_da3kai1",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "关上_guan1shang4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "躺_tang3",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "拉开_la1kai1",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "刷牙_shua1ya2",
+        "everyday": true,
+        "topic": "daily-life"
+      },
+      {
+        "id": "洗脸_xi3lian3",
+        "everyday": true,
+        "topic": "daily-life"
+      },
+      {
+        "id": "牙刷_ya2shua1",
+        "everyday": true,
+        "topic": "daily-life"
+      },
+      {
+        "id": "牙膏_ya2gao1",
+        "everyday": true,
+        "topic": "daily-life"
+      },
+      {
+        "id": "洗澡_xi3zao3",
+        "everyday": true,
+        "topic": "daily-life"
+      },
+      {
+        "id": "卫生间_wei4sheng1jian1",
+        "everyday": true,
+        "topic": "home"
+      },
+      {
+        "id": "洗手台_xi3shou3tai2",
+        "everyday": false,
+        "topic": "home"
+      },
+      {
+        "id": "水龙头_shui3long2tou2",
+        "everyday": true,
+        "topic": "home"
+      },
+      {
+        "id": "渴_ke3",
+        "everyday": true,
+        "topic": "body-health"
+      },
+      {
+        "id": "接水_jie1shui3",
+        "everyday": true,
+        "topic": "daily-life"
+      },
+      {
+        "id": "饮水机_yin3shui3ji1",
+        "everyday": true,
+        "topic": "home"
+      },
+      {
+        "id": "烫_tang4",
+        "everyday": true,
+        "topic": "adjectives"
+      },
+      {
+        "id": "厨房_chu2fang2",
+        "everyday": true,
+        "topic": "home"
+      },
+      {
+        "id": "沙发_sha1fa1",
+        "everyday": true,
+        "topic": "home"
+      },
+      {
+        "id": "下面_xia4mian4",
+        "everyday": true,
+        "topic": "places-directions"
+      },
+      {
+        "id": "眼镜_yan3jing4",
+        "everyday": true,
+        "topic": "clothes-colors"
+      },
+      {
+        "id": "放_fang4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "用_yong4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "看手机_kan4shou3ji1",
+        "everyday": true,
+        "topic": "tech-phone"
+      },
+      {
+        "id": "百_bai3",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "千_qian1",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "万_wan4",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "亿_yi4",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "一百_yi1bai3",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "一千_yi1qian1",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "一万_yi1wan4",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "十万_shi2wan4",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "一百万_yi1bai3wan4",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "一千万_yi1qian1wan4",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "一亿_yi1yi4",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "十亿_shi2yi4",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "一百亿_yi1bai3yi4",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "一千亿_yi1qian1yi4",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "十二月_shi2er4yue4",
+        "everyday": true,
+        "topic": "time"
+      }
+    ]
+  }
+}

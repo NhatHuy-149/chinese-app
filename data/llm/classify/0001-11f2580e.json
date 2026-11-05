@@ -1,0 +1,408 @@
+{
+  "model": "claude-code-session",
+  "createdAt": "2026-11-05T10:11:18.670Z",
+  "result": {
+    "items": [
+      {
+        "id": "岁_sui4",
+        "everyday": true,
+        "topic": "people"
+      },
+      {
+        "id": "学生_xue2sheng1",
+        "everyday": true,
+        "topic": "study-language"
+      },
+      {
+        "id": "大学_da4xue2",
+        "everyday": true,
+        "topic": "study-language"
+      },
+      {
+        "id": "学习_xue2xi2",
+        "everyday": true,
+        "topic": "study-language"
+      },
+      {
+        "id": "这_zhe4",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "那_na4",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "爷爷_ye2ye5",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "奶奶_nai3nai5",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "外公_wai4gong1",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "外婆_wai4po2",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "叔叔_shu1shu5",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "伯伯_bo2bo5",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "阿姨_a1yi2",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "姑姑_gu1gu5",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "父母_fu4mu3",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "爱_ai4",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "父亲_fu4qin1",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "母亲_mu3qin1",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "儿子_er2zi5",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "女儿_nv3er2",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "孩子_hai2zi5",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "房间_fang2jian1",
+        "everyday": true,
+        "topic": "home"
+      },
+      {
+        "id": "老公_lao3gong1",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "老婆_lao3po2",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "丈夫_zhang4fu5",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "妻子_qi1zi5",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "结婚_jie2hun1",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "照顾_zhao4gu4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "家人_jia1ren2",
+        "everyday": true,
+        "topic": "family"
+      },
+      {
+        "id": "谁_shei2",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "狗_gou3",
+        "everyday": true,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "猫_mao1",
+        "everyday": true,
+        "topic": "weather-nature"
+      },
+      {
+        "id": "楼_lou2",
+        "everyday": true,
+        "topic": "home"
+      },
+      {
+        "id": "号_hao4",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "零_ling2",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "年_nian2",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "本_ben3",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "书_shu1",
+        "everyday": true,
+        "topic": "study-language"
+      },
+      {
+        "id": "六_liu4",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "七_qi1",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "九_jiu3",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "十_shi2",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "书林_shu1lin2",
+        "everyday": false,
+        "topic": "people"
+      },
+      {
+        "id": "她_ta1",
+        "everyday": true,
+        "topic": "pronouns-measures"
+      },
+      {
+        "id": "四_si4",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "医生_yi1sheng1",
+        "everyday": true,
+        "topic": "work"
+      },
+      {
+        "id": "大学生_da4xue2sheng1",
+        "everyday": true,
+        "topic": "study-language"
+      },
+      {
+        "id": "可是_ke3shi4",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "开心_kai1xin1",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "每天_mei3tian1",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "认真_ren4zhen1",
+        "everyday": true,
+        "topic": "feelings"
+      },
+      {
+        "id": "周末_zhou1mo4",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "时候_shi2hou5",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "常常_chang2chang2",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "一起_yi1qi3",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "吃饭_chi1fan4",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "聊天_liao2tian1",
+        "everyday": true,
+        "topic": "verbs-mind"
+      },
+      {
+        "id": "要_yao4",
+        "everyday": true,
+        "topic": "verbs-mind"
+      },
+      {
+        "id": "买_mai3",
+        "everyday": true,
+        "topic": "shopping-money"
+      },
+      {
+        "id": "今天_jin1tian1",
+        "everyday": true,
+        "topic": "time"
+      },
+      {
+        "id": "去_qu4",
+        "everyday": true,
+        "topic": "verbs-action"
+      },
+      {
+        "id": "市场_shi4chang3",
+        "everyday": true,
+        "topic": "shopping-money"
+      },
+      {
+        "id": "东西_dong1xi1",
+        "everyday": true,
+        "topic": "shopping-money"
+      },
+      {
+        "id": "水果_shui3guo3",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "斤_jin1",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "苹果_ping2guo3",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "两_liang3",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "香蕉_xiang1jiao1",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "蔬菜_shu1cai4",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "番茄_fan1qie2",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "土豆_tu3dou4",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "还_hai2",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      },
+      {
+        "id": "牛肉_niu2rou4",
+        "everyday": true,
+        "topic": "food"
+      },
+      {
+        "id": "一共_yi1gong4",
+        "everyday": true,
+        "topic": "shopping-money"
+      },
+      {
+        "id": "二十_er4shi2",
+        "everyday": true,
+        "topic": "numbers"
+      },
+      {
+        "id": "块_kuai4",
+        "everyday": true,
+        "topic": "shopping-money"
+      },
+      {
+        "id": "贵_gui4",
+        "everyday": true,
+        "topic": "shopping-money"
+      },
+      {
+        "id": "了_le5",
+        "everyday": true,
+        "topic": "function-words"
+      },
+      {
+        "id": "便宜_pian2yi5",
+        "everyday": true,
+        "topic": "shopping-money"
+      },
+      {
+        "id": "一点_yi1dian3",
+        "everyday": true,
+        "topic": "adverbs-degree"
+      }
+    ]
+  }
+}
