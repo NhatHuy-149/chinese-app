@@ -30,15 +30,15 @@ for (let d = 0; d < DAYS; d++) {
   const step = (sec: number) => (t += sec * 1000);
 
   // vocab: new words + reviews
-  const newToday = Math.min(15, wordIds.length - introduced);
+  const newToday = Math.min(8, wordIds.length - introduced);
   const today = wordIds.slice(introduced, introduced + newToday);
   introduced += newToday;
-  const reviewPool = wordIds.slice(0, introduced);
-  for (let i = 0; i < 25 + Math.floor(rand() * 20); i++) {
+  const reviewPool = wordIds.slice(Math.max(0, introduced - 120), introduced); // recent words get most reviews
+  for (let i = 0; i < 45 + Math.floor(rand() * 30); i++) {
     const w = i < today.length * 2 ? today[i % today.length] : pick(reviewPool);
     const dir = i % 2 ? 'vi2zh' : 'zh2vi';
     const b = boxes.get(w) ?? { zh2vi: 0, vi2zh: 0 };
-    const correct = rand() < 0.6 + 0.3 * progress;
+    const correct = rand() < 0.78 + 0.17 * progress;
     b[dir] = correct ? Math.min(7, b[dir] + 1) : 1;
     boxes.set(w, b);
     ev(step(8 + rand() * 12), { skill: 'vocab', kind: b[dir] <= 1 && correct ? 'new' : 'review', itemId: w, durationSec: Math.round(8 + rand() * 12), metrics: { correct, direction: dir, box: b[dir] } });
