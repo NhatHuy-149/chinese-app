@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { BackButton, Badge, Button, Card, Empty, Screen, Segmented } from '../../ui/kit';
+import { BackButton, Badge, Button, Card, Empty, Icon, Screen, Segmented } from '../../ui/kit';
 import { CorrectionCard, DiffText } from '../../ui/Correction';
 import { ApiError, checkSentence, type SentenceResult } from '../../lib/api';
 import { diffChars, sameZh } from '../../lib/compare';
@@ -9,7 +9,8 @@ import { allCards, answer } from '../../lib/vocab';
 import { loadAllWords, type Word } from '../../lib/words';
 import { useData, useStopwatch } from '../../lib/hooks';
 import { back, go, useRoute } from '../../lib/route';
-import { todayNum } from '../../lib/day';
+import { formatDayVi, keyFromNum, todayNum } from '../../lib/day';
+import { speak } from '../../lib/tts';
 import { db } from '../../lib/storage';
 import type { SavedSentence } from '../../lib/sentences';
 import type { Card as SrsCard } from '../../lib/srs';
@@ -36,7 +37,7 @@ async function pickPromptWords(): Promise<Word[]> {
 
 export default function Write() {
   const [view, arg] = useRoute();
-  if (view === 'review') return <Screen title="Ôn câu đã lưu"><BackButton onClick={back} /><SentenceReview /></Screen>;
+  if (view === 'review') return <Screen title="Câu đã lưu"><BackButton onClick={back} /><SentenceReview /></Screen>;
   return <Practice focusTag={view === 'tag' ? arg : undefined} />;
 }
 
@@ -92,7 +93,7 @@ function Practice({ focusTag }: { focusTag?: string }) {
             {error && <p className="mt-2 text-sm text-bad">{error}</p>}
           </Card>
           <Button variant="primary" onClick={submit} disabled={!text.trim() || busy}>{busy ? 'Đang sửa…' : 'Sửa câu'}</Button>
-          <Button onClick={() => go('write/review')}>Ôn câu đã lưu{dueSentences ? ` · ${dueSentences} câu đến hạn` : ''}</Button>
+          <Button onClick={() => go('write/review')}>Câu đã lưu{dueSentences ? ` · ${dueSentences} câu cần ôn hôm nay` : ''}</Button>
         </>
       )}
       {phase.step === 'result' && <ResultFlow {...phase} focusTag={focusTag} seconds={watch.seconds} onNext={restart} />}
@@ -159,9 +160,37 @@ function ResultFlow({ input, result, mock, seconds, onNext }: {
   );
 }
 
+/** All saved sentences with their next review day (shown when nothing is due). */
+function SavedList({ rows }: { rows: Array<{ card?: SrsCard; s: SavedSentence }> }) {
+  if (!rows.length) return <Empty>Chưa có câu nào được lưu. Sau khi AI sửa câu ở phần Viết, bấm "Lưu câu".</Empty>;
+  const today = todayNum();
+  const when = (due?: number) => (due === undefined ? '' : due <= today ? 'hôm nay' : due === today + 1 ? 'ngày mai' : formatDayVi(keyFromNum(due)));
+  return (
+    <>
+      <Empty>Hôm nay không có câu nào đến hạn ôn. Câu mới lưu sẽ được ôn từ ngày mai.</Empty>
+      <Card title={`Câu đã lưu (${rows.length})`}>
+        <ul className="flex flex-col">
+          {rows.map(({ s, card }) => (
+            <li key={s.id} className="border-b border-line py-2 last:border-0">
+              <div className="flex items-start justify-between gap-2">
+                <span className="han text-xl">{s.hanzi}</span>
+                <button type="button" aria-label="Nghe câu này" onClick={() => speak(s.hanzi)} className="min-h-[44px] px-2 text-link"><Icon name="play" /></button>
+              </div>
+              <div className="text-sm text-link">{s.pinyin}</div>
+              <div className="text-sm text-muted">{s.meaning}</div>
+              {card && <div className="mt-1 text-xs text-muted">Ôn lần tới: {when(card.due)}</div>}
+            </li>
+          ))}
+        </ul>
+      </Card>
+    </>
+  );
+}
+
 /** Saved sentences: Vietnamese shown, learner types the Chinese. */
 function SentenceReview() {
   const [queue, setQueue] = useState<Array<{ card: SrsCard; s: SavedSentence }>>();
+  const [all, setAll] = useState<Array<{ card?: SrsCard; s: SavedSentence }>>([]);
   const [typed, setTyped] = useState('');
   const [checked, setChecked] = useState<null | boolean>(null);
   const watch = useStopwatch();
@@ -170,14 +199,16 @@ function SentenceReview() {
     (async () => {
       const d = await db();
       const [cards, sentences] = await Promise.all([d.getAll('srs'), d.getAll('sentences')]);
-      const byId = new Map(sentences.map(s => [s.id, s]));
-      setQueue(cards.filter(c => c.dir === 'sentence' && c.due <= todayNum() && byId.has(c.wordId)).map(card => ({ card, s: byId.get(card.wordId)! })));
+      const cardOf = new Map(cards.filter(c => c.dir === 'sentence').map(c => [c.wordId, c]));
+      const rows = sentences.map(s => ({ s, card: cardOf.get(s.id) })).sort((a, b) => b.s.ts - a.s.ts);
+      setAll(rows);
+      setQueue(rows.filter(r => r.card && r.card.due <= todayNum()) as Array<{ card: SrsCard; s: SavedSentence }>);
     })();
   }, []);
 
   if (!queue) return null;
   const item = queue[0];
-  if (!item) return <Empty>Không có câu nào đến hạn ôn. Lưu thêm câu ở phần Viết.</Empty>;
+  if (!item) return <SavedList rows={all} />;
 
   const ok = checked === true;
   async function next(correct: boolean) {
