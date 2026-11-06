@@ -41,7 +41,7 @@ export default function Write() {
   return <Practice focusTag={view === 'tag' ? arg : undefined} />;
 }
 
-type Phase = { step: 'input' } | { step: 'result'; input: string; result: SentenceResult; mock?: boolean };
+type Phase = { step: 'input' } | { step: 'result'; input: string; result: SentenceResult; mock?: boolean; checkEvent: PracticeEvent };
 
 function Practice({ focusTag }: { focusTag?: string }) {
   const [mode, setMode] = useState<'prompt' | 'free'>('prompt');
@@ -61,7 +61,13 @@ function Practice({ focusTag }: { focusTag?: string }) {
     setBusy(true); setError('');
     try {
       const { result, mock } = await checkSentence(text.trim(), mode === 'prompt' ? words.map(w => w.hanzi) : undefined, focusTag);
-      setPhase({ step: 'result', input: text.trim(), result, mock });
+      // every AI check is logged right away, retyped or not (append-only log, principle 4)
+      const checkEvent = await logEvent({
+        skill: 'write', kind: 'check', durationSec: watch.seconds(), countsAsPractice: true,
+        metrics: { firstTryCorrect: result.is_correct && result.corrections.length === 0, corrections: result.corrections.length, mock: !!mock },
+        errorTags: result.error_tags,
+      });
+      setPhase({ step: 'result', input: text.trim(), result, mock, checkEvent });
     } catch (e) {
       setError(e instanceof ApiError ? e.message : 'Có lỗi, thử lại nhé.');
     } finally { setBusy(false); }
@@ -96,33 +102,30 @@ function Practice({ focusTag }: { focusTag?: string }) {
           <Button onClick={() => go('write/review')}>Câu đã lưu{dueSentences ? ` · ${dueSentences} câu cần ôn hôm nay` : ''}</Button>
         </>
       )}
-      {phase.step === 'result' && <ResultFlow {...phase} focusTag={focusTag} seconds={watch.seconds} onNext={restart} />}
+      {phase.step === 'result' && <ResultFlow {...phase} focusTag={focusTag} onNext={restart} />}
     </Screen>
   );
 }
 
-function ResultFlow({ input, result, mock, seconds, onNext }: {
-  input: string; result: SentenceResult; mock?: boolean; focusTag?: string; seconds: () => number; onNext: () => void;
+function ResultFlow({ input, result, mock, checkEvent, onNext }: {
+  input: string; result: SentenceResult; mock?: boolean; focusTag?: string; checkEvent: PracticeEvent; onNext: () => void;
 }) {
   const [retype, setRetype] = useState('');
   const [attempts, setAttempts] = useState(0);
-  const [done, setDone] = useState<PracticeEvent | null>(null);
+  const [done, setDone] = useState(false);
   const [saved, setSaved] = useState(false);
   const [flagged, setFlagged] = useState(false);
   const [hint, setHint] = useState('');
+  const watch = useStopwatch();
   const diff = attempts > 0 && !done ? diffChars(result.hanzi, retype) : null;
-
-  const record = (retypeDone: boolean, retypeOk: boolean) => logEvent({
-    skill: 'write', kind: 'check', durationSec: seconds(), countsAsPractice: true,
-    metrics: { firstTryCorrect: result.is_correct && result.corrections.length === 0, corrections: result.corrections.length, retypeOk, retypeDone, mock: !!mock },
-    errorTags: result.error_tags,
-  });
 
   async function checkRetype() {
     const n = attempts + 1;
     setAttempts(n);
-    if (sameZh(result.hanzi, retype)) { setDone(await record(true, n === 1)); setHint(''); }
-    else setHint('Chưa khớp. Chữ gạch chân là chỗ còn thiếu hoặc sai.');
+    if (!sameZh(result.hanzi, retype)) { setHint('Chưa khớp. Chữ gạch chân là chỗ còn thiếu hoặc sai.'); return; }
+    // the sentence counts toward today's goal only once it has been retyped correctly
+    await logEvent({ skill: 'write', kind: 'retype', itemId: checkEvent.id, durationSec: watch.seconds(), countsAsPractice: true, metrics: { firstAttempt: n === 1, attempts: n } });
+    setDone(true); setHint('');
   }
 
   return (
@@ -138,9 +141,10 @@ function ResultFlow({ input, result, mock, seconds, onNext }: {
               placeholder="Gõ lại (không dán được)" aria-label="Gõ lại câu đã sửa" />
             {diff && <p className="mt-2 text-xl"><DiffText parts={diff.parts} /></p>}
             {hint && <p className="mt-1 text-sm text-bad">{hint}</p>}
+            <p className="mt-2 text-xs text-muted">Gõ lại đúng thì câu này mới được tính vào mục tiêu "Viết câu" hôm nay.</p>
             <Button variant="primary" className="mt-3 w-full" onClick={checkRetype} disabled={!retype.trim()}>Kiểm tra</Button>
           </>
-        ) : <p className="text-ok">Đúng rồi. Hoàn thành câu này{attempts === 1 ? ' ngay lần gõ đầu' : ` sau ${attempts} lần gõ`}.</p>}
+        ) : <p className="text-ok">Đúng rồi. Hoàn thành câu này{attempts === 1 ? ' ngay lần gõ đầu' : ` sau ${attempts} lần gõ`}. Đã tính vào mục tiêu hôm nay.</p>}
       </Card>
       <div className="grid grid-cols-2 gap-3">
         <Button disabled={saved} onClick={async () => {
@@ -149,13 +153,11 @@ function ResultFlow({ input, result, mock, seconds, onNext }: {
         }}>{saved ? 'Đã lưu' : 'Lưu câu'}</Button>
         <Button disabled={flagged} onClick={async () => {
           const note = prompt('Kết quả sai ở đâu? (không bắt buộc)') ?? '';
-          const target = done ?? await record(false, false);
-          await flagWrong(target, note);
+          await flagWrong(checkEvent, note);
           setFlagged(true);
-          if (!done) setDone(target);
         }}>{flagged ? 'Đã ghi nhận' : 'Kết quả này sai'}</Button>
       </div>
-      {done && <Button variant="primary" onClick={onNext}>Câu tiếp theo</Button>}
+      {(done || flagged) && <Button variant="primary" onClick={onNext}>Câu tiếp theo</Button>}
     </>
   );
 }

@@ -19,11 +19,17 @@ export const isPractice = (e: PracticeEvent) => e.countsAsPractice;
 const dayOf = (e: PracticeEvent) => dayNum(dayKey(e.ts));
 const minutesOf = (e: PracticeEvent) => Math.min(e.durationSec ?? 0, MAX_EVENT_SEC) / 60;
 
+/**
+ * A written sentence counts once it was retyped correctly: a "retype" event (or, in the older
+ * single-event format used by sample data, a "check" event with retypeDone=true).
+ */
+export const isWrittenSentence = (e: PracticeEvent) =>
+  e.skill === 'write' && (e.kind === 'retype' || (e.kind === 'check' && e.metrics.retypeDone === true));
+
 /** Goal units: vocab = cards reviewed, write = sentences checked and retyped, speak = sentences spoken, listen = passages. */
 function goalUnit(e: PracticeEvent): Partial<Record<Skill, number>> {
   if (e.skill === 'vocab' && (e.kind === 'review' || e.kind === 'new')) return { vocab: 1 };
-  // a sentence counts only once it was retyped correctly (retypeDone=false: learner flagged the result instead)
-  if (e.skill === 'write' && e.kind === 'check' && e.metrics.retypeDone !== false) return { write: 1 };
+  if (isWrittenSentence(e)) return { write: 1 };
   if (e.skill === 'speak' && (e.kind === 'shadow' || e.kind === 'free')) return { speak: 1 };
   if (e.skill === 'listen' && e.kind === 'gist') return { listen: 1 };
   return {};
@@ -220,7 +226,7 @@ export function milestones(events: PracticeEvent[], totalWords: number): Milesto
     for (const e of practice) { sum += pred(e); if (sum >= threshold) return dayKey(e.ts); }
     return null;
   };
-  for (const t of [50, 100, 500]) out.push({ label: `${t} câu viết`, reached: cumulative(e => (e.skill === 'write' && e.kind === 'check' ? 1 : 0), t) });
+  for (const t of [50, 100, 500]) out.push({ label: `${t} câu viết`, reached: cumulative(e => (isWrittenSentence(e) ? 1 : 0), t) });
   for (const h of [1, 10]) out.push({ label: `${h} giờ nói`, reached: cumulative(e => (e.skill === 'speak' ? Number(e.metrics.speakSec ?? 0) : 0), h * 3600) });
   for (const t of [10, 50]) out.push({ label: `${t} đoạn nghe`, reached: cumulative(e => (e.skill === 'listen' && e.kind === 'gist' ? 1 : 0), t) });
   return out;

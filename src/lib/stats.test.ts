@@ -131,8 +131,15 @@ describe('stats', () => {
     expect(errorTrends(e, n('2026-11-05'), n('2026-11-11'))).toEqual([{ tag: 'lượng từ', count: 1, previous: 2, trend: 'down' }]);
   });
 
+  it('counts a written sentence only after a correct retype', () => {
+    const check = ev('2026-11-05T10:00', { skill: 'write', kind: 'check', metrics: { corrections: 1 } });
+    expect(totalsFor([check]).write).toBe(0);
+    const retype = ev('2026-11-05T10:01', { skill: 'write', kind: 'retype', itemId: check.id });
+    expect(totalsFor([check, retype]).write).toBe(1);
+  });
+
   it('dates milestones', () => {
-    const e = Array.from({ length: 50 }, (_, i) => ev(`2026-11-0${1 + (i % 3)}T10:00`, { skill: 'write', kind: 'check' }))
+    const e = Array.from({ length: 50 }, (_, i) => ev(`2026-11-0${1 + (i % 3)}T10:00`, { skill: 'write', kind: 'retype' }))
       .sort((a, b) => a.ts - b.ts);
     const m = milestones(e, 719);
     expect(m.find(x => x.label === '50 câu viết')?.reached).toBe('2026-11-03');
