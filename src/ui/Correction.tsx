@@ -2,6 +2,8 @@ import type { SentenceResult } from '../lib/api';
 import { speak } from '../lib/tts';
 import { Badge, Button, Card, Icon } from './kit';
 import type { DiffPart } from '../lib/compare';
+import { useData } from '../lib/hooks';
+import { kvGet } from '../lib/storage';
 
 /** Corrected sentence with the list of fixes; shared by Write and free speaking. */
 export function CorrectionCard({ original, result, mock }: { original: string; result: SentenceResult; mock?: boolean }) {
@@ -11,7 +13,7 @@ export function CorrectionCard({ original, result, mock }: { original: string; r
       <div className="mb-3 flex flex-wrap gap-2">
         {fixed ? <Badge tone="accent">Đã sửa</Badge> : <Badge tone="ok">Câu đã đúng</Badge>}
         <Badge tone="link">Do AI tạo, có thể sai</Badge>
-        {mock && <Badge tone="bad">Dữ liệu thử nghiệm</Badge>}
+        {mock && <MockBadge />}
       </div>
       <p className="text-sm text-muted">Bạn viết: <span className="text-ink">{original}</span></p>
       <div className="mt-3 flex items-start justify-between gap-2">
@@ -57,5 +59,15 @@ export function DiffText({ parts, className = '' }: { parts: DiffPart[]; classNa
         ? <span key={i}>{p.ch}</span>
         : <span key={i} className="text-bad underline decoration-2 underline-offset-4">{p.ch}</span>)}
     </span>
+  );
+}
+
+/** Explains WHY a result is sample data: the Settings switch, or the server's AI_MOCK. */
+export function MockBadge() {
+  const clientMock = useData(() => kvGet('mockAi', false));
+  return (
+    <Badge tone="bad">
+      {clientMock ? 'Dữ liệu thử nghiệm: đang bật "Chế độ thử" trong Cài đặt' : 'Dữ liệu thử nghiệm: máy chủ đang ở chế độ thử (AI_MOCK)'}
+    </Badge>
   );
 }

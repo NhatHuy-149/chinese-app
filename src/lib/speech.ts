@@ -32,11 +32,15 @@ export class Recorder {
     this.startedAt = Date.now();
     if (RECORDING_OK) {
       try {
-        this.stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        // Explicit voice settings; some phones default to aggressive gain that distorts speech.
+        this.stream = await navigator.mediaDevices.getUserMedia({
+          audio: { channelCount: 1, echoCancellation: true, noiseSuppression: true, autoGainControl: false },
+        });
       } catch {
         throw new Error('Không dùng được micro. Hãy cho phép quyền micro cho trang này (cần https).');
       }
-      this.rec = new MediaRecorder(this.stream);
+      const mimeType = ['audio/webm;codecs=opus', 'audio/mp4', 'audio/webm'].find(t => MediaRecorder.isTypeSupported?.(t));
+      this.rec = new MediaRecorder(this.stream, { ...(mimeType ? { mimeType } : {}), audioBitsPerSecond: 128_000 });
       this.rec.ondataavailable = e => { if (e.data.size) this.chunks.push(e.data); };
       this.rec.start();
     }

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Badge, Button, Card, Icon, Screen, Segmented } from '../../ui/kit';
+import { MockBadge } from '../../ui/Correction';
 import { speak, stopSpeaking } from '../../lib/tts';
 import { ApiError, generatePassage, gradeSummary, type GradeResult } from '../../lib/api';
 import { flagWrong, logEvent, type PracticeEvent } from '../../lib/events';
@@ -9,7 +10,7 @@ import { kvGet, kvSet } from '../../lib/storage';
 import { useData, useStopwatch } from '../../lib/hooks';
 
 type Sentence = { zh: string; py: string; vi: string };
-type Passage = { id: string; title: string; sentences: Sentence[]; keyPoints: string[]; source: 'ai' | 'offline'; level: string };
+type Passage = { id: string; title: string; sentences: Sentence[]; keyPoints: string[]; source: 'ai' | 'offline'; level: string; mock?: boolean };
 type Level = 'A1' | 'A2' | 'B1';
 
 const MAX_REPLAYS = 3;
@@ -54,8 +55,8 @@ export default function Listen() {
       const [words, cs] = await Promise.all([loadAllWords(), allCards()]);
       const known = [...new Set(cs.filter(c => c.dir !== 'sentence').map(c => c.wordId))].map(id => words.get(id)?.hanzi).filter(Boolean) as string[];
       const topicName = topic || idx?.topics[Math.floor(Math.random() * idx.topics.length)].vi || 'Sinh hoạt hằng ngày';
-      const { result } = await generatePassage(effectiveLevel, topicName, known.slice(0, 400));
-      const p: Passage = { id: `ai-${Date.now()}`, title: result.title, sentences: result.sentences, keyPoints: result.key_points, source: 'ai', level: effectiveLevel };
+      const { result, mock } = await generatePassage(effectiveLevel, topicName, known.slice(0, 400));
+      const p: Passage = { id: `ai-${Date.now()}`, title: result.title, sentences: result.sentences, keyPoints: result.key_points, source: 'ai', level: effectiveLevel, mock: !!mock };
       await kvSet('listenLast', p);
       setPassage(p);
     } catch (e) {
@@ -145,7 +146,7 @@ function Session({ passage, onDone }: { passage: Passage; onDone: () => void }) 
       <Card>
         <div className="mb-2 flex flex-wrap gap-2">
           <Badge>{passage.source === 'ai' ? `Do AI tạo · mức ${passage.level}` : 'Đoạn có sẵn'}</Badge>
-          {grade?.mock && <Badge tone="bad">Dữ liệu thử nghiệm</Badge>}
+          {(grade?.mock || passage.mock) && <MockBadge />}
         </div>
         <div className="flex items-center gap-3">
           <button type="button" onClick={play} disabled={playing || (playsLeft <= 0 && !grade)} aria-label="Phát đoạn nghe"

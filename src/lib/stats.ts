@@ -154,7 +154,8 @@ export function quality(events: PracticeEvent[], metric: QualityMetric, from: nu
   const sums = new Map<number, { s: number; n: number }>();
   let total = 0;
   for (const e of eventsBetween(events, from, to)) {
-    if (!isPractice(e) || flagged.has(e.id)) continue;
+    // flagged results and sample (mock) AI answers are not real quality data
+    if (!isPractice(e) || flagged.has(e.id) || e.metrics.mock === true) continue;
     const v = qualityValue(metric, e);
     if (v === null) continue;
     const n = by === 'week' ? weekStartNum(dayOf(e)) : dayOf(e);

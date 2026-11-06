@@ -40,9 +40,14 @@ export default function Speak() {
   const [custom, setCustom] = useState<Target | null>(null);
   return (
     <Screen title="Nói">
+      {!RECOGNITION_OK && (
+        <Card className="border-accent/60">
+          <p className="text-sm"><b className="text-accent">Trình duyệt này không có nhận diện giọng nói</b>, nên máy không biết bạn nói gì và không chấm được.</p>
+          <p className="mt-1 text-sm text-muted">Để máy chấm: mở app bằng <b className="text-ink">Chrome</b> trên Android (hoặc Safari trên iPhone). Ở đây bạn vẫn ghi âm, nghe lại và tự so với mẫu được.</p>
+        </Card>
+      )}
       <p className="text-xs text-muted">
         Nhận diện giọng nói chỉ cho biết máy có "hiểu" bạn hay không, không chấm chính xác thanh điệu và phát âm.
-        {!RECOGNITION_OK && ' Trình duyệt này không có nhận diện giọng nói: bạn vẫn ghi âm, nghe lại và tự đánh giá được.'}
         {!RECORDING_OK && ' Trình duyệt này không ghi âm được.'}
       </p>
       <Segmented value={mode} onChange={setMode} options={[{ value: 'shadow', label: 'Nhại theo mẫu' }, { value: 'free', label: 'Nói tự do' }]} />
@@ -108,13 +113,14 @@ function Shadow({ custom, onCustomDone }: { custom: Target | null; onCustomDone:
   const [live, setLive] = useState('');
   const [take, setTake] = useState<Take | null>(null);
   const [score, setScore] = useState<{ matchPct: number; hints: ToneHint[] } | null>(null);
-  const [selfRated, setSelfRated] = useState(false);
+  const [selfRated, setSelfRated] = useState<boolean | null>(null);
+  const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => { loadTargets().then(p => { setPool(p); if (!custom) setTarget(pickRandom(p)); }); }, [custom]);
   const pickRandom = (p: Target[]) => p.length ? p[Math.floor(Math.random() * Math.min(p.length, 400))] : null;
 
   function next() {
-    setTake(null); setScore(null); setLive(''); setSelfRated(false);
+    setTake(null); setScore(null); setLive(''); setSelfRated(null);
     if (custom) onCustomDone(); else setTarget(pickRandom(pool));
   }
 
@@ -136,7 +142,7 @@ function Shadow({ custom, onCustomDone }: { custom: Target | null; onCustomDone:
   async function rateSelf(good: boolean) {
     if (!take || !target) return;
     await logEvent({ skill: 'speak', kind: 'shadow', itemId: target.zh, durationSec: take.seconds, countsAsPractice: true, metrics: { mode: 'shadow', speakSec: take.seconds, selfRated: good } });
-    setSelfRated(true);
+    setSelfRated(good);
   }
 
   if (!target) return <p className="text-muted">Đang tải câu mẫu…</p>;
@@ -156,7 +162,7 @@ function Shadow({ custom, onCustomDone }: { custom: Target | null; onCustomDone:
       {!take && <RecordButton onTake={onTake} onLive={setLive} maxSeconds={30} />}
       {!take && live && <p className="han text-center text-lg text-muted">{live}</p>}
       {take && (
-        <Card title="Máy nghe được">
+        <Card title={RECOGNITION_OK ? 'Máy nghe được' : 'Tự so với mẫu'}>
           {take.error && <p className="mb-2 text-sm text-bad">{take.error}</p>}
           {take.text
             ? <>
@@ -168,13 +174,21 @@ function Shadow({ custom, onCustomDone }: { custom: Target | null; onCustomDone:
                 {score?.hints.some(h => h.kind === 'homophone') && <p className="text-xs text-muted">Một số chữ khác nhưng cùng âm: thường do máy chọn chữ đồng âm, không phải lỗi phát âm.</p>}
               </>
             : RECOGNITION_OK ? <p className="text-muted">Máy không nghe ra câu nào. Nói to, rõ và gần micro hơn.</p>
-              : !selfRated && <div className="grid grid-cols-2 gap-2">
-                  <Button onClick={() => rateSelf(false)}>Chưa giống mẫu</Button>
-                  <Button onClick={() => rateSelf(true)}>Giống mẫu</Button>
-                </div>}
-          {take.audioUrl && <audio className="mt-3 w-full" controls src={take.audioUrl} aria-label="Bản ghi của tôi" />}
+              : <>
+                  <p className="text-sm text-muted">Nghe mẫu rồi nghe ngay bản của bạn, chú ý thanh điệu từng chữ, sau đó tự chấm.</p>
+                  {take.audioUrl && <Button className="mt-2 w-full" onClick={async () => { await speak(target.zh, Number(rate)); audioRef.current?.play(); }}>
+                    <span className="inline-flex items-center gap-1"><Icon name="play" /> Nghe mẫu rồi nghe bản của tôi</span>
+                  </Button>}
+                  {selfRated === null
+                    ? <div className="mt-2 grid grid-cols-2 gap-2">
+                        <Button onClick={() => rateSelf(false)}>Chưa giống mẫu</Button>
+                        <Button onClick={() => rateSelf(true)}>Giống mẫu</Button>
+                      </div>
+                    : <p className="mt-2 text-sm">Đã ghi nhận: <b className={selfRated ? 'text-ok' : 'text-bad'}>{selfRated ? 'Giống mẫu' : 'Chưa giống mẫu'}</b>. Đã tính 1 câu vào mục tiêu Nói.</p>}
+                </>}
+          {take.audioUrl && <audio ref={audioRef} className="mt-3 w-full" controls src={take.audioUrl} aria-label="Bản ghi của tôi" />}
           <div className="mt-3 grid grid-cols-2 gap-2">
-            <Button onClick={() => { setTake(null); setScore(null); setLive(''); }}><span className="inline-flex items-center gap-1"><Icon name="replay" /> Thử lại</span></Button>
+            <Button onClick={() => { setTake(null); setScore(null); setLive(''); setSelfRated(null); }}><span className="inline-flex items-center gap-1"><Icon name="replay" /> Thử lại</span></Button>
             <Button variant="primary" className="min-h-[44px]" onClick={next}>Câu tiếp</Button>
           </div>
         </Card>
@@ -215,11 +229,12 @@ function Free({ onShadow }: { onShadow: (t: Target) => void }) {
       {!take && <RecordButton onTake={t => { setTake(t); setText(t.text); }} onLive={setText} />}
       {!take && text && <p className="han text-center text-lg text-muted">{text}</p>}
       {take && !result && (
-        <Card title="Máy nghe được (sửa nếu máy nghe nhầm)">
+        <Card title={RECOGNITION_OK ? 'Máy nghe được (sửa nếu máy nghe nhầm)' : 'Gõ lại điều bạn vừa nói'}>
           {take.error && <p className="mb-2 text-sm text-bad">{take.error}</p>}
           <textarea value={text} onChange={e => setText(e.target.value)} rows={3} maxLength={600}
             className="han w-full rounded-xl border border-line bg-bg p-3 text-lg outline-none focus:border-accent"
-            placeholder={RECOGNITION_OK ? 'Máy không nghe ra gì' : 'Trình duyệt không nhận diện được: gõ lại điều bạn đã nói'} />
+            placeholder={RECOGNITION_OK ? 'Máy không nghe ra gì' : 'Gõ bằng chữ Hán hoặc pinyin, AI sẽ sửa'} />
+          {!RECOGNITION_OK && <p className="mt-1 text-xs text-muted">Trình duyệt này không chuyển giọng nói thành chữ được, nên bạn gõ lại để AI sửa. Mở bằng Chrome để máy tự nghe.</p>}
           {take.audioUrl && <audio className="mt-2 w-full" controls src={take.audioUrl} aria-label="Bản ghi của tôi" />}
           {error && <p className="mt-2 text-sm text-bad">{error}</p>}
           <Button variant="primary" className="mt-3 w-full" disabled={!text.trim() || busy} onClick={submit}>{busy ? 'Đang sửa…' : 'Sửa giúp tôi'}</Button>
