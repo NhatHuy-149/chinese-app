@@ -34,6 +34,14 @@ npm run build     # kiểm tra kiểu + đóng gói
 - [ ] Đoạn có sẵn khi mất mạng; tự chấm theo ý chính.
 - [ ] Sau chấm: Bắt được / Bỏ sót, xem chữ Hán, thêm từ mới vào ôn.
 
+**Video**
+- [ ] Dán link YouTube + chọn file .srt/.vtt tiếng Trung → mở được; file không có chữ Hán → báo lỗi rõ.
+- [ ] Chia đoạn 3/5/10 phút, ranh giới rơi đúng cuối câu; danh sách đoạn hiện số lần đã nghe.
+- [ ] Lặp đoạn đúng số lần rồi dừng, hiện "Sang đoạn tiếp"; "mãi mãi" thì lặp liên tục.
+- [ ] Tốc độ 0.5x–1.25x; câu trước/sau; Lặp câu; phím Space, ←, →, R.
+- [ ] Bật/tắt Chữ Hán / Pinyin / Dịch; pinyin đúng chữ đa âm (银行, 不行).
+- [ ] Đóng app mở lại: video, phụ đề, số lần nghe và cài đặt còn nguyên.
+
 **Tổng quan**
 - [ ] Hôm nay: mục tiêu, nút "Bắt đầu" dẫn tới việc chưa xong, lỗi hay gặp → Luyện.
 - [ ] Tiến trình khi **chưa có dữ liệu**: trạng thái trống. Với dữ liệu mẫu: đủ 8 khối, lọc 7/30/Từ đầu.

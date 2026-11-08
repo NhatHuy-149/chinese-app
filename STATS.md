@@ -14,9 +14,10 @@ Mã nguồn: `src/lib/stats.ts`, kiểm thử: `src/lib/stats.test.ts`.
 | speak | `shadow` | Một lần nhại theo mẫu | `matchPct` (nếu có nhận diện), `speakSec`, `selfRated` |
 | speak | `free` | Một lần nói tự do đã được sửa | `speakSec`, `corrections` |
 | listen | `gist` | Một đoạn nghe đã chấm | `score`, `caught`, `total`, `replays`, `level`, `selfGraded` |
+| listen | `video` | Nghe hết một lượt một đoạn video (`itemId` = `videoId:độ dài đoạn:số đoạn`) | `segmentMin`, `segment`, `pass`, `rate` |
 | bất kỳ | `flag` | Người học báo "kết quả AI sai" (`itemId` = id sự kiện bị báo) | `note`, `targetType` |
 
-`durationSec` = thời gian đo được từ lúc mở bài đến lúc trả lời, mỗi sự kiện tính tối đa 5 phút.
+`durationSec` = thời gian đo được từ lúc mở bài đến lúc trả lời, mỗi sự kiện tính tối đa 5 phút (riêng `video`: độ dài đoạn / tốc độ, tối đa 20 phút). Nghe video được tính vào số phút luyện Nghe, không tính vào mục tiêu "Nghe 2 đoạn" (mục tiêu đó dành cho bài nghe tóm tắt ý có chấm).
 
 ## Quy ước
 - **Ngày** bắt đầu lúc **04:00** giờ của thiết bị. Tuần bắt đầu **thứ Hai**.

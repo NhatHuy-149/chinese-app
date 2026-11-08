@@ -14,6 +14,11 @@
 4. Thử thật trên điện thoại: nhận diện giọng nói zh-CN trên iPhone, giọng đọc TTS.
 5. Xem lại `docs/needs-review.md` (3 mục) và `docs/review-sample.md`.
 
+## Video (tab thứ 6)
+- Phase 1 xong: link YouTube + file phụ đề, chia đoạn, lặp đoạn/câu, tốc độ, pinyin trên chữ.
+- Phase 2 (tải video + Whisper) và Phase 3 (từ vựng, shadowing, xuất .srt/mp4, chuyển phồn→giản) chưa làm.
+- Chưa kiểm tra phát video thật (trình duyệt headless không phát được YouTube); logic lặp đã có unit test.
+
 ## Quyết định đã chốt
 20 từ mới/ngày; Nói 10 câu/ngày; đổi ngày 04:00; hosting Netlify; AI trong app qua Netlify AI Gateway
 (Haiku 5.5, gói Free); không dùng SUBTLEX-CH trực tiếp.

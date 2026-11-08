@@ -14,6 +14,11 @@ Số liệu bên dưới đo bằng script đọc trực tiếp `index.html` (No
 
 Chi tiết cách chọn: xem mục C (đã cập nhật).
 
+**2026-11-08: Tính năng nghe video theo đoạn**
+- Thêm **tab thứ 6 "Video"** theo yêu cầu của chủ app (ngoại lệ với nguyên tắc tối đa 5 mục).
+- Phụ đề YouTube lấy bằng **file .srt/.vtt người dùng tải lên**, vì YouTube chặn việc lấy phụ đề từ máy chủ (cần PO token, chặn IP trung tâm dữ liệu). Video phát bằng YouTube IFrame Player, không tải video về.
+- Làm Phase 1 trước. Phase 2 (tải video lên + phiên âm bằng OpenAI Whisper) **cần quyết định riêng**: Whisper là dịch vụ trả phí của nhà cung cấp khác.
+
 **2026-11-05: Mục tiêu, giờ, model, hạ tầng**
 - **Từ mới mỗi ngày:** mặc định 20, chỉnh được từ 5 đến 50.
 - **Mục tiêu Nói:** 10 câu/ngày, tính theo số câu. Các mục tiêu khác giữ như prompt: ôn 20 từ, viết 5 câu, nghe 2 đoạn.

@@ -85,6 +85,7 @@ const PATHS: Record<string, string> = {
   settings: 'M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 12h2M18 12h2M12 4v2M12 18v2M6.3 6.3l1.4 1.4M16.3 16.3l1.4 1.4M6.3 17.7l1.4-1.4M16.3 7.7l1.4-1.4',
   flag: 'M5 21V4M5 4h11l-2 4 2 4H5',
   replay: 'M4 12a8 8 0 1 0 3-6.2M4 4v5h5',
+  film: 'M4 5h16v14H4zM8 5v14M16 5v14M4 9h4M4 15h4M16 9h4M16 15h4',
 };
 
 export function Icon({ name, size = 20, className = '' }: { name: keyof typeof PATHS | string; size?: number; className?: string }) {

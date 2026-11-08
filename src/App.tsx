@@ -6,8 +6,9 @@ import Vocab from './features/vocab/Vocab';
 import Write from './features/write/Write';
 import Speak from './features/speak/Speak';
 import Listen from './features/listen/Listen';
+import Video from './features/video/Video';
 
-export type Tab = 'overview' | 'vocab' | 'write' | 'speak' | 'listen';
+export type Tab = 'overview' | 'vocab' | 'write' | 'speak' | 'listen' | 'video';
 
 const TABS: Array<{ id: Tab; label: string; icon: string }> = [
   { id: 'overview', label: 'Tổng quan', icon: 'calendar' },
@@ -15,6 +16,8 @@ const TABS: Array<{ id: Tab; label: string; icon: string }> = [
   { id: 'write', label: 'Viết', icon: 'pen' },
   { id: 'speak', label: 'Nói', icon: 'mic' },
   { id: 'listen', label: 'Nghe', icon: 'headphones' },
+  // 6th tab: decided by the owner on 2026-11-08 (exception to the 5-section rule)
+  { id: 'video', label: 'Video', icon: 'film' },
 ];
 
 const tabFromHash = (): Tab => {
@@ -41,13 +44,14 @@ export default function App() {
         {tab === 'write' && <Write />}
         {tab === 'speak' && <Speak />}
         {tab === 'listen' && <Listen />}
+        {tab === 'video' && <Video />}
       </main>
       <nav className="fixed inset-x-0 bottom-0 border-t border-line bg-bg/95 pb-[env(safe-area-inset-bottom)] backdrop-blur">
         <ul className="mx-auto flex max-w-xl">
           {TABS.map(t => (
             <li key={t.id} className="flex-1">
               <a href={`#/${t.id}`} aria-current={tab === t.id ? 'page' : undefined}
-                className={`flex min-h-[58px] flex-col items-center justify-center gap-0.5 text-[11px] ${tab === t.id ? 'font-bold text-accent' : 'text-muted'}`}>
+                className={`flex min-h-[58px] flex-col items-center justify-center gap-0.5 text-[10px] ${tab === t.id ? 'font-bold text-accent' : 'text-muted'}`}>
                 <Icon name={t.icon} size={22} />
                 {t.label}
               </a>

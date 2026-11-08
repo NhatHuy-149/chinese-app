@@ -17,7 +17,8 @@ export function flaggedIds(events: PracticeEvent[]): Set<string> {
 
 export const isPractice = (e: PracticeEvent) => e.countsAsPractice;
 const dayOf = (e: PracticeEvent) => dayNum(dayKey(e.ts));
-const minutesOf = (e: PracticeEvent) => Math.min(e.durationSec ?? 0, MAX_EVENT_SEC) / 60;
+// a video segment pass can last up to ~20 minutes (10-minute segment at 0.5x)
+const minutesOf = (e: PracticeEvent) => Math.min(e.durationSec ?? 0, e.kind === 'video' ? 1200 : MAX_EVENT_SEC) / 60;
 
 /**
  * A written sentence counts once it was retyped correctly: a "retype" event (or, in the older
